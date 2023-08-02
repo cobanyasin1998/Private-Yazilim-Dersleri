@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      div {
+        color: red;
+      }
+      .container {
+        background-color: yellow;
+        width: 500px;
+      }
+      .block {
+        display: block;
+        background-color: green;
+        width: 500px;
+      }
+      .inline {
+        display: inline;
+        background-color: blue;
+        width: 500px;
+      }
+      .inline-block {
+        display: inline-block;
+        background-color: pink;
+        width: 300px;
+      }
+      .d-none {
+        display: none;
+      }
+      .v-hidden {
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div>Display</div>
+    </div>
+    <div class="block">
+      <div>Display</div>
+    </div>
+    <span class="inline">display</span>
+    <span class="block">display2</span>
+
+    <span class="inline-block">display</span>
+    <span class="inline-block">display1</span>
+
+    <span class="d-none">display</span>
+    <span class="v-hidden">display</span>
+    <span>display</span>
+  </body>
+</html>
+
+<!--Display: Block, Inline, Inline-Block,
+None -->

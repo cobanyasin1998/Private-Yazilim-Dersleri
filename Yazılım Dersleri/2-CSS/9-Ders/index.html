@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      .kutu1 {
+        background-color: red;
+      }
+      .kutu2 {
+        background-color: blue;
+      }
+      .kutu3 {
+        background-color: green;
+      }
+      .container {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div style="flex: 1" class="kutu1">kutu1</div>
+      <div style="flex: 1" class="kutu2">kutu2</div>
+      <div style="flex: 1" class="kutu3">kutu3</div>
+    </div>
+
+    <div style="margin-top: 10px" class="container">
+      <div style="flex: 1" class="kutu1">kutu1</div>
+      <div style="flex: 2" class="kutu2">kutu2</div>
+      <div style="flex: 1" class="kutu3">kutu3</div>
+    </div>
+
+    <div
+      style="margin-top: 10px; border: 1px solid black; column-gap: 10px"
+      class="container"
+    >
+      <div class="kutu1">kutu1</div>
+      <div class="kutu2">kutu2</div>
+      <div class="kutu3">kutu3</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 10px;
+        border: 1px solid black;
+        justify-content: space-between;
+      "
+      class="container"
+    >
+      <div class="kutu1">kutu1</div>
+      <div class="kutu2">kutu2</div>
+      <div class="kutu3">kutu3</div>
+    </div>
+    <div
+      style="
+        margin-top: 10px;
+        border: 1px solid black;
+        justify-content: space-around;
+      "
+      class="container"
+    >
+      <div class="kutu1">kutu1</div>
+      <div class="kutu2">kutu2</div>
+      <div class="kutu3">kutu3</div>
+    </div>
+
+    <div
+      style="
+        margin-top: 10px;
+        border: 1px solid black;
+        height: 200px;
+        align-items: flex-start;
+      "
+      class="container"
+    >
+      <div class="kutu1">kutu1</div>
+      <div class="kutu2">kutu2</div>
+      <div class="kutu3">kutu3</div>
+    </div>
+    <div
+      style="
+        margin-top: 10px;
+        border: 1px solid black;
+        height: 200px;
+        align-items: center;
+      "
+      class="container"
+    >
+      <div class="kutu1">kutu1</div>
+      <div class="kutu2">kutu2</div>
+      <div class="kutu3">kutu3</div>
+    </div>
+  </body>
+</html>

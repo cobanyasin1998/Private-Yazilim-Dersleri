@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Javascript DOM</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #000;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="text-5xl my-10 text-center">To Do List</h1>
+    <div class="container mx-auto w-1/2">
+      <form>
+        <div class="border flex">
+          <input
+            type="text"
+            id="todos"
+            placeholder="Bir Şeyler Yazınız"
+            class="w-full relative z-90 text-black"
+          />
+          <button id="addTodo" class="border-l px-6 bg-green-500 text-black">
+            Kaydet
+          </button>
+        </div>
+      </form>
+      <div class="flex justify-end my-5">
+        <button id="temizleBtn" class="px-1 bg-red-500 text-white">
+          Temizle
+        </button>
+      </div>
+      <ul class="border p-4 flex-col gap-y-4" id="todoList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

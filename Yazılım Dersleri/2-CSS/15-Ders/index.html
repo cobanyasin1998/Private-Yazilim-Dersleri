@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Queries</title>
+    <style>
+      body {
+        background-color: #000;
+      }
+      h1 {
+        color: #fff;
+        display: none;
+      }
+
+      /* @media screen and (max-width: 1200px) and (min-width: 769px) {
+        body {
+          background-color: #fff;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        body {
+          background-color: #f00;
+        }
+      }
+      @media screen and (max-width: 480px) {
+        body {
+          background-color: #0f0;
+        }
+      } */
+      @media screen and (max-width: 319px) {
+        .undefined {
+          display: block;
+        }
+      }
+      @media screen and (min-width: 320px) and (max-width: 480px) {
+        .mobile {
+          display: block;
+        }
+      }
+
+      @media screen and (min-width: 481px) and (max-width: 768px) {
+        .tablets {
+          display: block;
+        }
+      }
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        .tablets {
+          display: block;
+        }
+        .laptops {
+          display: block;
+        }
+      }
+      @media screen and (min-width: 1025px) and (max-width: 1200px) {
+        .desktops {
+          display: block;
+        }
+      }
+      @media screen and (min-width: 1201px) {
+        .large {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="undefined">undefined</h1>
+    <h1 class="mobile">mobile</h1>
+    <h1 class="tablets">tablets</h1>
+    <h1 class="laptops">laptops</h1>
+    <h1 class="desktops">desktops</h1>
+    <h1 class="large">large</h1>
+  </body>
+</html>

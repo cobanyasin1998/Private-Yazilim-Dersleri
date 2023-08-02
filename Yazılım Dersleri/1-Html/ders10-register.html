@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+  </head>
+  <body>
+    <h1>Kaydol</h1>
+    <form action="Ders-10-Son-Uygulama.html">
+      <label for="username">Kullanıcı Adı</label>
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Kullanıcı Adınızı Giriniz"
+        required
+      />
+      <br />
+      <label for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="E-Posta Adresinizi Giriniz"
+        required
+      />
+      <br />
+      <label for="password">Şifre</label>
+      <input
+        type="password"
+        name="password"
+        id="password"
+        placeholder="Şifrenizi Giriniz"
+        required
+      />
+      <br />
+      <div>
+        Cinsiyet:
+        <label> Kadın <input type="radio" name="gender" required /> </label>
+        <label> Erkek <input type="radio" name="gender" required /> </label>
+      </div>
+      <div>
+        <label>
+          Tüm Şartları Okudum ve Kabul Ediyorum
+          <input type="checkbox" required />
+        </label>
+      </div>
+      <br />
+      <input type="submit" value="Kaydol" />
+      <br />
+    </form>
+
+    <br />
+    <b> Hesabınız Var mı? </b>
+    <a href="ders10-login.html">Giriş Yap</a>
+  </body>
+</html>

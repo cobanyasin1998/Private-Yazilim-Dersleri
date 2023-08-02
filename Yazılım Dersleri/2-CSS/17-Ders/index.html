@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Variables</title>
+    <style>
+      :root {
+        --main-color: #ff0000;
+        --background-color: #000000;
+        --color-white: #ffffff;
+      }
+      body {
+        background-color: var(--background-color);
+        color: var(--color-white);
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: var(--main-color);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box"></div>
+    <span
+      >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, modi
+      doloribus corrupti nisi vel, eum dignissimos dolore vitae quod quam
+      veniam, labore cumque? Corporis porro iusto alias, adipisci rem
+      obcaecati?</span
+    >
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animation</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: black;
+      }
+      .box {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        background-color: red;
+        border-top-left-radius: 30px;
+        /* animation-name: box; */
+        /* animation-duration: 2s; */
+        /* animation-iteration-count: infinite; */
+        /* animation-fill-mode: forwards; */
+        /* animation-delay: 2s; */
+        /* animation-duration: alternate-reverse; */
+        /* animation-timing-function: ease-in-out; */
+        animation: box 2s infinite ease-in-out;
+      }
+
+      @keyframes box {
+        /* from {
+          top: 0;
+          left: 0;
+          width: 200px;
+        }
+        to {
+          top: 200px;
+          left: 200px;
+          width: 600px;
+        } */
+        0% {
+          top: 0;
+          left: 0;
+          width: 200px;
+        }
+        25% {
+          top: 200px;
+          left: 200px;
+          width: 300px;
+        }
+        50% {
+          top: 400px;
+          left: 400px;
+          width: 400px;
+        }
+        75% {
+          top: 200px;
+          left: 200;
+          width: 300px;
+        }
+        100% {
+          top: 0;
+          left: 0;
+          width: 200px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <button>TIKLA</button>
+    </div>
+  </body>
+</html>

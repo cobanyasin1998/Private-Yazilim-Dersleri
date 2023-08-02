@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <style>
+      .kapsayici {
+        display: grid;
+        grid-template-columns: 100px 100px 100px 300px;
+        /* Dikkat PX'de scroll çıkar */
+      }
+      .kapsayici-2 {
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+      }
+      .kapsayici-3 {
+        margin-top: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        /* column-gap: 10px;
+        row-gap: 10px; */
+        gap: 28px;
+      }
+      .h-30px {
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kapsayici">
+      <div class="h-30px" style="background-color: red">kutu-1</div>
+      <div class="h-30px" style="background-color: green">kutu-2</div>
+      <div class="h-30px" style="background-color: yellow">kutu-3</div>
+      <div class="h-30px" style="background-color: blue">kutu-4</div>
+    </div>
+
+    <div class="kapsayici-2">
+      <div class="h-30px" style="background-color: red">kutu-1</div>
+      <div class="h-30px" style="background-color: green">kutu-2</div>
+      <div class="h-30px" style="background-color: yellow">kutu-3</div>
+      <div class="h-30px" style="background-color: blue">kutu-4</div>
+    </div>
+
+    <div class="kapsayici-3">
+      <div class="h-30px" style="background-color: red">kutu-1</div>
+      <div class="h-30px" style="background-color: green">kutu-2</div>
+      <div class="h-30px" style="background-color: yellow">kutu-3</div>
+      <div class="h-30px" style="background-color: blue">kutu-4</div>
+      <div class="h-30px" style="background-color: turquoise">kutu-5</div>
+      <div class="h-30px" style="background-color: pink">kutu-6</div>
+      <div class="h-30px" style="background-color: orange">kutu-7</div>
+      <div class="h-30px" style="background-color: purple">kutu-8</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container * {
+        color: red;
+        border: 1px solid black;
+      }
+      #container {
+        padding: 20px;
+      }
+      /* ul + p {
+        color: blue;
+      } */
+      ul ~ p {
+        color: blue;
+      }
+      /* ul li {
+            color: red;
+        } */
+      /* ul > li {
+            color: red;
+        } */
+      /* ul li:first-child {
+            color: red;
+        } */
+      /* ul li:last-child {
+            color: red;
+        } */
+      /* ul li:nth-child(2) {
+            color: red;
+        } */
+      /* ul li:nth-child(2n) {
+            color: red;
+        } */
+      /* ul li:nth-child(2n+1) {
+            color: red;
+        } */
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>List 1</li>
+      <li>List 2</li>
+      <li>List 3</li>
+      <li>List 4</li>
+    </ul>
+    <div class="container" id="container">
+      <p>
+        <span
+          >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+          nesciunt dolorum deleniti dolores! Earum natus asperiores fugiat
+          optio, ullam, dolorem laborum cum odio ea maiores ut consectetur
+          excepturi ipsum cumque.</span
+        ><span
+          >Suscipit impedit ipsam doloribus est, natus voluptatibus ut veniam
+          ad, itaque voluptatem ea corporis, asperiores at quos consectetur.
+          Accusantium ratione sapiente rerum ullam consequatur ducimus
+          voluptatum ipsa quis tenetur maxime.</span
+        ><span
+          >Ut vitae veritatis eos. Alias, necessitatibus eaque? Soluta ut
+          distinctio optio voluptates, repellat rerum itaque numquam. Aut eum
+          sunt delectus quidem ipsam accusamus magni voluptatibus, eos, ullam ea
+          impedit officia.</span
+        ><span
+          >Nemo eligendi totam deserunt excepturi nihil, cumque exercitationem
+          aspernatur culpa hic porro molestias et, eum laboriosam. Quod,
+          doloremque ad voluptatem, totam, id ducimus eos tempora suscipit
+          possimus repellendus quo facilis.</span
+        >
+      </p>
+    </div>
+
+    <ul>
+      <li>Lorem ipsum dolor sit amet consectetur.</li>
+    </ul>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem eos nam
+      fuga exercitationem, animi iusto omnis ut quas consectetur quo.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, laborum
+      iusto libero odit dolores repellat voluptate sunt incidunt harum magnam?
+    </p>
+  </body>
+</html>
