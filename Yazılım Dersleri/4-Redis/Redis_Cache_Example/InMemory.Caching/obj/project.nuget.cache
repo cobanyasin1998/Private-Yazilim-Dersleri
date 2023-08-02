@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Mdcmacik0vODcPp85+L/LAaJMb9ZCUccJXrWcbfGY/NDOyrs3CdQgp6wOm18L84HfIFH0JsjYtgKwdoU57T9A==",
+  "dgSpecHash": "muSU+4o0CjNekhELA2W9F46iFrVmuuOYMO5hNt5lyqOd3H+mPWlmUYXaqxRyHMbou8S2Ww3upZhViD4MSFsYPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\InMemory.Caching.csproj",
+  "projectFilePath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\InMemory.Caching.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\coban\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\coban\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

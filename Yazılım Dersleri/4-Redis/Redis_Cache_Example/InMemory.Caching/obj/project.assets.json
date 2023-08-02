@@ -230,11 +230,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\InMemory.Caching.csproj",
+      "projectUniqueName": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\InMemory.Caching.csproj",
       "projectName": "InMemory.Caching",
-      "projectPath": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\InMemory.Caching.csproj",
+      "projectPath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\InMemory.Caching.csproj",
       "packagesPath": "C:\\Users\\coban\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\obj\\",
+      "outputPath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\InMemory.Caching\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

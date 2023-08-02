@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NdUnmHv5WHT4dMZWWObyMNPnEurEt6Brn55ZuUaaO64RK9/5K/43/a1vOdF3k3mUUyBYortDp4ryyFK9FD791A==",
+  "dgSpecHash": "3A3gunWMBo3FkykxU2ImJdeEozkuw/elyDe18Wza6ZKzNkaxaSHW+gwZkM3WN6uK+bzlMI7wgV1S+DChLiWMKQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj",
+  "projectFilePath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\coban\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\coban\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",

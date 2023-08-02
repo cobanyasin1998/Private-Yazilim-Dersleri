@@ -5,7 +5,11 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemory.Caching", "InMemory.Caching\InMemory.Caching.csproj", "{5CED5371-3592-4F85-87DE-BC9A3DF442DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Disributed.Caching", "Disributed.Caching\Disributed.Caching.csproj", "{780B51F3-C0D5-4B68-A5A0-24BBEF86F319}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Disributed.Caching", "Disributed.Caching\Disributed.Caching.csproj", "{780B51F3-C0D5-4B68-A5A0-24BBEF86F319}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Publisher.Example", "Redis.Pub.Sub.Example\Redis.Pub.Sub.Publisher.Example.csproj", "{5ABD6498-4C20-495E-B859-1BA3E411B30C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Redis.Pub.Sub.Subscriber.Example", "Redis.Pub.Sub.Subscriber.Example\Redis.Pub.Sub.Subscriber.Example.csproj", "{103B4F28-B4B3-4EBD-8937-8933FB1F1199}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{780B51F3-C0D5-4B68-A5A0-24BBEF86F319}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{780B51F3-C0D5-4B68-A5A0-24BBEF86F319}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{780B51F3-C0D5-4B68-A5A0-24BBEF86F319}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5ABD6498-4C20-495E-B859-1BA3E411B30C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5ABD6498-4C20-495E-B859-1BA3E411B30C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5ABD6498-4C20-495E-B859-1BA3E411B30C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5ABD6498-4C20-495E-B859-1BA3E411B30C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103B4F28-B4B3-4EBD-8937-8933FB1F1199}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103B4F28-B4B3-4EBD-8937-8933FB1F1199}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103B4F28-B4B3-4EBD-8937-8933FB1F1199}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103B4F28-B4B3-4EBD-8937-8933FB1F1199}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

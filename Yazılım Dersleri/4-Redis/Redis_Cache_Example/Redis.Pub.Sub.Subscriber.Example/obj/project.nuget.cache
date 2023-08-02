@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Z/mTFG/naeB0ghb9d0XHiTzYZ7mw11dlUMkKY8/2x9JErVfE4fponBRb/vK4vcZL0eCk7U6XG2ol4EvPqQVdJA==",
+  "success": true,
+  "projectFilePath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Redis.Pub.Sub.Subscriber.Example\\Redis.Pub.Sub.Subscriber.Example.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\coban\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\coban\\.nuget\\packages\\stackexchange.redis\\2.6.122\\stackexchange.redis.2.6.122.nupkg.sha512",
+    "C:\\Users\\coban\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

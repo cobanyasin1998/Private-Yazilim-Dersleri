@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj": {}
+    "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj": {}
   },
   "projects": {
-    "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj": {
+    "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj",
+        "projectUniqueName": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj",
         "projectName": "Disributed.Caching",
-        "projectPath": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj",
+        "projectPath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\Disributed.Caching.csproj",
         "packagesPath": "C:\\Users\\coban\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\coban\\Desktop\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\obj\\",
+        "outputPath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\4-Redis\\Redis_Cache_Example\\Disributed.Caching\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
