@@ -1,0 +1,5 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.csproj.AssemblyReference.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.csproj.CoreCompileInputs.cache
