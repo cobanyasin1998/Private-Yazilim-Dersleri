@@ -3,3 +3,16 @@ D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\Rabbit
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.AssemblyInfoInputs.cache
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.AssemblyInfo.cs
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\bin\Debug\net6.0\RabbitMQ.Consumer.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\bin\Debug\net6.0\RabbitMQ.Consumer.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\bin\Debug\net6.0\RabbitMQ.Consumer.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\bin\Debug\net6.0\RabbitMQ.Consumer.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\bin\Debug\net6.0\RabbitMQ.Consumer.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\bin\Debug\net6.0\System.Threading.Channels.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.csproj.CopyComplete
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\refint\RabbitMQ.Consumer.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\RabbitMQ.Consumer.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\5-RabbitMQ\1-Ders\RabbitMQ.Consumer\RabbitMQ.Consumer\obj\Debug\net6.0\ref\RabbitMQ.Consumer.dll
