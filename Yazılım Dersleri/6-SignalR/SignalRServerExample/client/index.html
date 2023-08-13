@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Client</title>
+    <script src="signalr.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+    <script>
+      $(document).ready(() => {
+        const connection = new signalR.HubConnectionBuilder()
+          .withUrl("https://localhost:5001/myHub")
+          .withAutomaticReconnect([1000, 1000, 2000, 3000, 5000, 10000])
+          .build();
+
+        async function start() {
+          try {
+            await connection.start();
+            $("#durum").text("Bağlandı");
+          } catch {
+            $("#durum").text("Bağlantı Kapalı, Tekrar deneniyor");
+            setTimeout(() => start(), 2000);
+          }
+        }
+        start();
+
+        connection.onreconnecting((error) => {
+          $("#durum").text("Yeniden Bağlanıyor");
+        });
+
+        connection.onreconnected((connectionId) => {
+          $("#durum").text("Yeniden Bağlandı" + connectionId);
+        });
+
+        connection.onclose((connectionId) => {
+          $("#durum").text("Bağlantı Kapandı");
+        });
+
+        $("#btnGonder").click(() => {
+          let message = $("#txtMessage").val();
+          connection
+            .invoke("SendMessageAsync", message)
+            .catch((err) => console.log(err));
+        });
+
+        connection.on("receiveMessage", (message) => {
+          $("#msjBtn").append(message + "<br>");
+        });
+
+        connection.on("userJoined", (message) => {
+          $("#connDurum").append("<br>" + "Giriş Yaptı " + message);
+        });
+        connection.on("userLeaved", (message) => {
+          $("#connDurum").append("<br>" + "Çıkış Yaptı " + message);
+        });
+
+        connection.on("clients", (data) => {
+          $("#clients").empty();
+          $.each(data, function (index, value) {
+            $("#clients").append("<li>" + value + "</li>");
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="durum" style="color: blue"></div>
+    <div id="connDurum" style="color: red"></div>
+
+    <input type="text" id="txtMessage" />
+    <button id="btnGonder">Gönder</button>
+
+    <div id="msjBtn"></div>
+
+    <div>
+      <ul id="clients"></ul>
+    </div>
+  </body>
+</html>
