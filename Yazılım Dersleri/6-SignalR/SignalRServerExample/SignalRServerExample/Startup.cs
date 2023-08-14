@@ -68,6 +68,8 @@ namespace SignalRServerExample
             {
                 endpoints.MapControllers();
                 endpoints.MapHub<MyHub>("/myHub");
+                endpoints.MapHub<MessageHub>("/messageHub");
+
             });
         }
     }

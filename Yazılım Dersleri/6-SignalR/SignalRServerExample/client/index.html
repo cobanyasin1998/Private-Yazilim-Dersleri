@@ -10,7 +10,8 @@
     <script>
       $(document).ready(() => {
         const connection = new signalR.HubConnectionBuilder()
-          .withUrl("https://localhost:5001/myHub")
+          // .withUrl("https://localhost:5001/myHub")
+          .withUrl("https://localhost:5001/messageHub")
           .withAutomaticReconnect([1000, 1000, 2000, 3000, 5000, 10000])
           .build();
 
@@ -39,15 +40,31 @@
 
         $("#btnGonder").click(() => {
           let message = $("#txtMessage").val();
+
+          let connectionIds = $("#connectionIds").val().split(",");
+          let groupName = $("input[name=grup]:checked").val();
+          // connection
+          //   .invoke("SendMessageAsync", message, connectionIds)
+          //   .catch((err) => console.log(err));
           connection
-            .invoke("SendMessageAsync", message)
+            .invoke("SendMessageAsync", message, groupName)
             .catch((err) => console.log(err));
         });
+        let _connectionId = "";
+        $("#grubagir").click(() => {
+          let groupName = $("input[name=grup]:checked").val();
 
+          connection
+            .invoke("addGroup", _connectionId, groupName)
+            .catch((err) => console.log(err));
+        });
         connection.on("receiveMessage", (message) => {
           $("#msjBtn").append(message + "<br>");
         });
-
+        connection.on("getConnectionId", (message) => {
+          _connectionId = message;
+          $("#connId").text(message);
+        });
         connection.on("userJoined", (message) => {
           $("#connDurum").append("<br>" + "Giriş Yaptı " + message);
         });
@@ -65,10 +82,21 @@
     </script>
   </head>
   <body>
+    <input type="radio" name="grup" value="A" id="A" />A
+    <input type="radio" name="grup" value="B" id="B" />B
+    <input type="radio" name="grup" value="C" id="C" />C
+    <button id="grubagir">Gruba Gir</button>
+    <br />
+
     <div id="durum" style="color: blue"></div>
     <div id="connDurum" style="color: red"></div>
-
     <input type="text" id="txtMessage" />
+    <textarea
+      name="connectionIds"
+      id="connectionIds"
+      cols="30"
+      rows="10"
+    ></textarea>
     <button id="btnGonder">Gönder</button>
 
     <div id="msjBtn"></div>
@@ -76,5 +104,7 @@
     <div>
       <ul id="clients"></ul>
     </div>
+
+    <div style="background-color: black; color: white" id="connId"></div>
   </body>
 </html>
