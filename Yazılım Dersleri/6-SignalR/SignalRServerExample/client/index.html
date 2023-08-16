@@ -43,22 +43,42 @@
             }, 2000);
           });
         });
+        connection.on("clients", (clients) => {
+          $(".users").remove();
+          $.each(clients, function (index, value) {
+            $(".listeAppend").append(
+              `<a class="list-group-item list-group-item-action users">${value.nickName}</a>`
+            );
+          });
+        });
+        connection.on("receiveMessage", (message) => {
+          debugger;
+          $(".messages").append(`<div
+                class="list-group-item list-group-item-action"
+                aria-current="true"
+              >
+                <div class="d-flex w-100 justify-content-between">
+                  <h5 class="mb-1">-</h5>
+                  <h5 class="mb-1">+</h5>
+                </div>
+                <p>${message}</p>
+              </div>`);
+        });
 
         $(".disabled").attr("disabled", true);
 
-        $(".users").click(function () {
-          $(".users").each((index, item) => {
+        $("body").on("click", ".users", function () {
+          $(".users").each(function (index, item) {
             item.classList.remove("active");
           });
           $(this).addClass("active");
         });
 
         $("#btnGonder").click(() => {
-          var x = $(".message").clone();
-          x.removeClass("message");
-          x.find("h5")[1].innerHTML = "";
-          x.find("h5")[0].innerHTML = "";
-          $(".messages").append(x);
+          let clientName = $(".users.active").first().html();
+          let message = $("#txtMesaj").val();
+          debugger;
+          connection.invoke("SendMessageAsync", message, clientName);
         });
       });
     </script>
@@ -90,16 +110,7 @@
             </button>
             <br /><br /><br />
 
-            <div class="list-group">
-              <a class="list-group-item list-group-item-action users active"
-                >Tümü</a
-              >
-              <a
-                class="list-group-item list-group-item-action users"
-                aria-current="true"
-                >Diğer</a
-              >
-            </div>
+            <div class="list-group listeAppend"></div>
           </div>
 
           <div class="col-md-6">
@@ -113,6 +124,7 @@
               class="form-control"
               style="margin-top: 5px"
               rows="3"
+              id="txtMesaj"
               placeholder="İletilecek Mesajı Buraya Giriniz"
             ></textarea>
             <button
@@ -123,22 +135,7 @@
               Gönder
             </button>
             <br /><br /><br />
-            <div class="list-group">
-              <div
-                class="list-group-item list-group-item-action"
-                aria-current="true"
-              >
-                <div class="d-flex w-100 justify-content-between">
-                  <h5 class="mb-1">Ahmet</h5>
-                  <h5 class="mb-1">Sen</h5>
-                </div>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Consectetur, dignissimos!
-                </p>
-                <small>Lorem, ipsum dolor.</small>
-              </div>
-            </div>
+            <div class="list-group messages"></div>
           </div>
           <div class="col-md-3">
             <input
