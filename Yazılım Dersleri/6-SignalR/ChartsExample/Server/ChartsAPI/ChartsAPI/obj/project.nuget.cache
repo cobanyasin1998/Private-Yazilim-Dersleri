@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Csa+f9g/eASInjgRv4iybNPmED+MCSR01iI15I+pXKVBbmJ/UWFH5eDI7AVtxoiDPjoc3t2Hs9kJwCgKO9iHwA==",
+  "success": true,
+  "projectFilePath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\6-SignalR\\ChartsExample\\Server\\ChartsAPI\\ChartsAPI\\ChartsAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
