@@ -1,3 +1,7 @@
+using ChartsAPI.Hubs;
+using ChartsAPI.Models;
+using ChartsAPI.Subscription;
+using ChartsAPI.Subscription.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
@@ -18,7 +22,22 @@ namespace ChartsAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddSignalR();
 
+            services.AddCors(opt => opt.AddDefaultPolicy(policy =>
+            {
+                policy
+                .AllowCredentials()
+                .AllowAnyHeader()
+                .AllowAnyMethod()
+              
+                .SetIsOriginAllowed(x => true);
+            }
+            ));
+
+
+            services.AddSingleton<DatabaseSubscription<Satislar>>();
+            services.AddSingleton<DatabaseSubscription<Personeller>>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -34,7 +53,9 @@ namespace ChartsAPI
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "ChartsAPI v1"));
             }
-
+            app.UseDatabaseSubscription<DatabaseSubscription<Satislar>>("Satislar");
+            app.UseDatabaseSubscription<DatabaseSubscription<Satislar>>("Personeller");
+            app.UseCors();
             app.UseHttpsRedirection();
 
             app.UseRouting();
@@ -43,6 +64,7 @@ namespace ChartsAPI
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHub<SatisHub>("/satishub");
                 endpoints.MapControllers();
             });
         }

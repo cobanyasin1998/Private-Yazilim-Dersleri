@@ -7,6 +7,25 @@ import * as signalR from "@microsoft/signalr";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  connection: signalR.HubConnection;
+  constructor() {
+    this.connection = new signalR.HubConnectionBuilder().withUrl("https://localhost:5001/satishub").build();
+    this.connection.start();
+
+    this.connection.on("receiveMessage", message => {
+      console.log(message)
+      this.chartOptions.series = message;
+      this.updateFromInput = true;
+      this.chart.hideLoading();
+    })
+    const self = this;
+    this.chartCallback = (chart) => {
+      self.chart = chart;
+    }
+  }
+  chart;
+  updateFromInput = false;
+  chartCallback;
   Highcharts: typeof Highcharts = Highcharts;
   chartOptions: Highcharts.Options = {
     //Grafik Title
@@ -31,23 +50,7 @@ export class AppComponent {
       align: "right",
       verticalAlign: "middle"
     },
-    series: [
-      {
-        name: "X",
-        data: [1000, 2000, 3000],
-        type: "column"
-      },
-      {
-        name: "Y",
-        data: [5000, 6000, 7000],
-        type: "column"
-      },
-      {
-        name: "Z",
-        data: [1000, 10000, 3000],
-        type: "column"
-      },
-    ],
+
     plotOptions: {
       series: {
         label: {
