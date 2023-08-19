@@ -1,0 +1,4 @@
+Use Northwind;
+
+--Having By Komutu
+select KategoriID, count(*) from Urunler where KategoriID > 5 group by KategoriID having count(*) > 2

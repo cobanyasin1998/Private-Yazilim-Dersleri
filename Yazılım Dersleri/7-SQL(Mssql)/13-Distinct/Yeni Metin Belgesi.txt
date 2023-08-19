@@ -1,0 +1,5 @@
+Use Northwind;
+
+--Distinct Komutu
+select  distinct  sehir from Personeller
+

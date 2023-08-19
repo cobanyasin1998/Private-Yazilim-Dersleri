@@ -1,0 +1,25 @@
+Use Northwind;
+
+--Tarih Fonksiyonları
+
+--bugünün tarihini verir
+select getdate()
+
+--dateadd: verilen tarihe verildiği kadar gün, ay, yıl ekler
+select dateadd(day, 999, getdate());
+select dateadd(month, 999, getdate());
+select dateadd(year, 999, getdate());
+
+
+--datediff : iki tarih arasında günü, ayı veya yılı hesaplar
+select datediff(day, '03.25.1998', getdate());
+select datediff(month, '03.25.1998', getdate());
+select datediff(year, '03.25.1998', getdate());
+
+
+--datepart : Verilen tarihin haftanın, ayın yahut yılın kaçıncı günü olduğunu hesaplar
+select datepart(dw ,getdate())
+select datepart(month,getdate());
+select datepart(day ,getdate());
+
+

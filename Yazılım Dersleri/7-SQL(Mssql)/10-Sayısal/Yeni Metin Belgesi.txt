@@ -1,0 +1,26 @@
+Use  Northwind;
+
+--Sayısal Değer İşlemleri
+
+select  3+2;
+select 3*3;
+select 4/2;
+select 9-7;
+
+--PI :Pi Sayısını verir
+select PI();
+
+--SIN : Sinus alır
+select sin(90)
+
+--POWER : Üs Alır
+select power(2,3)
+
+--Abs : Mutlak Değer Alır
+select abs(-12)
+
+--Rand : 0-1 arasında rastgele sayı üretir
+select rand()
+
+--floor :yuvarlama yapar
+select floor(rand()*100)

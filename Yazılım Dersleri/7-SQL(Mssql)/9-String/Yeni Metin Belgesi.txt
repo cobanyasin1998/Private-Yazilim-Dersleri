@@ -1,0 +1,44 @@
+Use  Northwind;
+
+--String Fonksiyonlar
+
+--Left : Soldan(Baştan) belirtilen sayıda karakteri getirir
+
+select  left(Adi,2) from Personeller;
+
+--Right : Sağdan(Sondan) belirtilen sayıda karakteri getirir
+
+select  right(Adi,2) from Personeller;
+
+--Upper : Büyük harfe çevirir
+
+select upper(Adi) from Personeller;
+
+--lower : küçük harfe çevirir
+
+select lower(Adi) from Personeller;
+
+--substring : belirtilen indexten itibaren belirtilen sayıda karakter getirir
+
+select substring(SoyAdi,3,2) from Personeller;
+
+--ltrim : soldan boşlukları keser
+
+select '             Yasin';
+select  ltrim('                    Yasin');
+
+--rtrim : sağdan boşlukları keser
+
+select 'Yasin                     ';
+select  ltrim('Yasin                ');
+
+-- reverse : tersine çevirir
+
+select reverse(Adi) from Personeller;
+
+--replace : belirtilen ifadeyi, belirtilen ifade ile değiştirir
+
+select replace('benim adım yasin','yasin','Kürşad');
+
+--charindex : belirtilen karakterin veri içinde sıra numarasını verir
+select MusteriAdi, charindex(' ',MusteriAdi) from Musteriler

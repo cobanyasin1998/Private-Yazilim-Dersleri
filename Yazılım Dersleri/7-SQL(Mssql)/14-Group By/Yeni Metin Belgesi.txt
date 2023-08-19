@@ -1,0 +1,4 @@
+Use Northwind;
+
+--Group By Komutu
+select  KategoriID,TedarikciID, COUNT(*) as count from Urunler group by KategoriID,TedarikciID order by KategoriID

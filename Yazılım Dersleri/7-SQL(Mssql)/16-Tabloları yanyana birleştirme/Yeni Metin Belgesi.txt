@@ -1,0 +1,7 @@
+Use Northwind;
+
+--Tabloları yan yana birleştirme
+
+select * from Personeller
+select * from Satislar
+select p.PersonelID,s.MusteriID from Personeller p, Satislar s
