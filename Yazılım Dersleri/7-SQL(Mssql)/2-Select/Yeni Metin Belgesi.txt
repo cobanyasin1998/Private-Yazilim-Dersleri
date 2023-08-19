@@ -1,0 +1,43 @@
+Use Northwind
+
+--Select Komutu
+
+Select 3;
+
+Select 'Yasin';
+
+Select 3,5,7;
+
+Select 'Yasin','Çoban',25;
+
+Select * from Personeller;
+
+Select Adi,SoyAdi from Personeller;
+
+--Alias Atama
+
+Select 3 as Değer;
+
+Select 3 Değer;
+
+Select 'Yasin' Adı,'Çoban' Soyadı,25 Yaş;
+
+--Boşluk Karakteri Olan Alias Atama;
+
+select 1453 'İstanbul un Fethi';
+
+select 1453 as [İstanbul'un Fethi];
+
+select * from [Satis Detaylari];
+
+--Kolonları Birleştirme
+
+select Adi + ' ' + SoyAdi as 'Personel Bilgileri' from Personeller;
+
+--Farklı Tipte Kolonları Birleştirme
+
+--Select Adi + ' ' + IseBaslamaTarihi from Personeller; -- HATA
+
+select Adi + ' - ' + CONVERT(nvarchar,IseBaslamaTarihi) from Personeller;
+
+select Adi + ' - ' + cast(IseBaslamaTarihi as nvarchar) from Personeller;

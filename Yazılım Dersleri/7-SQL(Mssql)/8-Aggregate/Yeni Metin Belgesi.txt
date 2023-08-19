@@ -1,0 +1,19 @@
+Use  Northwind;
+
+--Aggregate Fonksiyonlar
+
+--Avg : Ortalama Alır
+select avg(PersonelID) from Personeller;
+
+--Max : En Büyük Değeri Alır
+select max(PersonelID) from Personeller;
+
+--Max : En Küçük Değeri Alır
+select min(PersonelID) from Personeller;
+
+--Count: Toplam Sayısını Verir
+select count(*) from Personeller;
+select count(Adi) from Personeller;
+
+--Sum :Toplamını verir
+select sum(NakliyeUcreti) from Satislar;

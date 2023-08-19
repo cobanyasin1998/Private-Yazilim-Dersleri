@@ -1,0 +1,12 @@
+use  Northwind
+
+-- Escape(Kaçış) Karakterleri
+--Like sorgularında kullandığımız %, _, [] gibi özel ifadeler eğer ki verilerimiz içerisinde geçiyorsa sorgulama esnasında hata ile karşılaşabiliriz
+--Böyle durumlarda bu ifadelerin özel ifade olmadığını escağe karakterleri ile belirleyebiliriz.
+
+-- [] Operatörü ile
+-- Escape Komutu ile
+
+select * from Personeller where Adi like '[_]%';
+
+select * from Personeller where Adi like '/_%' ESCAPE '/';

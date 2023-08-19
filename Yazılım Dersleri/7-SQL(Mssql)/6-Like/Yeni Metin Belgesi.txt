@@ -1,0 +1,38 @@
+Use Northwind
+--Like Sorguları
+
+
+--%(Genel Önemli Değil)
+
+
+--İsminin baş harfi j olan personellerin adını ve soyadını yazdıralım
+select Adi,SoyAdi from Personeller where Adi like 'j%';
+
+--İsminin son harfi y olan personellerin adını ve soyadını yazdıralım
+select Adi,SoyAdi from Personeller where Adi like  '%y';
+
+--İsminin son üç harfi ert olan personeli getirelim
+select Adi,SoyAdi from Personeller where Adi like  '%ert';
+
+--İsminin ilk harfi r, son harfi t olan personeli getirelim
+select Adi,SoyAdi from Personeller where Adi like  'r%t';
+
+--İsminde an geçen personelin adını yazdıralım
+select Adi from Personeller where Adi like '%an%';
+
+-- _(Özel Önemli değil) operatörü
+--İsminin ilk harfi a, ikinci harfi fark etmez ve üçüncü harfi d olan personeli getirelim
+select * from Personeller where Adi like  'a_d%';
+
+--[](ya da operatörü)
+--İsminin ilk harfi n,y ya da r olan personelleri getirelim
+select  * from Personeller where Adi like '[nmr]%';
+
+-- [*-*] Alfabetik Arasında Operatörü
+--İsmini baş harfi a ile k arasında alfabetik sıraya göre herhangi bir harf olan personellerin adını yazdıralım
+select Adi from Personeller where Adi like '[a-k]%';
+
+-- [^*] Değil Operatörü
+
+--İsminin baş harfi a olmayan personelleri getirelim
+select * from Personeller where Adi like '[^an]%';

@@ -1,0 +1,3 @@
+--Between Komutu
+
+select  * from Personeller where YEAR(DogumTarihi) between 1950 and 1965

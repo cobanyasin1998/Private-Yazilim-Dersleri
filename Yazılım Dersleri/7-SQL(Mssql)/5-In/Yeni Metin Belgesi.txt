@@ -1,0 +1,3 @@
+--IN Komutu
+
+select  * from Personeller where Sehir IN ('London','Tacoma','Kirkland')

@@ -1,0 +1,46 @@
+Use  Northwind;
+
+--Personeller tablosunda şehri LONDON olan verileri listeleyelim
+
+Select * from Personeller where Sehir ='London';
+
+--Personeller tablosunda bağlı çalıştığı kişi sayısı 5'den küçük olanları listeleyelim.
+
+select * from Personeller where BagliCalistigiKisi <5;
+
+
+--And Operatoru
+--Personeller tablosunda şehri London ve ülkesi UK olanları listeleyelim
+select * from Personeller where Sehir = 'London'and Ulke = 'UK';
+
+--Or Operatoru
+--Personeller tablosunda Unvan Eki 'Mr.' olan veya şehri Seattle olan tüm personelleri listeleyim.
+select * from Personeller where UnvanEki = 'Mr.' or Sehir ='Seattle';
+
+--Karışık Örnekler
+
+--Adı Robert soyadı King olan prsonelin tüm bilgilerini getir.
+Select * from Personeller where Adi = 'Robert' and SoyAdi = 'King';
+
+--PersonelID'si 5 olan personeli getir.
+select * from Personeller where PersonelID = 5;
+
+--PersonelID'si 5'ten büyük olan tüm personelleri getir
+select * from Personeller where PersonelID >= 5;
+
+-- <> Eşit Değilse
+-- =  Eşitse
+-- <= Küçük ve Eşitse
+-- >= Büyük ve Eşitse
+
+
+--Fonksiyon Sonuçlarını Şart Olarak Kullanmak
+--1993 yılında işe başlayanları listele
+select * from Personeller where YEAR(IseBaslamaTarihi) = 1993;
+
+--1992 yılından sonra işe başlayanları listele
+select * from Personeller where YEAR(IseBaslamaTarihi) > 1992;
+
+--Doğum günü, ayın 29 olmayan personelleri listeleyelim.
+
+Select  * from Personeller where DAY(DogumTarihi) <> 29;
