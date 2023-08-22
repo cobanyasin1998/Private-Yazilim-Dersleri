@@ -1,0 +1,9 @@
+-- With Komutu
+
+with PersonelSatis(id, adi, soyadi, satisid)
+         as (select p.PersonelID, Adi, SoyAdi, SatisID
+             from Personeller p
+                      inner join dbo.Satislar S on p.PersonelID = S.PersonelID)
+
+select *
+from PersonelSatis ps inner join [Satis Detaylari] sd on ps.satisid = sd.SatisID

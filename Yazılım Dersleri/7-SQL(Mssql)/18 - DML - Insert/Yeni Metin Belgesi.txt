@@ -1,0 +1,39 @@
+--DML Data Manipulation Language
+
+--Insert
+--Insert [Tablo Adı](Kolonlar) Values(Değerler)
+Insert Personeller(Adi, SoyAdi)
+VALUES ('Yasin', 'Çoban');
+
+--Dikkat Edilmesi Gerekenler
+--Into Komutu ile kullanılabilir
+Insert into Personeller(Adi, SoyAdi)
+VALUES ('Yasin', 'Çoban');
+
+--Kolonun kabul ettiği veri tipi ve karakter uzunluğunda kayıt yapılmalıdır.
+--Not Null olan kolonlara boş bırakılamayacklarından dolayı mutlaka değer gönderilmelidir.
+Insert Personeller(Unvan, UnvanEki)
+values ('a', 'b');
+
+
+--Otomatik artan(identity) kolonlara değer gönderilmez
+--Tablodaki seçilen yahut bütün kolonlara değer gönderileceği belirtilip, gönderilmezse hata verecektir.
+Insert into Personeller(Adi, SoyAdi)
+VALUES ('Yasin');
+
+--Pratik Kullanım
+Insert Musteriler(MusteriAdi, Adres)
+VALUES ('Hilmi', 'Çorum'),
+       ('Hilmi', 'Çorum'),
+       ('Hilmi', 'Çorum')
+
+
+--Insert Komutu ile select sorgusu sonucu gelen verileri farklı tabloya kaydetme
+INSERT OrnekPersoneller select Adi,SoyAdi from Personeller
+--Burada dikkat etmeniz gereken nokta; select sorgusunda dönen kolon sayısı ile insert işlemi yapılacak tablonun kolon sayısı birbirine eşit olması gerekmektedir.
+
+
+--Select sorgusu sonucu gelen verileri farklı bir tablo oluşturarak kaydetme
+select Adi,SoyAdi,Ulke into OrnekPersoneller2 from Personeller;
+-- Bu yöntemle primary key ve foreign keyler oluşturulamazlar
+

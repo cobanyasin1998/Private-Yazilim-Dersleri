@@ -1,0 +1,16 @@
+Use Northwind;
+
+
+
+select * from Personeller P
+Inner Join Satislar S on P.PersonelID = S.PersonelID
+
+select * from Personeller P
+Left Join Satislar S on P.PersonelID = S.PersonelID
+
+select * from Personeller P
+right Join Satislar S on P.PersonelID = S.PersonelID
+
+select * from Personeller P
+full outer Join Satislar S on P.PersonelID = S.PersonelID
+

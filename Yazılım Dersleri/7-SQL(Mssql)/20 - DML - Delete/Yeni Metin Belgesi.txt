@@ -1,0 +1,12 @@
+--DML Data Manipulation Language
+
+--Delete
+-- Delete from [Tablo Adı]
+Delete from Urunler
+
+-- [ Delete Sorgusuna Where Şartı Yazmak ]
+delete from Urunler where KategoriID <3
+
+--Dikkat Edilmesi Gerekenler
+--Delete Sorgusuyla tablo içerisindeki tüm verileri silmeniz identity kolonunu sıfırlamayacaktır. Silme işleminden sonra ilk eklenen
+-- veride kalındığı yerden id değeri verilecektir.

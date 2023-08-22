@@ -1,0 +1,3 @@
+--  With Ties Komutu
+
+select top 6 with ties * from [Satis Detaylari] order by SatisID

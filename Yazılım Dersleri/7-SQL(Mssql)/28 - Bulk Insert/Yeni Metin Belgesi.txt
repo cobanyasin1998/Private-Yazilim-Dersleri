@@ -1,0 +1,8 @@
+-- Bulk INSERT
+
+BULK INSERT Kisiler
+from 'C:\kisiler.txt'
+with (
+    FIELDTERMINATOR  = '\t',
+    rowterminator  ='\n'
+    )

@@ -1,0 +1,12 @@
+-- SubQuery (İç içe Sorgular)
+
+select s.SatisID, s.SatisTarihi
+from Personeller
+         inner join dbo.Satislar S on Personeller.PersonelID = S.PersonelID
+where Adi = 'Nancy';
+
+
+--SubQuery
+select SatisID, SatisTarihi
+from Satislar
+where PersonelID = (select Personeller.PersonelID from Personeller where Adi = 'Nancy')

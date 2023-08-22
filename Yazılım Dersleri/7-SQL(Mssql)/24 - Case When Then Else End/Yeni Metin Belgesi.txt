@@ -1,0 +1,28 @@
+--Case When Else End
+
+--Personellerimizin isim ve soyisimlerinin yanında; UnvanEki 'Mr.' ise 'Erkek', 'Ms.' ise 'Kadın' yazsın.
+
+Select Adi,
+       SoyAdi,
+       case
+           when UnvanEki = 'Mrs.' or UnvanEki = 'Ms.' Then 'Kadın'
+           when UnvanEki = 'Mr.' Then 'Erkek'
+           ELSE coalesce(UnvanEki, '-')
+           end
+from Personeller;
+
+--Eğer Ürünün birim fiyatı
+-- 0 - 50 arası ise 'Çin Malı',
+-- 50 - 100 arası ise 'Ucuz',
+-- 100 - 200 arası ise 'Normal' ve
+--200 den fazla ise 'Pahalı' yazsın.
+
+select UrunID,
+       BirimFiyati,
+       case
+           when BirimFiyati between 0 and 50 then 'Çin Malı'
+           when BirimFiyati between 50 and 100 then 'Ucuz'
+           when BirimFiyati between 100 and 200 then 'Normal'
+           when BirimFiyati > 200 then 'Pahalı'
+           else 'Belirsiz' end
+from Urunler;

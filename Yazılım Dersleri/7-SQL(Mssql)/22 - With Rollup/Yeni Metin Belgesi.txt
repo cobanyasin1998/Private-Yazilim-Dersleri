@@ -1,0 +1,19 @@
+--With Rollup
+--Group By ile gruplanmış veri kümesinde ara toplam alınmasını sağlar
+
+Select SatisID, UrunID, sum(Miktar) as 'Miktar Toplamı'
+from [Satis Detaylari]
+GROUP BY SatisID, UrunID
+with rollup
+
+select KategoriID, UrunID, sum(TedarikciID)
+from Urunler
+group by KategoriID, UrunID
+with rollup
+
+--[Having Şartıyla Beraber With Rollup]
+Select SatisID, UrunID, sum(Miktar) as 'Miktar Toplamı'
+from [Satis Detaylari]
+GROUP BY SatisID, UrunID
+with rollup
+having sum(Miktar) >100

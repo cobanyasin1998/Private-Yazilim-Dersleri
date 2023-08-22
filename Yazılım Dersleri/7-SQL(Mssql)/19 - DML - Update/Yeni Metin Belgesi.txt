@@ -1,0 +1,19 @@
+--DML Data Manipulation Language
+
+--Update
+-- Update [Tablo Adı] Set [Kolon Adı] = Değer
+update OrnekPersoneller set Adi = 'Mehmet';
+
+--[Update Sorgusuna where şartı yazmak]
+update OrnekPersoneller set Adi ='Mehmet' where Adi = 'Nancy';
+
+--[Update Sorgusunda Join Yapılarını Kullanarak Birden Fazla Tabloda Güncelleme Yapmak]
+Update  Urunler
+set UrunAdi = k.KategoriAdi
+from Urunler U INNER JOIN Kategoriler K on U.KategoriID = K.KategoriID
+
+--[Update Sorgusunda SubQuery İle Güncelleme Yapmak]
+update Urunler set UrunAdi = (select Adi from Personeller where PersonelID = 3)
+
+--[Update Sorgusunda Top Keywordü ile güncelleme yapmak]
+UPDATE top (30) Urunler set UrunAdi = 'x'

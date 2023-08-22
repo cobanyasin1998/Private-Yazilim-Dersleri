@@ -1,0 +1,25 @@
+--DML Data Manipulation Language
+
+--Uniom
+
+select Adi, SoyAdi from Personeller
+Union
+Select MusteriAdi, MusteriUnvani from Musteriler
+Union
+Select SevkAdi, SevkAdresi from Satislar
+
+--Joinler yan yana, Union alt alta tabloları birleştirir. Joinlerde belirli(ilişkisel) bir kolon üzerinden birleştirme yapılırken,
+--Union'da böyle bir durum yoktur.
+
+--Dikkat Etmemiz gereken koşullar;
+--Union sorgusunun sonucunda oluşan tablonun kolon isimleri, üstteki sorgunun kolon isimlerinden oluşturulur.
+--Üstteki sorgudan kaç kolon çekilmişse alttaki sorgudan da o kadar çekilmek zorundadır.
+--Üstteki sorgudan çekilen kolonların tipleriyle, alttaki sorgudan çekilen kolonların tipleri uyumlu olmalıdır.
+--Union tekrarlı kayıtları getirmez
+
+--Union'da kullanılan tablolara kolon eklenebilir. Dikkat etmemiz gereken nokta, yukarıdaki kurallar çerçevesinde aşağıyada yukarıyada aynı sayıda kolonların eklenmesi gerekmektedir.
+
+--UNION ALL - > Tekrarlı kayıtları getirmek için kullanılır
+select Adi,SoyAdi from Personeller
+UNION ALL
+select Adi,SoyAdi from Personeller
