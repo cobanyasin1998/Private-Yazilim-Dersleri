@@ -1,0 +1,3 @@
+-- Bir tablonun primary key olup olmadığını kontrol etme
+
+select objectproperty(object_id('Personeller'),'TableHasPrimaryKey')

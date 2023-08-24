@@ -1,0 +1,26 @@
+-- Null Kontrol Mekanizmaları
+
+--Case When Then Else End Kalıbı İle Null Kontrolü
+Select MusteriAdi,
+       case
+           when Bolge is null then 'Bölge Bilinmiyor'
+           else Bolge
+           end
+from Musteriler;
+
+--Coalesce Fonksiyonu ile null kontrolü
+select MusteriAdi, coalesce(Bolge,'Bölge Bilinmiyor') from Musteriler;
+
+--isnull fonksiyonu ile null kontrolü
+select MusteriAdi, isnull(Bolge,'Bölge Bilinmiyor') from Musteriler;
+
+--Null If Fonksiyonu
+
+select nullif(0,0);
+
+select HedefStokDuzeyi from Urunler
+select avg(HedefStokDuzeyi) from Urunler
+
+--Hedef Stok düzeyi 0 olmayan ürünlerin ortalaması nedir?
+select avg(HedefStokDuzeyi) from Urunler where HedefStokDuzeyi <>0
+select avg(nullif(HedefStokDuzeyi,0)) from Urunler

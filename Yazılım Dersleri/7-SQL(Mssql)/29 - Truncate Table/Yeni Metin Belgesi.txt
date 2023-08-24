@@ -1,8 +1,4 @@
--- Bulk INSERT
+--Truncate Komutu
+--Identity varsayılan haline döner
 
-BULK INSERT Kisiler
-from 'C:\kisiler.txt'
-with (
-    FIELDTERMINATOR  = '\t',
-    rowterminator  ='\n'
-    )
+delete from OrnekPersoneller2 where 1 =1  truncate;

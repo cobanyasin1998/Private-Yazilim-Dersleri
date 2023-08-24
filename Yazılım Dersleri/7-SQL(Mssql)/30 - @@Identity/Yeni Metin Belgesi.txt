@@ -1,0 +1,4 @@
+--@@Identity Komutu
+--Son Kaydedilen id yi getirir
+Insert Kategoriler(kategoriadi, tanimi) values ('x','x kategorisi')
+select @@IDENTITY

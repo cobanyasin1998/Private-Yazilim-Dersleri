@@ -1,0 +1,5 @@
+-- T-SQL ile veritabanındaki tabloları listeleme
+
+select * from sys.tables
+-- ya da
+select * from sysobjects where xtype = 'U'

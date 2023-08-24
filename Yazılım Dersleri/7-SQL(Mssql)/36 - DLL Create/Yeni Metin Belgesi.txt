@@ -1,0 +1,36 @@
+-- DLL (Data Definitaion Language)
+--T-SQL de veritabanı nesneleri yaratmamızı sağlayan ve bu nesneler üzerinde değişiklikler yapmamızı ve silmemizi sağlayan yapılar bu başlık altında simgelenmektedir.
+
+--Create, Alter, Drop
+
+-- === Create ===
+-- Create [Nesne] [Nesnenin Adı]
+
+--Create ile Database Oluşturma
+Create DATABASE  OrnekVeritabani
+
+--Bu şekilde bir kullanım varsayılan ayarlarda veritabanı oluşturulacaktır.
+
+Create database  OrnekVeritabani2
+on (
+    NAME  = 'GG',--Oluşturulacak veritabanının fiziksel ismini belirtiyoruz
+    Filename  = 'D:\GG.mdf', -- Oluşturulacak veritabanı dosyasının fiziksel dizinini belirtiyoruz
+    size  = 5, -- Veritabanının başlangıç boyutunu mb cinsinden ayarlıyoruz
+    filegrowth  = 3 -- Veritabanının boyutu, başlangıç boyutunu geçtiği durumda boyutun ne kadar artması gerektiğini mb cinsinden belirtiyoruz
+    )
+LOG ON (
+    NAME = 'GG_LOG',
+    FILENAME = 'D:\GG.ldf',
+    size =5,
+    filegrowth  =3
+    )
+
+--Create ile tablo oluşturma
+Use OrnekVeritabani
+Create table OrnekTablo(
+    Kolon0 int primary key identity (1,1), -- Primary key ve identity özelliği
+    Kolon1 int,
+    [Kolon 2] decimal, -- Eğer kolon adlarında boşluk varsa köşeli parantez ile belirtilmelidir
+    Kolon2 nvarchar(max),
+    Kolon3 money
+)

@@ -1,0 +1,2 @@
+-- Identity Kolonuna Müdahale Etme
+DBCC CHECKIDENT ( OrnekPersoneller2,reseed ,50)

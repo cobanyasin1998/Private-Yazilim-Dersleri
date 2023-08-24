@@ -1,0 +1,17 @@
+--@@RowCount Komutu
+--Kaç satırın etkilendiğini gösterir
+Delete
+from OrnekPersoneller2
+where SoyAdi = 'Gençay';
+Select @@ROWCOUNT
+
+
+Select *
+from OrnekPersoneller2
+select @@rowcount
+
+INSERT OrnekPersoneller2(adi, soyadi)
+values ('Yasin', 'Çoban'),
+       ('Meltem', 'Çoban'),
+       ('Elif', 'Çoban')
+select @@rowcount
