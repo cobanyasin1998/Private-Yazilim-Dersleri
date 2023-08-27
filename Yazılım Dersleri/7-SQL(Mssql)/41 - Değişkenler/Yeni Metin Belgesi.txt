@@ -1,0 +1,45 @@
+--Değişkenler
+
+--Declare keywordü ile değişken tanımlanır.
+
+--Prototip;
+--Declare @DegiskenAdi DegiskenAdi
+
+declare @x int;
+
+declare @y nvarchar
+
+declare @z money
+--declare @x int,@z nvarchar,@y bit
+
+--Tanımlanmış Değişkenlere Değer Atama
+
+declare @Yas int =3;
+
+--Set
+
+set @x = 125;
+
+declare @tarih datetime
+set @tarih = getdate()
+
+--Değişkenin Değerini okuma
+
+declare @a int;
+
+set @a = 5;
+
+select @a;
+
+--Sorgu sonucu gelen verileri değişkenle elde etme
+declare @adi nvarchar(50),@soyadi nvarchar(50)
+select  @adi = Adi ,@soyadi =  SoyAdi
+from Personeller
+where PersonelID = 1
+
+select @adi,@soyadi
+
+--1.Sorgu sonucu gelen satır sayısı bit adet olmalıdır
+--2. Kolonlardaki verilerin tipleri ne ise o verileri temsil edecek değişkenlerin tipleride benzer olmalıdır.
+
+

@@ -1,0 +1,33 @@
+-- Alter
+--Create ile yaratılan veritabanı nesnelerinde değişiklik yapmamızı sağlar
+
+--alter ile database güncelleme
+
+--Alter [Nesne] [Nesnenin Adı]
+-- (Yapıya Göre İşlemler)
+
+Alter database SATIS_DB
+MODIFY FILE (
+    NAME  ='GG',
+    SIZE = 20
+    )
+
+--Alter ile olan bir tabloya kolon ekleme
+Alter table OrnekPersoneller2 Add Kolon4 nvarchar(MAX)
+Alter table OrnekPersoneller2 Add Kolon2 nvarchar(MAX)
+
+--Alter ile tablodaki kolonu Güncelleme
+Alter table OrnekPersoneller2
+alter column Kolon4 int
+
+--alter ile tablodaki kolonu silme
+alter table OrnekPersoneller2
+drop column Kolon4
+
+--Alter ile tabloya constraint Ekleme
+Alter table OrnekPersoneller2
+add constraint OrnekConstraint Default 'Boş' for Kolon2
+
+--Alter ile tablodaki constrainti Silme
+Alter table OrnekPersoneller2
+drop constraint OrnekConstraint

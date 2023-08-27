@@ -1,0 +1,8 @@
+--Exists Fonksiyonu
+
+
+
+if exists(Select * from Personeller)
+print 'Dolu'
+else
+print 'bOŞ'

@@ -1,0 +1,25 @@
+--While Döngüsü
+
+--While Şart Komut
+
+Declare @sayac int = 0
+
+while @sayac < 100
+    begin
+        set @sayac = @sayac + 1;
+        print @sayac
+    end
+--While Döngüsü  - Break
+
+
+declare @sayac int = 0;
+
+while @sayac < 1000
+begin 
+    print @sayac
+    set @sayac = @sayac +1
+    if @sayac % 5 = 0
+    break 
+	else
+            continue;
+end

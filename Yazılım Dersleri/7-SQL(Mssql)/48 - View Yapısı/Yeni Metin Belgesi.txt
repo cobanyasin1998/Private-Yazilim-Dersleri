@@ -1,0 +1,101 @@
+--View Yapısı
+
+-- Kullanım Amacı
+
+--Genellikle karmaşık sorguların tek bir sorgu üzerinden çalıştırılabilmesidir.
+--Bu amaçla raporlama işlemlerinde kullanılabilir
+-- Aynı zamanda güvenlik ihtiyacı olduğu durumlarda herhangi bir sorgunun 2. - 3. şahıslardan gizlenmesi amacıyla da kullanılırlar.
+
+--Genel Özellikleri
+-- Herhangi bir sorgunun sonucu tablo olarak ele alıp, ondan sorgu çelilebilmesini sağlarlar.
+-- ÖNEMLİ !!! Insert, Update ve Delete yapabilirler. Bu işlemleri fiziksel tabloya yansıtırlar.
+--View yapıları fiziksel olarak oluşturulan yapılardır.
+-- View yapıları normal sorgulardan daha yavaş çalışırlar
+
+--Dikkat !!!
+-- Database elemanlarını Create komutuyla oluşturuyorduk. View yapısında bir database yapısı olduğu için Create komutu ile oluşturacağız.
+
+Create view VM_GOTUR
+as
+select p.Adi + ' ' + p.Soyadi [Adi Soyadi],
+       k.KategoriAdi          [Kategori Adı],
+       COUNT(s.SatisId)       [Toplam Satış]
+from Personeller p
+         Inner Join Satislar s on p.PersonelID = s.PersonelID
+         Inner Join dbo.[Satis Detaylari] sd on s.SatisID = sd.SatisID
+         Inner Join dbo.Urunler U on sd.UrunID = U.UrunID
+         Inner Join dbo.Kategoriler K on U.KategoriID = K.KategoriID
+GROUP BY p.Adi + ' ' + p.Soyadi, k.KategoriAdi
+select * from VM_GOTUR
+select * from VM_GOTUR WHERE [Adi Soyadi] like '%Robert%'
+
+--View oluşturulurken kolonlara verilen alisslar View'dan sorgu çekilirken kullanılır.
+--Bir yandan da view'in kullandığı gerçek tabloların kolon isimleri, view içinde alias tanımlanarak gizlenmiş olunur.
+--View içinde 'order by' kullanılmaz.
+--'Order by' view içinde değil, view çalışırken sorgu esnasında kullanılmalıdır.
+--Yok eğer illaki ben view içinde ' order by ' kullanacağım diyorsanız view içinde 'top' komutunu kullanmalısınız. (tavsiye edilmez)
+
+
+--WİTH ENCRYPTİON KOMUTU
+--Eğer yazdığımız view'in kaynak kodlarını,Object Explorer penceresindee 'views' kategoriesine sağ tıklayarak Design Modda açıp görüntülenmesini istemiyorsak "With Encryption"
+--komutu ile viewi oluşturmalıyız
+
+--Dikkat
+--With encryption  işleminden sonra view'i oluşturan kişide dahil kimse komutları göremez. Geri dönüş yoktur.
+
+
+Create view OrnekPersonellerWithENCRYPTİON
+with encryption
+as
+select Adi,SoyAdi from Personeller
+
+
+--WİTH SCHEMABINDING Komutu
+
+--Eğer view'in kullandığı esas fiziksel tabloların kolon isimleri bir şekilde değiştirilir, kolonları silinir ya da tablo yapısı
+--bir şekilde değişikliğe uğrar ise view'in çalışması artık mümkün olmayacaktır.
+--View'in kullandığı tablolar ve kolonları bu tarz işlemler yapılabilmesi ihtimaline karşı koruma altına alınabilir.
+--Bu koruma "With Schemabinding" komutu ile yapılabilir.
+
+Create Table OrnekTablo3(
+    Id int PRIMARY KEY IDENTITY ,
+    Kolon1 nvarchar(max)
+)
+Create View OrnekView
+with schemabinding
+as select Id,Kolon1 from dbo.OrnekTablo3
+
+alter table OrnekTablo3
+alter column Kolon1 int
+
+
+--With Check Option Komutu
+
+--View'in içerisindeki sorguda bulunan şarta uygun kayıtların Insert edilmesine müsade edilip, uymayan kayıtların müsade edilmemesini sağlayan bir komuttur.
+
+CREATE view OrnekView2
+as select Adi,SoyAdi from Personeller where Adi like 'a%'
+
+Insert OrnekView2 values ('Ahmet','Bilmemneoğlu')
+Insert OrnekView2 values ('Meltem','Donk')
+
+--With encryption ve with schemabinding komutları as keywordünden önce belirtilirken "with check option" komutu where şartından sonra belirtilmelidir
+
+
+CREATE view OrnekView3
+as select Adi,SoyAdi from Personeller where Adi like 'a%'
+with check option
+
+Insert OrnekView3 values ('Ahmet','Bilmemneoğlu')
+Insert OrnekView3 values ('Meltem','Donk')
+
+
+
+
+
+
+
+
+
+
+

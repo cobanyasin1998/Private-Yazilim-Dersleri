@@ -1,0 +1,125 @@
+--Constraintler /Kısıtlayıcılar\
+--Constraintler sayesinde tablolar üzerinde istediğimiz şartlar ve durumlara göre kısıtlamalar yapıyoruz
+
+--1.Default Constraint
+--2.Check Constraint
+--3.Primary Key Constraint
+--4.Unique Contraint
+--5.Foreign Key Constraint
+
+-- Default Constraint
+--Default Constraint sayesinde kolona bir değer girilmediği takdirde varsayılan olarak ne girilmesi gerektiğini belirtebiliyoruz.
+
+--Genel Yapısı;
+--Add Constraint  [Constraint Adı] Default 'Varsayılan Değer' for [Kolon Adı]
+
+Create table OrnekTablo
+(
+    Id int primary key identity (1,1),
+    Kolon1 nvarchar(max),
+    Kolon2 int
+)
+
+Alter table OrnekTablo Add CONSTRAINT  Kolon1Constraint DEFAULT 'Boş' for Kolon1
+
+Insert OrnekTablo(kolon2) values(1)
+select * from OrnekTablo
+
+
+--Check Constraint
+--Bir kolona girilecek olan verinin belirtli bir şarta uymasını zorunlu tutar
+
+--Genel Yapısı;
+--Add Constraint [Constraint Adı] Check(Şart)
+
+Alter table OrnekTablo
+add constraint Kolon2Kontrol check ((Kolon2 *5) % 2=0)
+
+--Dikkat !!!
+--Check Constraint oluşturulmadan önce ilgili tabloda şarta aykırı değerler varsa eğer constraint oluşturulmayacaktır !!!
+--Ancak önceki kayıtları görmezden gelip genede check constrainti uygulamak istiyorssak "with nocheck" komutu kullanılmalıdır
+
+--with nocheck
+--Şuana kadar olan kayıtları görmezden gelip, check constrainti uygulattır
+Alter table OrnekTablo
+with nocheck add constraint Kolon2Kontrol check ((Kolon2 *5) % 2=0)
+
+---Primary Key Constraint
+--Primary key constraint ile; o kolona eklenen primary key ile, başka tablolarda foreign key oluşturarak ilişki kurmamız mümkün olur.
+--Bunun yanında o kolonun taşıdığı verinin tekil olacağı da garanti edilmiş olur. Primary key constraint ile ayrıca CLUSTERED INDEX oluşturulmuş  da olur.
+
+--Genel yapısı;
+--Add Constraint [Constraint Adı] Primary Key(kolon adı)
+
+--Dikkat !!
+--Primary key constraint kullanılan kolon primary key özelliğine sahip olmamalıdır.
+
+Alter table OrnekTablo
+add constraint primaryId primary key (Id)
+
+--Unique Constraint
+--Unique Constraintin tek amacı, belirttiğimiz kolondaki değerlerin tekil olmasını sağlamaktadır.
+
+--Genel Yapısı;
+--Add Constraint [Constraint Adı] Unique (Kolon Adı)
+ Alter table OrnekTablo
+Add CONSTRAINT OrnekTabloUnique Unique (Kolon2)
+
+-- "Kolon2" kolonuna unique constraint verilerek tekil hale getirilmiştir. Bundan sonra ikitane aynı veriden kayıt yapılamamaktadır.
+
+
+
+
+--Foreign Key Constraint
+--Tabloların kolonları arasında ilişki kurmamızı sağlar. Bu ilişki neticesinde; foreign key olan kolondaki karşılığının boşa düşmemesi için
+--primary key kolonu olan tablodan veri silinmesini, güncellenmesini engeller.
+
+--Genel Yapısı;
+--Add Constraint [Constraint Adı] Foreign Key (Kolon Adı) References [2.Tablo Adı](2.Tablodaki Kolon Adı)
+
+Create Table Ogrenciler(
+    OgrenciId int primary key  identity (1,1),
+    DersId int,
+    Adi nvarchar(max),
+    Soyadi nvarchar(max)
+)
+Create table Dersler(
+    DersId int primary key identity (1,1),
+    DersAdi nvarchar(max)
+)
+Alter table Ogrenciler
+Add CONSTRAINT ForeignKeyOgrenciDers FOREIGN KEY (DersId) REFERENCES  Dersler(DersId)
+
+--Şu durumda, delete ve update işlemlerinden ilişkili kolondaki veriler silinmez.
+--Davranışı değiştirmek için aşagıdaki komutlar kullanılır.
+
+--Cascade
+--Ana tablodaki kayıt silindiğinde ya da güncellendiğinde, ilişkili kolondaki karşılığıda otomatik olarak silinir ya da güncellenir.
+
+--Set Null
+--Ana Tablodaki kayıt  silindiğinde ya da güncellendiğinde,  ilişkili kolondaki karşılığıda "NULL" değer basılır.
+
+--Set Default
+--Ana tablodaki  kayıt  silindiğinde ya da güncellendiğinde,  ilişkili kolondaki karşılığda o kolonun default değeri basılır. Bu Default değer dediğimiz
+--default değer dediğimiz default tipte bir constraintttir. Bunu kendimiz oluşturabiliriz.
+
+--Bu ayarlar verilmediği takdirde "no action" özelliği geçerlidir.
+
+
+
+
+--Cascade
+Alter table Ogrenciler
+Add CONSTRAINT ForeignKeyOgrenciDers FOREIGN KEY (DersId) REFERENCES  Dersler(DersId)
+On delete cascade
+on update cascade
+--set null
+Alter table Ogrenciler
+Add CONSTRAINT ForeignKeyOgrenciDers FOREIGN KEY (DersId) REFERENCES  Dersler(DersId)
+On delete set null
+on update set null
+--set default
+Alter table Ogrenciler
+Add CONSTRAINT ForeignKeyOgrenciDers FOREIGN KEY (DersId) REFERENCES  Dersler(DersId)
+On delete set default
+on update set default

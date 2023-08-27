@@ -1,0 +1,46 @@
+-- İf Yapısı
+
+-- = : Eşitse
+-- <> : Eşit Değilse
+-- < : Küçükse
+-- > : Büyükse
+
+--Tek Satırlık Çalışma
+
+declare @isim nvarchar(max)
+set @isim = 'Yasin'
+
+if @isim = 'Yasin'
+    print 'Evet'
+else
+    print 'Hayır'
+
+--Begin End Yapısı (Scope)
+
+declare @sayi1 int =3
+declare @sayi2 int = 5
+
+if @sayi1 < @sayi2
+    begin
+        print 'Evet sayi1 Sayi2 den küçüktür'
+        select @sayi1 [Sayi 1], @sayi2 [Sayi 2]
+    end
+else
+    begin
+        print 'Hayır Sayı1 Sayı2 den küçük değildir'
+        select @sayi1 [Sayi 1], @sayi2 [Sayi 2]
+    end
+
+-------------
+--İf _ Else If _ Else Yapısı
+
+Declare @Adi nvarchar(max) = 'Yasin'
+DECLARE @Yas int = 25
+
+if @Adi = 'Mahmut'
+    print 'Evet Mahmut'
+else
+    if @Yas > 24
+        print ''
+    else
+        print 'abc'

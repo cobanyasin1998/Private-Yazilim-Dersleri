@@ -1,0 +1,10 @@
+--Batch Kavramı - Go
+
+Create database OrnekDatabase
+Go
+Use OrnekDatabase
+CREATE table OrnekTablo(
+    Id int primary key identity (1,1),
+    Kolon1 nvarchar(max),
+    Kolon2 nvarchar(max)
+)

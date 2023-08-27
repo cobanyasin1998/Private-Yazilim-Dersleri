@@ -1,0 +1,18 @@
+-- Uniqueidentifier Veri Tipi
+
+-- int, varchart vs. gibi bir veri tipidir.
+-- Aldığı değer, rakamlar ve harflerden oluşan çok büyük bir sayıdır.
+-- Bundan dolayı bu kolona aynı değerin birden fazla gelmesi neredeyse imkansızdır.
+-- O yüzden tekil bir veri oluşturmak için kullanılır.
+
+Create table OrnekTablo2(
+    Id int primary key identity ,
+    Kolon1 nvarchar(500),
+    Kolon2 nvarchar(500),
+    Kolon3 uniqueidentifier
+)
+
+--NewID Fonksiyonu
+
+INSERT OrnekTablo2(Kolon1, Kolon2,Kolon3) VALUES ('Y','Z',newid())
+select * from OrnekTablo2

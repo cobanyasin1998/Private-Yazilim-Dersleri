@@ -1,0 +1,19 @@
+
+--Drop
+
+--drop [Nesne] [Nesne Adı]
+Drop table OrnekPersoneller2
+DROP  database SATIS_DB
+
+
+
+
+
+
+
+
+
+
+
+
+
