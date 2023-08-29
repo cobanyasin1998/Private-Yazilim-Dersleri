@@ -1,0 +1,78 @@
+--Transaction
+
+--Birden çok işlemin bir arada yapıldığı durumlarda eğer parçayı oluşturan işlemlerden herhangi birinde sorun olursa tüm işlemi iptal ettirmeye yarar.
+
+--Örneğin; kredi kartı ile alışveriş işlemlerinde transaction işlemi vardır. Siz marketten ürün alırken sizin hesabınızdan para düşülecek,
+--marketin hesabına para aktarılacaktır. Bu işlemde hata olmaması gerekir ve bundan dolayı bu işlem bir transaction bloğunda gerçekleştirilmelidir.
+--Bu esnada herhangi bir sorun olursa bütün işlemler transaction tarafından iptal edilebilecktir.
+
+--Begin Tran veya Begin Transaction : Transaction işlemini başlatır.
+
+--Commit Tran: Transaction işlemini başarıyla sona erdirir.---Commit
+--Rollback Tran: Transaction işlemini iptal eder. İşlemleri geri alır.--Rollback
+
+--Normalde default olarak herşey Begin Tran ile başlayıp, Commit Tran ile biter! Biz bu yapıları kullanmasak bile !!!
+
+--Banka uygulaması
+
+-- İki adet banka tablosu oluşturalım. Bankalar arası havale işlemi gerçekleştirelim. Ve bu işlemleri yaparken trasaction kullanalım.
+
+Create DATABASE BankaDb
+go
+use BankaDb
+go
+create table ABanka
+(
+    HesapNo int,
+    Bakiye  MONEY
+)
+go
+create table BBanka
+(
+    HesapNo int,
+    Bakiye  MONEY
+)
+go
+Insert ABanka
+VALUES (10, 1000),
+       (20, 2500)
+Insert BBanka
+VALUES (30, 2300),
+       (40, 760)
+GO
+CREATE PROC SP_HAVALEYAP(
+    @BankaKimden nvarchar(max),
+    @GonderenHesapNo int,
+    @AlanHesapNo int,
+    @Tutar money
+) as
+    begin transaction Kontrol
+declare @ABakiye int, @BBakiye int, @HesaptakiPara money
+    if @BankaKimden = 'ABanka'
+        begin
+            select @HesaptakiPara = Bakiye from ABanka where HesapNo = @GonderenHesapNo
+            if @Tutar > @HesaptakiPara
+                BEGİN
+                    print cast(@GonderenHesapNo as nvarchar(max)) +
+                          ' numaralı hesapta, gönderilmek istenen tutardan az para mevcuttur.'
+                    ROLLBACK
+                end
+            else
+                begin
+                    update ABanka set Bakiye = Bakiye - @Tutar where HesapNo = @GonderenHesapNo
+                    UPDATE BBanka set Bakiye = Bakiye + @Tutar where HesapNo = @AlanHesapNo
+
+                    print 'ABankasındaki ' + cast(@GonderenHesapNo as nvarchar(max)) +
+                          ' numaralı hesaptan BBankasındaki ' + cast(@AlanHesapNo as nvarchar(max)) +
+                          ' numaralı hesaba ' + cast(@Tutar as nvarchar(max)) + ' değerinde para havale edilmiştir.';
+                    Commit
+
+
+                end
+        end
+    ELSE
+        BEGIN
+            ROLLBACK
+        end
+
+EXEC SP_HAVALEYAP('ABanka',10,30,500)

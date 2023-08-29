@@ -1,0 +1,138 @@
+--Stored Procedures (Saklı Yordamlar)
+
+--Genel Özellikleri
+
+--Normal Sorgulardan daha hızlı çalışırlar
+--Çünkü normal sorgular Execute edilirken "Execute Plan" işlemi yapılır. Bu işlem sırasında hangi tablodan veri çekilecek, hangi kolonlardan gelecek, bunlara nerede vsvs gibi işlemler yapılır.
+--Fakat sorgu stored procedure olarak çalıştırılırsa bu işlem sadece bir kere yapılır ve o da ilk çalıştırma esnasındadır. Diğer çalıştırmalarda bu işlemler yapılmaz. Bundan dolayı hız ve performansta artış sağlanır.
+--İçerisinde select, insert, update ve delete işlemleri yapılır.
+--İç İçe kullanılabilir
+--İçlerinde fonksiyon oluşturalabilir.
+-- Sorgularımızın dışarıdan alacağı değerler parametre olarak Stored Procedure' lere geçirebildiğinden dolayı, sorgularımızın "SQL Injection" yemelerinide önlemiş oluruz. Bu yönleriyle de daha güvenlidirler.
+--Stored Procedure fiziksel bir  veritabanı nesnesidir. Haliyle Create ile oluşturulur
+
+--Prototip
+
+--Create Proc ya da Procedure [İsim]
+--(
+--varsa parametreler
+--)
+--as
+-- yazılacak sorgular, kodlar, şartlar, fonksiynlar, komutlar
+
+
+--- Stored Procedures (Saklı Yordamlar)
+
+--- === Stored Procedure Tanımlama ===
+
+Create PROC sp_Ornek(
+    @Id int -- Aksi söylenmediği takdirde bu parametrenini yapısı inputtur.
+) as
+select *
+from Personeller
+where PersonelID = @Id
+
+    --Dikkat !!!
+--Prosedürün parametrelerini tanımlarken parantez kullanmak zorunlu değildir ama okunabilirliği arttırmak için kullanmakta fayda vardır.
+
+    CREATE PROC sp_Ornek2 @Id int,
+                          @Parametre2 int,
+                          @Parametre3 nvarchar(max)
+    as
+    select *
+    from Personeller
+    where PersonelID = @Id
+
+        --Stored Procedure Kullanımı
+--Stored Procedure yapılarını "Exec" komutu eşiliğinde çalıştırabilmekteyiz.
+        exec sp_Ornek 3
+        exec sp_Ornek2 3, 4, 'asd'
+
+--- ==== Geriye Değer Döndüren Stored Procedure ====
+
+        CREATE proc UrunGetir(
+            @Fiyat MONEY
+        ) as
+        select *
+        from Urunler
+        where BirimFiyati > @Fiyat
+            return @@ROWCOUNT
+
+---- == Kullanım ==
+
+            EXEC UrunGetir 40;
+--Bu şekilde geriye dönülen değeri elde etmeksizin kullanılabilir. Sıkıntı olmaz.
+
+        Declare @Sonuc int
+            Exec @Sonuc = UrunGetir 40
+            print CAST(@Sonuc as nvarchar(max)) + ' adet ürün bu işlemden etkilenmiştir'
+
+
+--OUTPUT ILE DEGER DONDURME
+
+
+            CREATE PROC sp_Ornek3(
+                @Id int,
+                @Adi nvarchar(max) output,
+                @SoyAdi nvarchar(max) output
+            ) as
+            select @Adi = Adi, @SoyAdi = SoyAdi
+            from Personeller
+            where PersonelID = @Id
+
+
+--Kullanımı
+
+declare @Adi nvarchar(max), @SoyAdi nvarchar(max)
+exec sp_Ornek3 3,@Adi OUTPUT , @SoyAdi output
+select @Adi + ' ' +@SoyAdi
+
+
+--Stored Procedures
+
+-- Genel Örnek
+--Dışarıdan aldığı isim, soyisim ve şehir bilgilerini Personeller tablosunda ilgili kolonlara ekleyen Proc'u yazınız.
+
+Create PROC sp_PersonelEkle(
+    @Ad nvarchar(max),
+    @SoyAd nvarchar(max),
+    @Sehir nvarchar(max)
+) as
+Insert Personeller(Adi, SoyAdi, Sehir)
+values (@Ad, @SoyAd, @Sehir);
+
+
+
+    exec sp_PersonelEkle 'Yasin', 'Çoban', 'Ankara'
+select *
+from Personeller
+
+
+--Parametrelere Varsayilan Değer
+Create Proc sp_VarsayilanDeger(
+@Ad varchar(50) = 'İsimsiz',
+@Soyad varchar(50) = 'Soyadsız'
+)
+
+
+
+-- Stored Procedure
+--Stored Procedure İçerisinde Nesne Oluşturma
+
+Create PROC sp_TabloOlustur(
+    @TabloAdi nvarchar(max),
+    @Kolon1Adi nvarchar(max),
+    @Kolon1Ozellikleri nvarchar(max),
+    @Kolon2Adi nvarchar(max),
+    @Kolon2Ozellikleri nvarchar(max)
+) as
+    exec ('Create Table' + @TabloAdi +'
+('+@Kolon1Adi+' ' + @Kolon1Ozellikleri+ ',
+'+@Kolon2Adi+' ' + @Kolon2Ozellikleri + '
+)'
+        )
+
+Exec sp_TabloOlustur 'OrnekTabloo','Id','int primary key identity(1,1)','Kolon2','nvarchar(max)'
+
+
+

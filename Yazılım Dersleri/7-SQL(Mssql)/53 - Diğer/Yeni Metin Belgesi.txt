@@ -1,0 +1,38 @@
+--TSQL EN son primary key id'yi bulmak
+
+select IDENT_CURRENT('Personeller')
+
+--SCope_Identity()
+--Açılmış olan bağlantıda scopeta son üretilen identity değerini döndürür
+
+Insert Personeller(Adi,SoyAdi) VALUES ('Mfkdfs','lgksg')
+select scope_identity()
+
+--Default Values ile sadece identity kolonuna veri eklemek
+
+Create database ORNEK_VERITABANI
+
+CREATE table ornekTablo(
+    Id int primary key identity ,
+    Kolon1 nvarchar(max),
+    Kolon2 nvarchar(max)
+)
+go
+
+USE  ORNEK_VERITABANI
+INSERT ornekTablo
+Default Values;
+
+--T-SQL ROW_NUMBER Fonksiyonu
+GO USE Northwind
+Select ROW_NUMBER() over (ORDER BY Adi) indexer, * from Personeller;
+
+
+--Partition By ile gruplama
+
+Select ROW_NUMBER() over (PARTITION BY MusteriID ORDER BY OdemeTarihi) indexer, * from Satislar;
+
+
+
+
+

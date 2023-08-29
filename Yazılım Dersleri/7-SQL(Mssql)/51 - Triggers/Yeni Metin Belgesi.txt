@@ -1,0 +1,213 @@
+--T-SQL - Triggers (Tetikleyiciler)
+
+-- === DML Trigger
+--Bir tabloda Insert, Update ve Delete işlemleri gerçekleştirildiğinde devreye giren yapılardır.
+--Bu işlemler sonucunda veya sürecinde devreye girerler
+--=== DDL Trigger
+--Create,Alter ve Drop işlemleri sonucunda veya sürecinde devreye girecek olan yapılardır.
+
+
+
+
+
+--============DML Trigger ======================
+--Bir tabloda Insert, Update ve Delete işlemleri gerçekleştirildiğinde devreye giren yapılardır.
+--Bu işlemler sonucunda veya sürecinde devreye girerler
+
+-- * InsertedTable
+--Eğer bir tabloda Insert işlemi yapılıyorsa arka planda işlemler ilk önce RAM'de oluşturulan
+--inserted isimli bir tablo üzerinde yapılır. Eğer işlemde bir problem yoksa inserted tablosundaki
+--veriler fiziksel tabloya insert edilir. İşlem bittiğinde Ram'de oluşturulan bu inserted tablosu silinir.
+
+--*DeletedTable
+--Eğer bir tabloda delete işlemi yapılıyosa arka planda işlemler ilk önce RAM'de oluşturulan  deleted
+--isimli bir tablo üzerinde yapılır. Eğer işemlerde bir problem yoksa deleted tablosundaki
+--veriler fiziksel tablodan silinir. İşlem bittiğinde RAN'den bu deleted tablosuda silinecektir.
+
+--Eğer bir tabloda update işlemi yapılıyorsa RAM'de updated isimli bir tablo OLUŞTURULMAZ !!!
+--SQL Server'da ki update mantığı önce silme (delete), sonra eklemedir(insert).
+--Eğer bir tabloda update işlemi yapılıyorsa  arkaplanda RAM'de hem deleted hemde inserted
+--tabloları oluşturulur ve işlemler bunlar üzerinde yapılır.
+
+--NOT!!! -->> Update yaparken güncellenen kaydın orjinali deleted tablosunda, güncelledikten sonraki hali ise inserted tablosunda bulunmaktadır. Çünkü
+--güncelleme demek kaydı önce silmek sonra eklemek demektir.
+
+--Deleted ve inserted tabloları, ilgili sorgu sonucu oluştukları için o sorgunun kullandığı kolonlara da sahip olur. Böylece deleted ve inserted tablolarından
+--select sorgusu yapmak mümkündür.
+
+
+-- ================ Trigger Tanımla ==============
+--Prototip
+
+--Create Trigger [Trigger Adı]
+-- on [Islem Yapilacak Tablo Adı]
+--after -- veya for delete,update,insert
+--as
+--[Kodlar]
+
+--Dikkat !!!
+--Tanımlanan Triggerlara ilgili tablonun içerisindeki Triggers sekmesi altından erişebiliriz.
+
+Create trigger OrnekTrigger
+on Personeller
+after insert
+as
+select * from Personeller
+
+Insert Personeller(Adi,SoyAdi) values ('Y','M')
+
+
+
+--Örnek 1
+--Tedarikçiler tablosundan bir veri silindiğinde tüm ürünlerin fiyatı otomatik olarak 10 artsın
+
+Create TRIGGER triggerTedarikciler
+    on Tedarikciler
+    after delete
+    as
+    Update Urunler
+    set BirimFiyati = BirimFiyati + 10
+    Select *
+    from Urunler
+    Delete
+    from Tedarikciler
+    where TedarikciID = 30;
+
+
+--Log tablosu misali
+
+    Create table LogTablosu
+    (
+        Id    int primary key identity (1,1),
+        Rapor nvarchar(max)
+    )
+    Create trigger triggerPersoneller
+        on Personeller
+        after delete as
+        declare @Adi nvarchar(max), @SoyAdi nvarchar(max)
+        select @Adi = Adi, @SoyAdi = SoyAdi
+        from deleted
+        Insert LogTablosu
+        VALUES ('Adı ve Soyadı' + @Adi + ' ' + @SoyAdi + ' olan personel ' + SUSER_NAME() + ' TARAFINDAN ' +
+                CAST(GETDATE() as nvarchar(max)) + ' tarihinde silinmiştir')
+        delete
+        from Personeller
+        where PersonelID = 21
+        select *
+        from LogTablosu
+
+--deleted inserted kullanmak
+
+        Create trigger trgPersonellerRapor
+            on Personeller
+            after update
+            as
+            declare @EskiAdi nvarchar(max), @YeniAdi nvarchar(max)
+            select @EskiAdi = Adi
+            from deleted
+            select @YeniAdi = Adi
+            from inserted
+            Insert LogTablosu
+            VALUES ('Adı ' + @EskiAdi + ' olan personel ' + @YeniAdi + ' yeni adıyla değiştirilerek ' + SUSER_NAME() +
+                    ' kullanıcısı tarafından' + cast(getdate() as nvarchar(max)) + ' tarihinde güncelledndi')
+            update Personeller
+            set Adi = 'asd'
+            where PersonelID = 3
+
+
+-- ==== MULTIPLE Actions Trigger ====
+
+            create trigger MultiTrigger
+                on Personeller
+                after delete, insert
+                as
+                print 'Merhaba'
+                INSERT Personeller(Adi, SoyAdi)
+                VALUES ('YASH', 'COB')
+                delete
+                from Personeller
+                where PersonelID = 31
+
+                --============ Instead Of Triggerlar ================
+
+--Şu ana kadar Insert, Update, Delete işlemleri yapılırken şu şu işlemleri yap mantığıyla çalıştık(Yanında şunu yap)
+--Instead Of Triggerlar ise Insert, Update ve Delete işlemleri yerine şu şu işlemleri yap mantığıyla çalışmaktadır.(Yerine şunu yap)
+
+--Prototip
+
+--Create Trigger [Trigger Adı]
+--on [Tablo Adı]
+--Instead of delete, Insert, Update
+--as
+--[Komutlar]
+
+--Örnek
+
+--Personeller tablosunda update gerçekleştiği anda yapılacak güncelleştirme yerine bir log tablosuna
+-- "Adı ... olan personel ... yeni adıyla değiştirelerek ... kullanıcı tarafından ... tarihinde güncellenmek istendi." kalıbında rapor yazan triggeri yazalım.
+
+                Create Trigger trgPersonellerRaporInstead
+                    on Personeller
+                    INSTEAD OF update
+                    as
+                    declare @EskiAdi nvarchar(max), @YeniAdi nvarchar(max)
+                    select @EskiAdi = Adi
+                    from deleted
+                    select @YeniAdi = Adi
+                    from inserted
+                    Insert LogTablosu
+                    VALUES ('Adı ' + @EskiAdi + ' olan personel ' + @YeniAdi + ' yeni adıyla değiştirilerek ' +
+                            SUSER_NAME() + ' kullanıcısı tarafından ' + CAST(getdate() as nvarchar(max)) +
+                            ' tarihinde güncellemek istendi.')
+                    UPDATE Personeller
+                    set Adi = 'Yasin'
+                    where PersonelID = 11
+
+                    --Örnek
+--Personeller tablosunda adı "Andrew" olan kaydın silinmesini engelleyen ama diğerlerine izin veren triggeri yazalım.
+                    CREATE trigger AndrewTrigger
+                        on Personeller
+                        after delete
+                        as
+                        declare @Adi nvarchar(max)
+                        select @Adi = Adi
+                        from deleted
+                        IF @Adi = 'Andrew'
+                            begin
+                                print 'Bu kayıtı silemezsiniz'
+                                rollback --Yapılan tüm işlemleri geri alır. Transaction konusunda detaylı göreceğiz.
+                            end
+delete from Personeller where PersonelID = 20
+
+
+
+
+-- ======= Trigger'i Devre Dışı Bırakma =========
+disable trigger OrnekTrigger on Personeller
+
+-- ======= Trigger'i Aktifleştirme ==============
+enable trigger OrnekTrigger on Personeller
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

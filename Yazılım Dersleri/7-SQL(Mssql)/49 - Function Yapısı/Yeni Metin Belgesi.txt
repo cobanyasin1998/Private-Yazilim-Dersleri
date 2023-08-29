@@ -1,0 +1,88 @@
+-- Functions - Scalar Function - Inline Function
+
+--T-SQL'de iki tip fonksiyon vardır.
+--Scalar Fonksiyon = Geriye istedğimiz bir tipte değer döndüren fonksiyon
+--Inline Fonksiyon = Geriye tablo döndüren fonksiyon
+
+-- Bu her iki fonksiyonda fiziksel olarak veritabanında oluşturulmaktadır.
+--Create komutu ile olşturulmaktadır.
+--Üzerinde çalışılan database'in Programmability -> Functions kombinasyonundan oluşturulan fonksiyonlara erişebilmekteyiz.
+
+--- ======== 1.Scalar Function ==============
+
+--Fonksiyon Tanımlama
+--Scalar fonksiyonlara tanımlandıktan sonra Programmability -> Functions -> Scalar-Valued Functions kombinasyonundan erişilebilir.
+
+Create function Topla(@Sayi1 int, @Sayi2 int) returns int
+as
+begin
+    return @Sayi1 + @Sayi2
+end
+
+--Fonksiyon Kullanımı
+--Fonksiyonu kullanırken şemasıyla beraber çağrılmalıdır.
+Select dbo.Topla(2, 5)
+print dbo.Topla(2, 5)
+
+--Örnek
+--"Northwind" veritabanında; herhangi bir ürünün %18 KDV Dahil olmak üzere toplam maliyetini getiren fonksiyon yazalım.
+Create FUNCTION Maliyet(@BirimFiyati int, @StokMiktari int) returns nvarchar(max)
+as
+begin
+    declare @Sonuc int = @BirimFiyati * @StokMiktari * 1.18
+    return @Sonuc;
+end
+
+Select dbo.Maliyet(10, 20)
+
+--2.Inline Function
+
+--Geriye bir değer değil, tablo döndüren fonksiyonlardır.
+--Geriye tablo göndereceği için bu fonksiyonlar çalıştırılırken sanki bir tablodan sorgu çalıştırılır gibi çalıştırılırlar. Bu yönleriyle viewlara benzerler. View ile
+--Yapılan işlevler Inline Functions'larla yapılabilir.
+--Genellikle viewla benzer işlevler için view kullanılmasını öneririm.
+
+--Fonksiyon tanımlama
+--Inline fonksiyonlara tanımladıktan sonra Progrrammability -> Functions -> Table-valued-Functions kombinasyonundan erişilebilir
+--Dikkat ! ! !
+--Inline function oluşturulurken begin end yapısı kullanılmaz
+Create function FC_Gonder(@Ad nvarchar(20), @Soyad nvarchar(20))
+    returns table
+        as
+        return select Adi, SoyAdi
+               from Personeller
+               where Adi = @Ad
+                 and @Soyad = SoyAdi
+
+--Fonksiyon Kullanımı
+--Fonksiyonu şemasıya birlikte çağırmak gerekmektedir.
+Select * from dbo.FC_Gonder ('Nancy','Davolio')
+
+
+--Fonksiyonlarda with encryption komutu
+--Eğer ki yazmış olduğumuz fonksiyonların kodlarına 2. 3. şahısların erişimini
+--engellemek istiyorsak "With Encryption" komutunu kullanmalıyız.
+--"With Encryption" işleminden sonra fonksiyonu oluşturan kişide dahil kimse komutları göremez. Geri Dönüş yoktur.
+
+Create function OrnekFonksiyon()returns int
+with  encryption
+as
+begin
+    return 3
+end
+
+
+--======= Otomatik Hesaplanabilir Kolonlar - Computed Column ======
+--Herhangi bir kolonda fonksiyon kullanılarak otomatik hesaplanabilir kolonlar (Computed Column) oluşturmak mümkündür.
+
+--Örnek
+--Çıktı olarak "___ kategorisindeki ___ ürünün toplam fiyatı: ___'dır." şeklinde bir çıktı veren fonksiyonu yazalım.
+
+Create function Rapor(@Kategori nvarchar(max), @UrunAdi nvarchar(max), @BirimFiyat int, @Stok int) returns nvarchar(max)
+as
+begin
+    declare @Cikti nvarchar(max) = @Kategori + ' kategorisindeki ' + @UrunAdi+ ' ürününün toplam fiyatı : ' + CAST(@BirimFiyat * @Stok as nvarchar(max)) + ' dır'
+    return  @Cikti
+end
+
+select dbo.Rapor(k.KategoriID,u.UrunAdi,u.BirimFiyati,u.HedefStokDuzeyi) from Urunler u INNER JOIN dbo.Kategoriler K on K.KategoriID = u.KategoriID
