@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\bin\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\bin\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\bin\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\bin\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\bin\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\refint\Singleton_Design_Pattern_Example_Pratic.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\Singleton_Design_Pattern_Example_Pratic.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Singleton_Design_Pattern_Example_Pratic\obj\Debug\net6.0\ref\Singleton_Design_Pattern_Example_Pratic.dll

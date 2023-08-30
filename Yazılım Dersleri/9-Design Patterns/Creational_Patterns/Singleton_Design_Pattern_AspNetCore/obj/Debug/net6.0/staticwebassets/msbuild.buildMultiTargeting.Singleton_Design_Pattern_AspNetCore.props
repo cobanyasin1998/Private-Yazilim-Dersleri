@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Singleton_Design_Pattern_AspNetCore.props" />
+</Project>

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Singleton_Design_Pattern_Asynchronous_Example/1.0.0": {
+        "runtime": {
+          "Singleton_Design_Pattern_Asynchronous_Example.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Singleton_Design_Pattern_Asynchronous_Example/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
