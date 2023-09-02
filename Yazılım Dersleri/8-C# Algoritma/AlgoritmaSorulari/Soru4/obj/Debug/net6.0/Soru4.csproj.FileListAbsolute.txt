@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\bin\Debug\net6.0\Soru4.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\bin\Debug\net6.0\Soru4.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\bin\Debug\net6.0\Soru4.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\bin\Debug\net6.0\Soru4.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\bin\Debug\net6.0\Soru4.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\Soru4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\Soru4.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\Soru4.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\Soru4.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\Soru4.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\refint\Soru4.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\Soru4.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\Soru4.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\8-C# Algoritma\AlgoritmaSorulari\Soru4\obj\Debug\net6.0\ref\Soru4.dll
