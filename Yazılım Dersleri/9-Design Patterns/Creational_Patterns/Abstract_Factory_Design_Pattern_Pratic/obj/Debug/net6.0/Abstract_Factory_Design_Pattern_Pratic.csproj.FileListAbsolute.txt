@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\bin\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\bin\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\bin\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\bin\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\bin\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\refint\Abstract_Factory_Design_Pattern_Pratic.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\Abstract_Factory_Design_Pattern_Pratic.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Abstract_Factory_Design_Pattern_Pratic\obj\Debug\net6.0\ref\Abstract_Factory_Design_Pattern_Pratic.dll

@@ -21,6 +21,8 @@
 
 #region Yeni Hali
 
+using System.Reflection;
+
 BankCreater.Create(IBankType.Garanti);
 BankCreater.Create(IBankType.VakifBank);
 BankCreater.Create(IBankType.HalkBank);
@@ -75,6 +77,10 @@ class CredentialVakifBank : IBank
 {
     public string? UserCode { get; set; }
     public string? Mail { get; set; }
+}
+class IsBankasi : IBank
+{
+
 }
 class VakifBank : IBank
 {
@@ -137,6 +143,14 @@ class GarantiFactory : IBankFactory
         return garanti;
     }
 }
+class IsBankasiFactory : IBankFactory
+{
+    public IBank CreateInstance()
+    {
+        return new IsBankasi();
+    }
+}
+
 class HalkBankFactory : IBankFactory
 {
     public IBank CreateInstance()
@@ -162,19 +176,27 @@ class VakifBankFactory : IBankFactory
 #region Creater
 enum IBankType
 {
-    Garanti, HalkBank, VakifBank
+    Garanti, HalkBank, VakifBank, IsBankasi
 }
 static class BankCreater
 {
     public static IBank Create(IBankType bankType)
     {
-        IBankFactory _bankFactory = bankType switch
-        {
-            IBankType.VakifBank => new VakifBankFactory(),
-            IBankType.HalkBank => new HalkBankFactory(),
-            IBankType.Garanti => new GarantiFactory(),
-        };
-        return _bankFactory.CreateInstance();
+        //IBankFactory _bankFactory = bankType switch
+        //{
+        //    IBankType.VakifBank => new VakifBankFactory(),
+        //    IBankType.HalkBank => new HalkBankFactory(),
+        //    IBankType.Garanti => new GarantiFactory(),
+        //    IBankType.IsBankasi => new IsBankasiFactory(),
+        //};
+        //return _bankFactory.CreateInstance();
+
+
+        string factory = $"{bankType.ToString()}Factory";
+        Type? type = Assembly.GetExecutingAssembly().GetType(factory);
+
+        IBankFactory? bankFactory = Activator.CreateInstance(type) as IBankFactory;
+        return bankFactory.CreateInstance();
     }
 }
 
