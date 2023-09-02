@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34003.232
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Design_Pattern_Example_Pratic", "Singleton_Design_Pattern_Example_Pratic\Singleton_Design_Pattern_Example_Pratic.csproj", "{0758FD95-1535-430C-9CA2-88DCD6BF2AF0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_Design_Pattern_Example_Pratic", "Singleton_Design_Pattern_Example_Pratic\Singleton_Design_Pattern_Example_Pratic.csproj", "{0758FD95-1535-430C-9CA2-88DCD6BF2AF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Design_Pattern_AspNetCore", "Singleton_Design_Pattern_AspNetCore\Singleton_Design_Pattern_AspNetCore.csproj", "{773BEE33-7C22-4F98-A1E6-603A8FBEDFEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_Design_Pattern_AspNetCore", "Singleton_Design_Pattern_AspNetCore\Singleton_Design_Pattern_AspNetCore.csproj", "{773BEE33-7C22-4F98-A1E6-603A8FBEDFEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton_Design_Pattern_Asynchronous_Example", "Singleton_Design_Pattern_Asynchronous_Example\Singleton_Design_Pattern_Asynchronous_Example.csproj", "{F1A290E5-77E0-41B5-84CD-F14905498516}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton_Design_Pattern_Asynchronous_Example", "Singleton_Design_Pattern_Asynchronous_Example\Singleton_Design_Pattern_Asynchronous_Example.csproj", "{F1A290E5-77E0-41B5-84CD-F14905498516}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Multiton_Design_Pattern_Example", "Multiton_Design_Pattern_Example\Multiton_Design_Pattern_Example.csproj", "{39ACB7B4-A04B-4038-AFC8-A3AFF7A44861}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory_Method_Design_Pattern_Pratic", "Factory_Method_Design_Pattern_Pratic\Factory_Method_Design_Pattern_Pratic.csproj", "{7237C425-9AFC-4B8C-853D-F10E25EE77CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory_Method_Design_Pattern_Example", "Factory_Method_Design_Pattern_Example\Factory_Method_Design_Pattern_Example.csproj", "{F4B67E58-E4A1-4D0D-A63F-3C1F58DE0AC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +33,18 @@ Global
 		{F1A290E5-77E0-41B5-84CD-F14905498516}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1A290E5-77E0-41B5-84CD-F14905498516}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1A290E5-77E0-41B5-84CD-F14905498516}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39ACB7B4-A04B-4038-AFC8-A3AFF7A44861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39ACB7B4-A04B-4038-AFC8-A3AFF7A44861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39ACB7B4-A04B-4038-AFC8-A3AFF7A44861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39ACB7B4-A04B-4038-AFC8-A3AFF7A44861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7237C425-9AFC-4B8C-853D-F10E25EE77CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7237C425-9AFC-4B8C-853D-F10E25EE77CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7237C425-9AFC-4B8C-853D-F10E25EE77CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7237C425-9AFC-4B8C-853D-F10E25EE77CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4B67E58-E4A1-4D0D-A63F-3C1F58DE0AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4B67E58-E4A1-4D0D-A63F-3C1F58DE0AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4B67E58-E4A1-4D0D-A63F-3C1F58DE0AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4B67E58-E4A1-4D0D-A63F-3C1F58DE0AC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
