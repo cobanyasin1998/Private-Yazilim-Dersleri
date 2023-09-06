@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "/R5GzqCpXZdublCX+8XGTuh0pX7v3suYoGY8LZnGefP3Bv/QVNqHTkJXislVCJWn90rxucy2Y8V+TANli4ivdg==",
+  "success": true,
+  "projectFilePath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\9-Design Patterns\\Creational_Patterns\\Object_Pool_Design_Pattern_Practive_5\\Object_Pool_Design_Pattern_Practive_5.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.extensions.objectpool\\6.0.9\\microsoft.extensions.objectpool.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

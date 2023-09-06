@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\bin\Debug\net6.0\Object_Pool_Design_Pattern_Practive.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\bin\Debug\net6.0\Object_Pool_Design_Pattern_Practive.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\bin\Debug\net6.0\Object_Pool_Design_Pattern_Practive.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\bin\Debug\net6.0\Object_Pool_Design_Pattern_Practive.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\bin\Debug\net6.0\Object_Pool_Design_Pattern_Practive.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\Object_Pool_Design_Pattern_Practive.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\Object_Pool_Design_Pattern_Practive.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\Object_Pool_Design_Pattern_Practive.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\Object_Pool_Design_Pattern_Practive.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\Object_Pool_Design_Pattern_Practive.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\refint\Object_Pool_Design_Pattern_Practive.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\Object_Pool_Design_Pattern_Practive.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\Object_Pool_Design_Pattern_Practive.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\9-Design Patterns\Creational_Patterns\Object_Pool_Design_Pattern_Practive\obj\Debug\net6.0\ref\Object_Pool_Design_Pattern_Practive.dll
