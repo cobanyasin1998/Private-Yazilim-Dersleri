@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\bin\Debug\net6.0\9-Matris.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\bin\Debug\net6.0\9-Matris.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\bin\Debug\net6.0\9-Matris.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\bin\Debug\net6.0\9-Matris.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\bin\Debug\net6.0\9-Matris.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\9-Matris.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\9-Matris.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\9-Matris.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\9-Matris.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\9-Matris.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\refint\9-Matris.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\9-Matris.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\9-Matris.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\9-Matris\obj\Debug\net6.0\ref\9-Matris.dll
