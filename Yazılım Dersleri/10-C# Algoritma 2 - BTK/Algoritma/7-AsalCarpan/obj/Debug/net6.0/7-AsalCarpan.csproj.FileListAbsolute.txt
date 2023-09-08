@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\bin\Debug\net6.0\7-AsalCarpan.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\bin\Debug\net6.0\7-AsalCarpan.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\bin\Debug\net6.0\7-AsalCarpan.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\bin\Debug\net6.0\7-AsalCarpan.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\bin\Debug\net6.0\7-AsalCarpan.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\7-AsalCarpan.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\7-AsalCarpan.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\7-AsalCarpan.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\7-AsalCarpan.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\7-AsalCarpan.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\refint\7-AsalCarpan.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\7-AsalCarpan.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\7-AsalCarpan.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\7-AsalCarpan\obj\Debug\net6.0\ref\7-AsalCarpan.dll

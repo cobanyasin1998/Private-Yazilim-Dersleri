@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\bin\Debug\net6.0\3-AsalSayi.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\bin\Debug\net6.0\3-AsalSayi.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\bin\Debug\net6.0\3-AsalSayi.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\bin\Debug\net6.0\3-AsalSayi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\bin\Debug\net6.0\3-AsalSayi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\3-AsalSayi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\3-AsalSayi.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\3-AsalSayi.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\3-AsalSayi.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\3-AsalSayi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\refint\3-AsalSayi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\3-AsalSayi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\3-AsalSayi.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\3-AsalSayi\obj\Debug\net6.0\ref\3-AsalSayi.dll

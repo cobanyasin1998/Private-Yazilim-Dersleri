@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-Cember.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-Cember.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-Cember.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-Cember.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-Cember.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-Cember.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-Cember.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-Cember.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-Cember.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-Cember.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\refint\5-Cember.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-Cember.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-Cember.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\ref\5-Cember.dll

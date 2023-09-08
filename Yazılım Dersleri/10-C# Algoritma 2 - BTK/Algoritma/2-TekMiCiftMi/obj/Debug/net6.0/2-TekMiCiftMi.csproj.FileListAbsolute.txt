@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\bin\Debug\net6.0\2-TekMiCiftMi.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\bin\Debug\net6.0\2-TekMiCiftMi.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\bin\Debug\net6.0\2-TekMiCiftMi.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\bin\Debug\net6.0\2-TekMiCiftMi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\bin\Debug\net6.0\2-TekMiCiftMi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\2-TekMiCiftMi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\2-TekMiCiftMi.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\2-TekMiCiftMi.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\2-TekMiCiftMi.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\2-TekMiCiftMi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\refint\2-TekMiCiftMi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\2-TekMiCiftMi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\2-TekMiCiftMi.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\2-TekMiCiftMi\obj\Debug\net6.0\ref\2-TekMiCiftMi.dll

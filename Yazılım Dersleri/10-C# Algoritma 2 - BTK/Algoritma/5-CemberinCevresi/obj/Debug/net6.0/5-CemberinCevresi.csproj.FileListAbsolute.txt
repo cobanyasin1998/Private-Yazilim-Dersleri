@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-CemberinCevresi.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-CemberinCevresi.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-CemberinCevresi.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-CemberinCevresi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\bin\Debug\net6.0\5-CemberinCevresi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-CemberinCevresi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-CemberinCevresi.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-CemberinCevresi.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-CemberinCevresi.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-CemberinCevresi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\refint\5-CemberinCevresi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-CemberinCevresi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\5-CemberinCevresi.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\5-CemberinCevresi\obj\Debug\net6.0\ref\5-CemberinCevresi.dll

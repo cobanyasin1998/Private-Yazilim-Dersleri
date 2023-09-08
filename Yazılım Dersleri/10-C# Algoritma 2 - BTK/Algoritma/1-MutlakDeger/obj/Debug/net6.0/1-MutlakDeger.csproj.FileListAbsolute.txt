@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\bin\Debug\net6.0\1-MutlakDeger.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\bin\Debug\net6.0\1-MutlakDeger.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\bin\Debug\net6.0\1-MutlakDeger.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\bin\Debug\net6.0\1-MutlakDeger.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\bin\Debug\net6.0\1-MutlakDeger.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\1-MutlakDeger.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\1-MutlakDeger.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\1-MutlakDeger.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\1-MutlakDeger.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\1-MutlakDeger.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\refint\1-MutlakDeger.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\1-MutlakDeger.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\1-MutlakDeger.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\1-MutlakDeger\obj\Debug\net6.0\ref\1-MutlakDeger.dll

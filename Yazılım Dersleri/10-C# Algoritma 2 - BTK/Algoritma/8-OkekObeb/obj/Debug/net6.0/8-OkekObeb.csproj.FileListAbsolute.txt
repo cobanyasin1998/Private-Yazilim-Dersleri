@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\bin\Debug\net6.0\8-OkekObeb.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\bin\Debug\net6.0\8-OkekObeb.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\bin\Debug\net6.0\8-OkekObeb.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\bin\Debug\net6.0\8-OkekObeb.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\bin\Debug\net6.0\8-OkekObeb.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\8-OkekObeb.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\8-OkekObeb.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\8-OkekObeb.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\8-OkekObeb.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\8-OkekObeb.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\refint\8-OkekObeb.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\8-OkekObeb.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\8-OkekObeb.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\10-C# Algoritma 2 - BTK\Algoritma\8-OkekObeb\obj\Debug\net6.0\ref\8-OkekObeb.dll
