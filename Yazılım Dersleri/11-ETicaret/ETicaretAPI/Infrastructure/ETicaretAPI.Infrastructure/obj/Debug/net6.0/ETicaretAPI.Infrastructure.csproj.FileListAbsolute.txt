@@ -1,0 +1,11 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\bin\Debug\net6.0\ETicaretAPI.Infrastructure.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\bin\Debug\net6.0\ETicaretAPI.Infrastructure.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\bin\Debug\net6.0\ETicaretAPI.Infrastructure.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\refint\ETicaretAPI.Infrastructure.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ETicaretAPI.Infrastructure.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\obj\Debug\net6.0\ref\ETicaretAPI.Infrastructure.dll
