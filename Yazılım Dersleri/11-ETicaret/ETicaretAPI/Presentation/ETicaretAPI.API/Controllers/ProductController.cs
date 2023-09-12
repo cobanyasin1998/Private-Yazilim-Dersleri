@@ -21,7 +21,7 @@ namespace ETicaretAPI.API.Controllers
         [HttpGet]
         public async Task<ActionResult> Index()
         {
-          await  _productWriteRepository.AddAsync(new()
+            await _productWriteRepository.AddAsync(new()
             {
                 Name = "name",
                 Id = Guid.NewGuid(),
@@ -32,7 +32,7 @@ namespace ETicaretAPI.API.Controllers
             });
             await _productWriteRepository.SaveAsync();
 
-            var data =  _productReadRepository.GetAll();
+            var data = _productReadRepository.GetAll(tracking: false);
 
             return Ok(data.ToList());
         }
