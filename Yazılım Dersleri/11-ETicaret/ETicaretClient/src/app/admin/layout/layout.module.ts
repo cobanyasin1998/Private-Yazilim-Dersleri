@@ -5,6 +5,7 @@ import { ComponentsModule } from './components/components.module';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RouterLink, RouterModule } from '@angular/router';
+import { MatSidenavModule } from '@angular/material/sidenav';
 
 
 
@@ -17,7 +18,8 @@ import { RouterLink, RouterModule } from '@angular/router';
     CommonModule,
     ComponentsModule,
     RouterLink,
-    RouterModule
+    RouterModule,
+    MatSidenavModule
   ],
   exports: [
     LayoutComponent

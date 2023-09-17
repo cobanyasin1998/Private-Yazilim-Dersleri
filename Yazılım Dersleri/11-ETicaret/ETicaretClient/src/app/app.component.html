@@ -1,6 +1,47 @@
-<a routerLink="">Home</a> | <a routerLink="products">Products</a> |
-<a routerLink="basket">Basket</a> |
-<a routerLink="admin">Admin</a>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<br />
-<router-outlet></router-outlet>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" routerLink="" href="#">Mini E-Ticaret</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" routerLink="products" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" routerLink="basket" href="#">Baskets</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-success my-2 my-sm-0" routerLink="admin">
+              Yönetim Paneli
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="col-md-2"></div>
+</div>
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-8">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="col-md-2"></div>
+</div>
