@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\base",
+    "\\src\\app\\services",
+    "\\src\\app\\services\\admin",
+    "\\src\\assets"
+  ],
+  "SelectedNode": "\\src\\app\\services\\admin\\alertify.service.spec.ts",
+  "PreviewInSolutionExplorer": false
+}

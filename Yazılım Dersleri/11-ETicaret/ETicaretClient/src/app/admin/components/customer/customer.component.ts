@@ -7,15 +7,8 @@ import { NgxSpinnerService } from 'ngx-spinner';
   templateUrl: './customer.component.html',
   styleUrls: ['./customer.component.css']
 })
-export class CustomerComponent extends BaseComponent {
+export class CustomerComponent {
 
-  constructor(spinner: NgxSpinnerService) {
-    super(spinner)
 
-  }
-  ngOnInit(): void {
-    this.showSpinner();
-    setTimeout(() => { this.hideSpinner(); }, 1000)
-  }
 
 }

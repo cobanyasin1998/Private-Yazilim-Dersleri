@@ -8,12 +8,8 @@ import { AlertifyService, MessageType, Position } from 'src/app/services/admin/a
 })
 export class LayoutComponent {
 
-  constructor(private alertify: AlertifyService) {
-    this.alertify.message("Merhaba", {
-      msgType: MessageType.Success,
-      position: Position.TopRight,
-      delay: 5
-    })
+  constructor() {
+
   }
   ngOnInit(): void {
 
