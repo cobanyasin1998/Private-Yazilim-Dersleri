@@ -3,11 +3,10 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\base",
-    "\\src\\app\\services",
-    "\\src\\app\\services\\admin",
-    "\\src\\assets"
+    "\\src\\app\\admin",
+    "\\src\\app\\admin\\components",
+    "\\src\\app\\admin\\components\\products"
   ],
-  "SelectedNode": "\\src\\app\\services\\admin\\alertify.service.spec.ts",
+  "SelectedNode": "\\src\\app\\admin\\components\\products\\products.component.html",
   "PreviewInSolutionExplorer": false
 }
