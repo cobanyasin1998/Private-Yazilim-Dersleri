@@ -32,6 +32,12 @@ export class CreateComponent extends BaseComponent {
         position: Position.BottomCenter,
         delay: 3
       });
+    }, errorMessage => {
+      this.alertify.message(errorMessage, {
+        msgType: MessageType.Error,
+        position: Position.BottomCenter,
+        delay: 5
+      });
     });
   }
 }

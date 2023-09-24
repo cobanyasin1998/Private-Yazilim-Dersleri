@@ -1,7 +1,21 @@
+using ETicaretAPI.Application.Validators.Products;
+using ETicaretAPI.Infrastructure.Filters;
 using ETicaretAPI.Persistence;
+using FluentValidation.AspNetCore;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers();
+builder.Services.AddControllers(opt =>
+{
+    opt.Filters.Add<ValidationFilter>();
+})
+    .AddFluentValidation(conf =>
+    {
+        conf.RegisterValidatorsFromAssemblyContaining<CreateProductValidator>();
+    })
+    .ConfigureApiBehaviorOptions(conf =>
+    {
+        conf.SuppressModelStateInvalidFilter = true;
+    });
 
 builder.Services.AddCors(opt =>
 {
