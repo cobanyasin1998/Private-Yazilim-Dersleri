@@ -1,8 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Output } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent } from 'src/app/base/base.component';
 import { Create_Product } from 'src/app/contracts/create_product';
 import { AlertifyOptions, AlertifyService, MessageType, Position } from 'src/app/services/admin/alertify.service';
+import { FileUploadOptions } from 'src/app/services/common/fileupload/fileupload.component';
 import { ProductService } from 'src/app/services/common/models/product.service';
 
 @Component({
@@ -16,6 +17,17 @@ export class CreateComponent extends BaseComponent {
     super(spinner);
 
   }
+
+  @Output() createdProduct: EventEmitter<Create_Product> = new EventEmitter();
+
+  @Output() fileUploadOptions: Partial<FileUploadOptions> = {
+    action: "upload",
+    controller: "product",
+    explanation: "Resimleri Sürükleyin veya seçin...",
+    isAdminPage: true,
+    accept: ".png,.jpg,.jpeg"
+  };
+
   create(
     name: HTMLInputElement,
     price: HTMLInputElement,
@@ -32,6 +44,7 @@ export class CreateComponent extends BaseComponent {
         position: Position.BottomCenter,
         delay: 3
       });
+      this.createdProduct.emit(create_product);
     }, errorMessage => {
       this.alertify.message(errorMessage, {
         msgType: MessageType.Error,

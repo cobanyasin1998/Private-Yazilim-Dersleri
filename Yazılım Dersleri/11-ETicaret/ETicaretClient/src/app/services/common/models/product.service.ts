@@ -2,6 +2,8 @@ import { Injectable } from '@angular/core';
 import { HttpClientService } from '../http-client.service';
 import { Create_Product } from 'src/app/contracts/create_product';
 import { HttpErrorResponse } from '@angular/common/http';
+import { List_Product } from 'src/app/contracts/list_product';
+import { Observable, firstValueFrom } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
@@ -10,7 +12,7 @@ export class ProductService {
 
   constructor(private httpClientService: HttpClientService) { }
 
-  create(product: Create_Product, successCallBack?: any, errorCallBack?: any) {
+  create(product: Create_Product, successCallBack?: () => void, errorCallBack?: (errorMessage: string) => void) {
     this.httpClientService.post(
       {
         controller: "product"
@@ -30,5 +32,26 @@ export class ProductService {
 
       errorCallBack(message);
     };
+  }
+
+  async read(page: number = 0, pageSize: number = 5, successCallBack: () => void, errorCallBack?: (errorMessage: string) => void): Promise<{ totalCount: number, products: List_Product[] }> {
+    const promiseData: Promise<{ totalCount: number, products: List_Product[] }> = this.httpClientService.get<{ totalCount: number, products: List_Product[] }>({
+      controller: "product",
+      queryString: `page=${page}&size=${pageSize}`
+    }).toPromise();
+
+    promiseData
+      .then(d => successCallBack())
+      .catch((errorResponse: HttpErrorResponse) => errorCallBack(errorResponse.message));
+
+    return await promiseData;
+  }
+
+  async delete(id: string) {
+    const deleteObservable: Observable<any> = this.httpClientService.delete<any>({
+      controller: "product"
+    }, id)
+
+    await firstValueFrom(deleteObservable)
   }
 }

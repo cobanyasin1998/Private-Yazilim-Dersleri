@@ -1,7 +1,9 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild } from '@angular/core';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { BaseComponent } from 'src/app/base/base.component';
+import { Create_Product } from 'src/app/contracts/create_product';
 import { HttpClientService } from 'src/app/services/common/http-client.service';
+import { ListComponent } from './list/list.component';
 
 @Component({
   selector: 'app-products',
@@ -14,29 +16,12 @@ export class ProductsComponent extends BaseComponent {
     super(spinner);
 
   }
+  @ViewChild(ListComponent) listComponents: ListComponent;
+
+  createdProduct(createdProduct: Create_Product) {
+    this.listComponents.getProducts();
+  }
   ngOnInit(): void {
-    // this.httpClientService.get<Product[]>({
-    //   controller: "product"
-    // }).subscribe(data => console.log(data));
-
-    // this.httpClientService.post({ controller: "product" }, {
-    //   name: "Kalem",
-    //   stock: 100,
-    //   price: 15
-    // }).subscribe(data => console.log(data));
-
-    // this.httpClientService.put(
-    //   { controller: "product" },
-    //   {
-    //     id: "6cc2b389-f8b5-4b56-b7e9-345f20c139dd",
-    //     name: "Merhaba PUT",
-    //     stock: 100,
-    //     price: 15
-    //   }).subscribe(data => console.log(data));
-
-    // this.httpClientService.delete(
-    //   { controller: "product" },
-    //   "6cc2b389-f8b5-4b56-b7e9-345f20c139dd",).subscribe(data => console.log(data));
 
   }
 }

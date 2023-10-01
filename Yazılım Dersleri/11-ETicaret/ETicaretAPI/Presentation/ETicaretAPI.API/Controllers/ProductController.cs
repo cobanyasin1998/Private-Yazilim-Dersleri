@@ -1,4 +1,5 @@
 ﻿using ETicaretAPI.Application.Repositories.Product;
+using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Application.ViewModels.Products;
 using ETicaretAPI.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -13,17 +14,40 @@ namespace ETicaretAPI.API.Controllers
 
         readonly private IProductWriteRepository _productWriteRepository;
         readonly private IProductReadRepository _productReadRepository;
-
-        public ProductController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        private readonly IWebHostEnvironment _webHostEnvironment;
+        public ProductController(
+            IProductWriteRepository productWriteRepository,
+            IProductReadRepository productReadRepository,
+            IWebHostEnvironment webHostEnvironment)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _webHostEnvironment = webHostEnvironment;
         }
 
         [HttpGet]
-        public async Task<ActionResult> Get()
+        public async Task<ActionResult> Get([FromQuery] Pagination pagination)
         {
-            return Ok(_productReadRepository.GetAll(tracking:false));
+            var query = _productReadRepository.GetAll(tracking: false);
+
+
+            var products = query
+                .Skip(pagination.Page * pagination.PageSize)
+                .Take(pagination.PageSize)
+                .OrderByDescending(x => x.CreatedDate)
+                .Select(p => new
+                {
+                    p.Id,
+                    p.Name,
+                    p.Stock,
+                    p.Price,
+                    p.CreatedDate,
+                    p.UpdatedDate
+                });
+
+            var totalCount = query.Count();
+
+            return Ok(new { totalCount, products });
         }
         [HttpGet("{id}")]
         public async Task<ActionResult> Get(string id)
@@ -31,13 +55,10 @@ namespace ETicaretAPI.API.Controllers
             return Ok(_productReadRepository.GetByIdAsync(id, tracking: false));
         }
         [HttpPost]
-       
+
         public async Task<IActionResult> Post(VM_Create_Product model)
         {
-            if (ModelState.IsValid)
-            {
 
-            }
             await _productWriteRepository.AddAsync(new Product()
             {
                 Name = model.Name,
@@ -63,6 +84,30 @@ namespace ETicaretAPI.API.Controllers
             await _productWriteRepository.RemoveAsync(id);
             await _productWriteRepository.SaveAsync();
             return Ok();
+        }
+        [HttpPost("[action]")]
+        [RequestFormLimits(ValueLengthLimit = int.MaxValue, MultipartBodyLengthLimit = int.MaxValue)]
+
+        public async Task<IActionResult> Upload()
+        {
+            string uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, "resource/product-images");
+
+            if (!Directory.Exists(uploadPath))
+            {
+                Directory.CreateDirectory(uploadPath);
+            }
+
+            Random r = new Random();
+            foreach (IFormFile file in Request.Form.Files)
+            {
+                string fullPath = Path.Combine(uploadPath, $"{r.Next()}{Path.GetExtension(file.FileName)}");
+                using FileStream fileStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write, FileShare.None, 1024 * 1024, useAsync: false);
+
+                await file.CopyToAsync(fileStream);
+                await fileStream.FlushAsync();
+            }
+            return Ok();
+
         }
     }
 }

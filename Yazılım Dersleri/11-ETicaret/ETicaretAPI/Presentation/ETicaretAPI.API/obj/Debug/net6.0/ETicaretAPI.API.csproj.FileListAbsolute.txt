@@ -45,3 +45,9 @@ D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Humanizer.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\FluentValidation.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Infrastructure.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.Infrastructure.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.API.staticwebassets.runtime.json
