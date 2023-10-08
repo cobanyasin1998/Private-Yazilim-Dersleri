@@ -25,7 +25,7 @@ export class ListComponent extends BaseComponent {
 
   async getProducts() {
     this.showSpinner();
-    debugger
+    
     const allProducts: { totalCount: number, products: List_Product[] } = await this.productService.read(this.paginator ? this.paginator.pageIndex : 0, this.paginator ? this.paginator.pageSize : 5, () => this.hideSpinner(), errorMessage => this.alertifyService.message(errorMessage, {
       msgType: MessageType.Error,
       position: Position.BottomCenter

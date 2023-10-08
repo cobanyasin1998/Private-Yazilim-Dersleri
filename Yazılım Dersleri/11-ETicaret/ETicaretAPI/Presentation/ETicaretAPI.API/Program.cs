@@ -1,7 +1,10 @@
 using ETicaretAPI.Application.Validators.Products;
 using ETicaretAPI.Infrastructure.Filters;
 using ETicaretAPI.Persistence;
+using ETicaretAPI.Infrastructure;
 using FluentValidation.AspNetCore;
+using System.Data.SqlTypes;
+using ETicaretAPI.Infrastructure.Services.Storage.Local;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(opt =>
@@ -29,6 +32,8 @@ builder.Services.AddCors(opt =>
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistenceServices();
+builder.Services.AddInfrastructureServices();
+builder.Services.AddStorage<LocalStorage>();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

@@ -1,4 +1,8 @@
-﻿using ETicaretAPI.Application.Repositories.Product;
+﻿using ETicaretAPI.Application.Abstractions.Storage;
+using ETicaretAPI.Application.Repositories.File;
+using ETicaretAPI.Application.Repositories.InvoiceFile;
+using ETicaretAPI.Application.Repositories.Product;
+using ETicaretAPI.Application.Repositories.ProductImageFile;
 using ETicaretAPI.Application.RequestParameters;
 using ETicaretAPI.Application.ViewModels.Products;
 using ETicaretAPI.Domain.Entities;
@@ -15,14 +19,36 @@ namespace ETicaretAPI.API.Controllers
         readonly private IProductWriteRepository _productWriteRepository;
         readonly private IProductReadRepository _productReadRepository;
         private readonly IWebHostEnvironment _webHostEnvironment;
+        private readonly IFileWriteRepository _fileWriteRepository;
+        private readonly IFileReadRepository _fileReadRepository;
+        private readonly IProductImageFileReadRepository _productImageFileReadRepository;
+        private readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
+        private readonly IInvoiceFileReadRepository _invoiceFileReadRepository;
+        private readonly IInvoiceFileWriteRepository _invoiceFileWriteRepository;
+        private readonly IStorageService _storageService;
+
         public ProductController(
             IProductWriteRepository productWriteRepository,
             IProductReadRepository productReadRepository,
-            IWebHostEnvironment webHostEnvironment)
+            IWebHostEnvironment webHostEnvironment,
+            IFileWriteRepository fileWriteRepository,
+            IFileReadRepository fileReadRepository,
+            IProductImageFileReadRepository productImageFileReadRepository,
+            IProductImageFileWriteRepository productImageFileWriteRepository,
+            IInvoiceFileReadRepository invoiceFileReadRepository,
+            IInvoiceFileWriteRepository invoiceFileWriteRepository,
+            IStorageService storageService)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
             _webHostEnvironment = webHostEnvironment;
+            _fileWriteRepository = fileWriteRepository;
+            _fileReadRepository = fileReadRepository;
+            _productImageFileReadRepository = productImageFileReadRepository;
+            _productImageFileWriteRepository = productImageFileWriteRepository;
+            _invoiceFileReadRepository = invoiceFileReadRepository;
+            _invoiceFileWriteRepository = invoiceFileWriteRepository;
+            _storageService = storageService;
         }
 
         [HttpGet]
@@ -90,22 +116,15 @@ namespace ETicaretAPI.API.Controllers
 
         public async Task<IActionResult> Upload()
         {
-            string uploadPath = Path.Combine(_webHostEnvironment.WebRootPath, "resource/product-images");
-
-            if (!Directory.Exists(uploadPath))
+            var datas = await _storageService.UploadAsync("resource/product-images", Request.Form.Files);
+            await _productImageFileWriteRepository.AddRangeAsync(datas.Select(d => new ProductImageFile()
             {
-                Directory.CreateDirectory(uploadPath);
-            }
+                FileName = d.fileName,
+                FilePath = d.path,
+                Storage = _storageService.StorageName
 
-            Random r = new Random();
-            foreach (IFormFile file in Request.Form.Files)
-            {
-                string fullPath = Path.Combine(uploadPath, $"{r.Next()}{Path.GetExtension(file.FileName)}");
-                using FileStream fileStream = new FileStream(fullPath, FileMode.Create, FileAccess.Write, FileShare.None, 1024 * 1024, useAsync: false);
-
-                await file.CopyToAsync(fileStream);
-                await fileStream.FlushAsync();
-            }
+            }).ToList());
+            await _productImageFileWriteRepository.SaveAsync();
             return Ok();
 
         }

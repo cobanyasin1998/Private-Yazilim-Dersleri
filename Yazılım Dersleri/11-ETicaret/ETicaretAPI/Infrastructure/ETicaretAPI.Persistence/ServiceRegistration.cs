@@ -1,6 +1,9 @@
 ﻿using ETicaretAPI.Application.Repositories.Customer;
+using ETicaretAPI.Application.Repositories.File;
+using ETicaretAPI.Application.Repositories.InvoiceFile;
 using ETicaretAPI.Application.Repositories.Order;
 using ETicaretAPI.Application.Repositories.Product;
+using ETicaretAPI.Application.Repositories.ProductImageFile;
 using ETicaretAPI.Persistence.Contexts;
 using ETicaretAPI.Persistence.Repositories.Customer;
 using ETicaretAPI.Persistence.Repositories.Order;
@@ -29,6 +32,15 @@ namespace ETicaretAPI.Persistence
                 
             services.AddScoped<IProductReadRepository, ProductReadRepository>();
             services.AddScoped<IProductWriteRepository, ProductWriteRepository>();
+            
+            services.AddScoped<IFileReadRepository, FileReadRepository>();
+            services.AddScoped<IFileWriteRepository, FileWriteRepository>();
+
+            services.AddScoped<IInvoiceFileReadRepository, InvoiceFileReadRepository>();
+            services.AddScoped<IInvoiceFileWriteRepository, InvoiceFileWriteRepository>();
+
+            services.AddScoped<IProductImageFileReadRepository, ProductImageFileReadRepository>();
+            services.AddScoped<IProductImageFileWriteRepository, ProductImageFileWriteRepository>();
         }
     }
 }
