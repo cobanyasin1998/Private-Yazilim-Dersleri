@@ -51,3 +51,9 @@ D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.pdb
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ETicaretAPI.API.genruntimeconfig.cache
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\obj\Debug\net6.0\ref\ETicaretAPI.API.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Azure.Core.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Azure.Storage.Blobs.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Azure.Storage.Common.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.IO.Hashing.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.Memory.Data.dll

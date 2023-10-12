@@ -5,6 +5,7 @@ using ETicaretAPI.Infrastructure;
 using FluentValidation.AspNetCore;
 using System.Data.SqlTypes;
 using ETicaretAPI.Infrastructure.Services.Storage.Local;
+using ETicaretAPI.Infrastructure.Services.Storage.Azure;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(opt =>
@@ -33,7 +34,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
-builder.Services.AddStorage<LocalStorage>();
+builder.Services.AddStorage<AzureStorage>();
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())

@@ -1,15 +1,12 @@
 ﻿using ETicaretAPI.Infrastructure.StaticService;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 
-namespace ETicaretAPI.Infrastructure.Services
+namespace ETicaretAPI.Infrastructure.Services.Storage
 {
-    public class FileService /*: IFileService*/
+    public class Storage
     {
-      
-      
+        protected delegate bool HasFile(string pathOrContainerName, string fileName);
 
-        private async Task<string> FileRenameAsync(string path, string fileName, bool first = true)
+        protected async Task<string> FileRenameAsync(string pathOrContainerName, string fileName,HasFile hasFileMethod, bool first = true)
         {
             string newFileName = await Task.Run<string>(async () =>
             {
@@ -54,10 +51,9 @@ namespace ETicaretAPI.Infrastructure.Services
 
                     }
                 }
-
-              
-                if (File.Exists($"{path}\\{newFileName}"))
-                    return await FileRenameAsync(path, newFileName, false);
+                //if (File.Exists($"{path}\\{newFileName}"))
+                if (hasFileMethod(pathOrContainerName,newFileName))
+                    return await FileRenameAsync(pathOrContainerName, newFileName, hasFileMethod, false);
                 else
                     return newFileName;
             });
@@ -66,6 +62,5 @@ namespace ETicaretAPI.Infrastructure.Services
 
         }
 
-       
     }
 }

@@ -5,7 +5,7 @@ using System.IO;
 
 namespace ETicaretAPI.Infrastructure.Services.Storage.Local
 {
-    public class LocalStorage : ILocalStorage
+    public class LocalStorage : Storage, ILocalStorage
     {
         private readonly IWebHostEnvironment _webHostEnvironment;
         public LocalStorage(IWebHostEnvironment webHostEnvironment)
@@ -35,8 +35,8 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Local
 
             foreach (IFormFile file in files)
             {
-                //string fileNewName = await FileRenameAsync(uploadPath, fileName: file.FileName);
-                await CopyFileAsync($"{uploadPath}\\{file.Name}", file);
+                string fileNewName = await FileRenameAsync(uploadPath, fileName: file.FileName,HasFile);
+                await CopyFileAsync($"{uploadPath}\\{fileNewName}", file);
                 datas.Add((file.Name, $"{path}\\{file.Name}"));
 
             }

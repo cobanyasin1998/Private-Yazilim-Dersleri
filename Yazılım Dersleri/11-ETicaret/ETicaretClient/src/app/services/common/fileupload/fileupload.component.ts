@@ -36,14 +36,16 @@ export class FileuploadComponent {
       (file.fileEntry as FileSystemFileEntry).file((_file: File) => {
         fileData.append(_file.name, _file, file.relativePath);
       });
+      
 
     }
-    
+
     this.dialogService.openDialog({
-      componentType: FileuploadComponent,
+
+      componentType: FileUploadDialogComponent,
       data: FileUploadDialogState.Yes,
       afterClosed: () => {
-        
+        debugger
         this.httpClientService.post({
           controller: this.options.controller,
           action: this.options.action,
