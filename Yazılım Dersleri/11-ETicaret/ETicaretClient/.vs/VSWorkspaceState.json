@@ -3,15 +3,11 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\admin",
     "\\src\\app\\dialogs",
-    "\\src\\app\\dialogs\\delete-dialog",
-    "\\src\\app\\directives",
-    "\\src\\app\\directives\\admin",
-    "\\src\\app\\services",
-    "\\src\\app\\services\\admin",
-    "\\src\\app\\services\\common",
-    "\\src\\app\\services\\common\\fileupload"
+    "\\src\\app\\dialogs\\select-product-image-dialog",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\dialogs\\delete-dialog\\delete-dialog.component.ts",
+  "SelectedNode": "\\src\\app\\dialogs\\select-product-image-dialog\\select-product-image-dialog.component.css",
   "PreviewInSolutionExplorer": false
 }

@@ -6,6 +6,8 @@ import { BaseComponent } from 'src/app/base/base.component';
 import { List_Product } from 'src/app/contracts/list_product';
 import { AlertifyService, MessageType, Position } from 'src/app/services/admin/alertify.service';
 import { ProductService } from 'src/app/services/common/models/product.service';
+import { DialogService } from '../../../../services/common/dialog.service';
+import { SelectProductImageDialogComponent } from '../../../../dialogs/select-product-image-dialog/select-product-image-dialog.component';
 
 declare var $: any;
 @Component({
@@ -15,10 +17,10 @@ declare var $: any;
 })
 export class ListComponent extends BaseComponent {
 
-  constructor(private productService: ProductService, spinner: NgxSpinnerService, private alertifyService: AlertifyService) {
+  constructor(private productService: ProductService, spinner: NgxSpinnerService, private alertifyService: AlertifyService, private dialogService: DialogService) {
     super(spinner);
   }
-  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate', 'edit', 'delete']
+  displayedColumns: string[] = ['name', 'stock', 'price', 'createdDate', 'updatedDate','photos', 'edit', 'delete']
   dataSource: MatTableDataSource<List_Product> = null; // new MatTableDataSource<PeriodicElement>(ELEMENT_DATA);
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
@@ -43,9 +45,15 @@ export class ListComponent extends BaseComponent {
     this.getProducts();
   }
 
-  // delete(id, event) {
-  //   const img: HTMLImageElement = event.srcElement;
-  //   var row = img.parentElement.parentElement;
-  //   $(row).fadeOut(1000);
-  // }
+  addProductsImages(id: string) {
+    this.dialogService.openDialog({
+      componentType: SelectProductImageDialogComponent,
+      data: id,
+      options: {
+        width:"1500px"
+      }
+    })
+  }
+
+
 }

@@ -45,7 +45,7 @@ export class FileuploadComponent {
       componentType: FileUploadDialogComponent,
       data: FileUploadDialogState.Yes,
       afterClosed: () => {
-        debugger
+        
         this.httpClientService.post({
           controller: this.options.controller,
           action: this.options.action,

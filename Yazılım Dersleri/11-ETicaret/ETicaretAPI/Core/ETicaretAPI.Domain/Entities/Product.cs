@@ -9,6 +9,8 @@ namespace ETicaretAPI.Domain.Entities
         public decimal Price { get; set; }
 
         public ICollection<Order> Orders { get; set; }
+        public ICollection<ProductImageFile> ProductImageFiles { get; set; }
+
 
     }
 }

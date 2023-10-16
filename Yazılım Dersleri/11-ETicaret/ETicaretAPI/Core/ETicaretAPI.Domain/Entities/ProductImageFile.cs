@@ -8,6 +8,8 @@ namespace ETicaretAPI.Domain.Entities
 {
     public class ProductImageFile:File
     {
-        public int Width { get; set; }
+        public ICollection<Product> Products { get; set; }
+
+        // public Product Product { get; set; }
     }
 }

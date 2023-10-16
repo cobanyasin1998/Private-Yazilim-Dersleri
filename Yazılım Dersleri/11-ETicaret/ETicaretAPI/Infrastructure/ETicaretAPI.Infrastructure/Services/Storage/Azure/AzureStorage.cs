@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
 {
-    public class AzureStorage :Storage, IAzureStorage
+    public class AzureStorage : Storage, IAzureStorage
     {
         private readonly BlobServiceClient _blobServiceClient;
         BlobContainerClient _blobContainerClient;
@@ -32,7 +32,7 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
         public List<string> GetFiles(string containerName)
         {
             _blobContainerClient = _blobServiceClient.GetBlobContainerClient(containerName);
-            return _blobContainerClient.GetBlobs().Select(y=>y.Name).ToList();
+            return _blobContainerClient.GetBlobs().Select(y => y.Name).ToList();
         }
 
         public bool HasFile(string containerName, string fileName)
@@ -51,10 +51,10 @@ namespace ETicaretAPI.Infrastructure.Services.Storage.Azure
 
             foreach (IFormFile file in files)
             {
-               string fileNewName = await FileRenameAsync(containerName, file.Name,HasFile);
+                string fileNewName = await FileRenameAsync(containerName, file.Name, HasFile);
                 BlobClient blobClient = _blobContainerClient.GetBlobClient(fileNewName);
                 await blobClient.UploadAsync(file.OpenReadStream());
-                datas.Add((file.Name, containerName));
+                datas.Add((file.Name, $"{containerName}/{fileNewName}"));
             }
             return datas;
         }
