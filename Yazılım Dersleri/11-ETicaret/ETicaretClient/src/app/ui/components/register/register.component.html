@@ -1,0 +1,56 @@
+<div class="row mt-3">
+  <div class="col-md-3">
+
+  </div>
+  <div class="col-md-6">
+    <form class="row g-3" [formGroup]="frm" (ngSubmit)="onSubmit(frm.value)">
+
+      <div class="col-md-12">
+        <label for="adSoyad" class="form-label">
+          Adı Soyadı
+        </label>
+        <input formControlName="nameSurname" type="text" id="adSoyad" class="form-control" placeholder="Adı Soyadı" [ngClass]="{'is-invalid':submitted && component['nameSurname'].errors}">
+        <small id="adSoyadHelp1" *ngIf="submitted && component['nameSurname'].errors.required" class="form-text tex-muted" style="color:red">Bu Alan Zorunludur</small>
+,
+      </div>
+
+      <div class="col-md-12">
+        <label for="kullaniciAdi" class="form-label">
+          Kullanıcı Adı
+        </label>
+        <input [ngClass]="{'is-invalid':submitted && component['adSoyad'].errors}" formControlName="username" type="text" id="kullaniciAdi" class="form-control" placeholder="Kullanıcı Adı">
+        <small id="kullaniciAdiHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
+
+      </div>
+
+      <div class="col-md-12">
+        <label for="email" class="form-label">
+          Email
+        </label>
+        <input formControlName="email" type="email" id="email" class="form-control" placeholder="E-Mail">
+        <small id="emailHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
+
+      </div>
+
+
+      <div class="col-md-12">
+        <label for="sifre" class="form-label">Şifre</label>
+        <input formControlName="password" type="password" class="form-control" id="sifre">
+        <small id="sifreHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
+
+      </div>
+
+      <div class="col-md-12">
+        <label for="sifreTekrar" class="form-label">Şifre Tekrar</label>
+        <input formControlName="repassword" type="password" class="form-control" id="sifreTekrar">
+        <small id="sifreTekrarHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
+
+      </div>
+
+
+      <div class="col-12">
+        <button type="submit" class="btn btn-primary">Kaydol</button>
+      </div>
+    </form>
+  </div>
+</div>

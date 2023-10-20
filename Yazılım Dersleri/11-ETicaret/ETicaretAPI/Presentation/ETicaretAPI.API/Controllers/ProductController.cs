@@ -26,24 +26,13 @@ namespace ETicaretAPI.API.Controllers
     public class ProductController : ControllerBase
     {
 
-        readonly private IProductWriteRepository _productWriteRepository;
-        readonly private IProductReadRepository _productReadRepository;
-        private readonly IProductImageFileWriteRepository _productImageFileWriteRepository;
-        private readonly IStorageService _storageService;
-        private readonly IConfiguration _configuration;
         private readonly IMediator _mediator;
 
         public ProductController(
-            IProductWriteRepository productWriteRepository,
-            IProductReadRepository productReadRepository,
-            IStorageService storageService,
-            IConfiguration configuration,
+           
             IMediator mediator)
         {
-            _productWriteRepository = productWriteRepository;
-            _productReadRepository = productReadRepository;
-            _storageService = storageService;
-            _configuration = configuration;
+            
             _mediator = mediator;
         }
 

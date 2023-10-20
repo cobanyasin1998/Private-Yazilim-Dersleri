@@ -4,6 +4,7 @@ using ETicaretAPI.Application.Repositories.InvoiceFile;
 using ETicaretAPI.Application.Repositories.Order;
 using ETicaretAPI.Application.Repositories.Product;
 using ETicaretAPI.Application.Repositories.ProductImageFile;
+using ETicaretAPI.Domain.Entities.Identity;
 using ETicaretAPI.Persistence.Contexts;
 using ETicaretAPI.Persistence.Repositories.Customer;
 using ETicaretAPI.Persistence.Repositories.Order;
@@ -23,6 +24,8 @@ namespace ETicaretAPI.Persistence
                 opt.UseNpgsql(Configuration.ConnectionString);
 
             });
+
+            services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<ETicaretAPIDbContext>();
 
             services.AddScoped<ICustomerReadRepository, CustomerReadRepository>();
             services.AddScoped<ICustomerWriteRepository, CustomerWriteRepository>();
