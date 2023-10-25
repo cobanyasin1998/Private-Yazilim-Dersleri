@@ -1,5 +1,4 @@
-﻿using ETicaretAPI.Application.Abstractions.Storage;
-using ETicaretAPI.Application.Features.Commands.Product.CreateProduct;
+﻿using ETicaretAPI.Application.Features.Commands.Product.CreateProduct;
 using ETicaretAPI.Application.Features.Commands.Product.RemoveProduct;
 using ETicaretAPI.Application.Features.Commands.Product.UpdateProduct;
 using ETicaretAPI.Application.Features.Commands.ProductImageFiles.RemoveProductImage;
@@ -7,32 +6,26 @@ using ETicaretAPI.Application.Features.Commands.ProductImageFiles.UploadProductI
 using ETicaretAPI.Application.Features.Queries.Product.GetAllProduct;
 using ETicaretAPI.Application.Features.Queries.Product.GetByIdProduct;
 using ETicaretAPI.Application.Features.Queries.ProductImageFile.GetProductImages;
-using ETicaretAPI.Application.Repositories.File;
-using ETicaretAPI.Application.Repositories.InvoiceFile;
-using ETicaretAPI.Application.Repositories.Product;
-using ETicaretAPI.Application.Repositories.ProductImageFile;
-using ETicaretAPI.Application.RequestParameters;
-using ETicaretAPI.Application.ViewModels.Products;
-using ETicaretAPI.Domain.Entities;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using System.Net;
 
 namespace ETicaretAPI.API.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]")]   
     [ApiController]
+    [Authorize(AuthenticationSchemes = "Admin")]
     public class ProductController : ControllerBase
     {
 
         private readonly IMediator _mediator;
 
         public ProductController(
-           
+
             IMediator mediator)
         {
-            
+
             _mediator = mediator;
         }
 

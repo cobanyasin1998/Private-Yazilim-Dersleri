@@ -59,6 +59,7 @@ export class RegisterComponent implements OnInit {
     if (this.frm.invalid) {
       return;
     }
+    debugger
     const result: Create_User = await this.userService.create(data);
     debugger
     if (result.success) {

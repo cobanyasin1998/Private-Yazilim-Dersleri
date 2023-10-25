@@ -1,4 +1,6 @@
-﻿using ETicaretAPI.Application.Exceptions;
+﻿using ETicaretAPI.Application.Abstractions.Token;
+using ETicaretAPI.Application.DTOs;
+using ETicaretAPI.Application.Exceptions;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 
@@ -8,12 +10,15 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.LoginUser
     {
         private readonly UserManager<Domain.Entities.Identity.AppUser> _userManager;
         private readonly SignInManager<Domain.Entities.Identity.AppUser> _signInManager;
+        private readonly ITokenHandler _tokenHandler;
 
         public LoginUserCommandHandler(UserManager<Domain.Entities.Identity.AppUser> userManager,
-            SignInManager<Domain.Entities.Identity.AppUser> signInManager)
+            SignInManager<Domain.Entities.Identity.AppUser> signInManager,
+            ITokenHandler tokenHandler)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _tokenHandler = tokenHandler;
         }
 
         public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
@@ -24,15 +29,18 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.LoginUser
             if (user == null)
                 throw new NotFoundUserException();
 
-            SignInResult result = await _signInManager.CheckPasswordSignInAsync(user, request.Password,false);
+            SignInResult result = await _signInManager.CheckPasswordSignInAsync(user, request.Password, false);
 
             if (result.Succeeded == false)
-            {
                 throw new NotFoundUserException();
-            }
+            
 
-            //Yetki Belirlenmesi Gerekiyor
-            throw new ();
+            Token token = _tokenHandler.CreateAccessToken(5);
+
+            return new LoginUserCommandResponse
+            {
+                Token = token
+            };
         }
     }
 }

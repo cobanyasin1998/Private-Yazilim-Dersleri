@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ETicaretAPI.Application.DTOs;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,5 +9,6 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.LoginUser
 {
     public class LoginUserCommandResponse
     {
+        public Token Token { get; set; }
     }
 }

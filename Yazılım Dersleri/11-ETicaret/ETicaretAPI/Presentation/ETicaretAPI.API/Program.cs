@@ -7,6 +7,9 @@ using System.Data.SqlTypes;
 using ETicaretAPI.Infrastructure.Services.Storage.Local;
 using ETicaretAPI.Infrastructure.Services.Storage.Azure;
 using ETicaretAPI.Application;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(opt =>
@@ -38,6 +41,22 @@ builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
 
 builder.Services.AddStorage<AzureStorage>();
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer("Admin",opt =>
+{
+    opt.TokenValidationParameters = new()
+    {
+        ValidateIssuer = true,           //Oluþturulacak token deðerini kimlerin/ hangi originlerin/sitelerin kullanýcý belirlediðimiz deðerdir.
+        ValidateAudience = true,         //Oluþturulacak token deðerinin kimin daðýttýðýný ifade edeceðimiz alandýr
+        ValidateLifetime = true,         //Oluþturulacak token deðerinin süresini kontrol edecek olan doðrulamadýr.
+        ValidateIssuerSigningKey = true, //Üretilecek token deðerinin uygulamamýza ait bir deðer olduðunu security key verisinin doðrulanmasýdýr.
+
+        ValidAudience = builder.Configuration["Token:Audience"],
+        ValidIssuer = builder.Configuration["Token:Issuer"],
+        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Token:SecurityKey"])),
+    };
+});
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
@@ -48,7 +67,7 @@ if (app.Environment.IsDevelopment())
 app.UseStaticFiles();
 app.UseCors();
 app.UseHttpsRedirection();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
