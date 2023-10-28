@@ -4,6 +4,7 @@ import { BaseComponent } from '../../../base/base.component';
 import { NgxSpinnerService } from 'ngx-spinner';
 import { Token } from '../../../contracts/token/token';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from '../../../services/ui/custom-toastr.service';
+import { AuthService } from '../../../services/common/auth.service';
 
 @Component({
   selector: 'app-login',
@@ -12,18 +13,21 @@ import { CustomToastrService, ToastrMessageType, ToastrPosition } from '../../..
 })
 export class LoginComponent extends BaseComponent {
 
-  constructor(private userService: UserService, spinner: NgxSpinnerService, private toastrService: CustomToastrService) {
+  constructor(private userService: UserService, spinner: NgxSpinnerService, private toastrService: CustomToastrService, private authService: AuthService) {
     super(spinner)
   }
 
   async login(usernameOrEmail: string, password: string) {
     this.showSpinner();
-    debugger
-    const token: any = await this.userService.login(usernameOrEmail, password, () => this.hideSpinner());
-    debugger
+
+    const token: any = await this.userService.login(usernameOrEmail, password, () => {
+      this.hideSpinner();
+      this.authService.identityCheck()
+    });
+    
     if (token) {
       this.toastrService.message("Giriş Başarılı", "", ToastrMessageType.Success, ToastrPosition.BottomCenter);
-      debugger
+      
       localStorage.setItem("accessToken", token.token.accessToken);
 
     }

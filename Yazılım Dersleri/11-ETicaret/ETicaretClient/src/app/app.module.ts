@@ -8,12 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
 import { HttpClientModule } from '@angular/common/http';
+import { JwtModule } from '@auth0/angular-jwt';
+import { AuthGuard } from './guards/common/auth.guard';
 
 @NgModule({
   declarations: [
     AppComponent
-
-
   ],
   imports: [
     BrowserModule,
@@ -22,11 +22,22 @@ import { HttpClientModule } from '@angular/common/http';
     UiModule,
     BrowserAnimationsModule,
     ToastrModule.forRoot(),
-    NgxSpinnerModule, HttpClientModule
-
+    NgxSpinnerModule,
+    HttpClientModule,
+    JwtModule.forRoot({
+      config: {
+        tokenGetter: () => localStorage.getItem("accessToken"),
+        allowedDomains:["localhost:7071"]
+      }
+    })
   ],
   providers: [
-    { provide: "baseUrl", useValue: "https://localhost:7071/api", multi: true }
+    AuthGuard,
+    {
+      provide: "baseUrl",
+      useValue: "https://localhost:7071/api",
+      multi: true
+    }
   ],
   bootstrap: [AppComponent]
 })

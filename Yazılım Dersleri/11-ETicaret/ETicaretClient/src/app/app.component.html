@@ -28,13 +28,16 @@
             <a class="nav-link" routerLink="basket" href="#">Sepet</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="register" href="#">Kayıt Ol</a>
+            <a class="nav-link" routerLink="register" *ngIf="!authService.isAuth" href="#">Kayıt Ol</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="login" href="#">Giriş Yap</a>
+            <a class="nav-link" routerLink="login" *ngIf="!authService.isAuth" href="#">Giriş Yap</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-outline-success my-2 my-sm-0" routerLink="admin">
+            <a class="nav-link" style="color:red; cursor:pointer;" (click)="signOut()" *ngIf="authService.isAuth" href="#">Çıkış Yap</a>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-outline-success my-2 my-sm-0" *ngIf="authService.isAuth" routerLink="admin">
               Yönetim Paneli
             </a>
           </li>
