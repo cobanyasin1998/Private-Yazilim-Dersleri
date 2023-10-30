@@ -6,6 +6,8 @@ import { Token } from '../../../contracts/token/token';
 import { CustomToastrService, ToastrMessageType, ToastrPosition } from '../../../services/ui/custom-toastr.service';
 import { AuthService } from '../../../services/common/auth.service';
 import { ActivatedRoute, Router } from '@angular/router';
+import { SocialAuthService, SocialUser } from '@abacritt/angularx-social-login';
+import { HttpClientService } from '../../../services/common/http-client.service';
 
 @Component({
   selector: 'app-login',
@@ -19,8 +21,31 @@ export class LoginComponent extends BaseComponent {
     spinner: NgxSpinnerService,
     private toastrService: CustomToastrService,
     private authService: AuthService,
-    private activatedRoute: ActivatedRoute,private router:Router) {
-    super(spinner)
+    private activatedRoute: ActivatedRoute,
+    private router: Router,
+    private socialAuthService: SocialAuthService) {
+    super(spinner);
+
+    this.socialAuthService.authState.subscribe(async(user: SocialUser) => {
+      console.log(user);
+      this.showSpinner();
+
+      const token: any = await this.userService.googleLogin(user, () => {
+        this.hideSpinner();
+        this.authService.identityCheck()
+      });
+      
+      if (token) {
+        this.toastrService.message("Google Giriş Başarılı", "", ToastrMessageType.Success, ToastrPosition.BottomCenter);
+
+        localStorage.setItem("accessToken", token.token.accessToken);
+
+      }
+      else {
+        this.toastrService.message("Hata", "", ToastrMessageType.Error, ToastrPosition.BottomCenter);
+
+      }
+    });
   }
 
   async login(usernameOrEmail: string, password: string) {

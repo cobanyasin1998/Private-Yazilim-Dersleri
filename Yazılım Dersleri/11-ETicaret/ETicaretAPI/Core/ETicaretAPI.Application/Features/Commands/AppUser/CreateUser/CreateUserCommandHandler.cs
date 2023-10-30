@@ -1,6 +1,4 @@
-﻿using ETicaretAPI.Application.Exceptions;
-using ETicaretAPI.Domain.Entities.Identity;
-using MediatR;
+﻿using MediatR;
 using Microsoft.AspNetCore.Identity;
 
 namespace ETicaretAPI.Application.Features.Commands.AppUser.CreateUser

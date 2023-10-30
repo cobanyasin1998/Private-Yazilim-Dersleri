@@ -5,30 +5,30 @@
 
   </div>
   <div class="col-md-6">
- 
-
-
-      <div class="col-md-12">
-        <label for="kullaniciAdi" class="form-label">
-          Kullanıcı Adı
-        </label>
-        <input #txtUsernameOrEmail  formControlName="username" type="text" id="kullaniciAdi" class="form-control" placeholder="Kullanıcı Adı">
-        <small id="kullaniciAdiHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
-
-      </div>
 
 
 
-      <div class="col-md-12">
-        <label for="sifre" class="form-label">Şifre</label>
-        <input #txtPassword  formControlName="password" type="password" class="form-control" id="sifre">
-        <small id="sifreHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
+    <div class="col-md-12">
+      <label for="kullaniciAdi" class="form-label">
+        Kullanıcı Adı
+      </label>
+      <input #txtUsernameOrEmail formControlName="username" type="text" id="kullaniciAdi" class="form-control" placeholder="Kullanıcı Adı">
+      <small id="kullaniciAdiHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
 
-      </div>
+    </div>
 
-      <div class="col-12">
-        <button type="submit" class="mt-2 btn btn-primary" (click)="login(txtUsernameOrEmail.value,txtPassword.value)">Griş Yap</button>
-      </div>
-    
+
+
+    <div class="col-md-12">
+      <label for="sifre" class="form-label">Şifre</label>
+      <input #txtPassword formControlName="password" type="password" class="form-control" id="sifre">
+      <small id="sifreHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
+
+    </div>
+    <asl-google-signin-button></asl-google-signin-button>
+    <div class="col-12">
+      <button type="submit" class="mt-2 btn btn-primary" (click)="login(txtUsernameOrEmail.value,txtPassword.value)">Griş Yap</button>
+    </div>
+
   </div>
 </div>

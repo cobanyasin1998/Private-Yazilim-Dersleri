@@ -4,6 +4,7 @@ import { User } from '../../../entities/user';
 import { Create_User } from '../../../contracts/users/create_user';
 import { Observable, firstValueFrom } from 'rxjs';
 import { Token } from '../../../contracts/token/token';
+import { SocialUser } from '@abacritt/angularx-social-login';
 
 @Injectable({
   providedIn: 'root'
@@ -34,6 +35,17 @@ export class UserService {
     callBackFunction();
     return await firstValueFrom(observable);
   
+  }
+
+
+  async googleLogin(user: SocialUser, callBackFunction?: () => void): Promise<any> {
+    const observable: Observable<any | Token> = this.httpClientService.post<SocialUser | Token>({
+      controller: "users",
+      action: "google-login"
+    }, user);
+    callBackFunction();
+    return await firstValueFrom(observable);
+
   }
 
 }
