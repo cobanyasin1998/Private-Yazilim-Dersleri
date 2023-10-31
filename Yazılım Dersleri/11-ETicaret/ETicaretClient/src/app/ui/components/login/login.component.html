@@ -25,7 +25,16 @@
       <small id="sifreHelp" class="form-text tex-muted" style="display: none; color: red">Hata Mesajı</small>
 
     </div>
-    <asl-google-signin-button></asl-google-signin-button>
+    <div class="row" style="display:flex"> 
+      <div>
+        <asl-google-signin-button></asl-google-signin-button>
+      </div>
+      <div (click)="facebookLogin()">
+        <img style="cursor:pointer;" width="34px" src="../../../assets/facebook.png"  />
+      </div>
+     
+    </div>
+ 
     <div class="col-12">
       <button type="submit" class="mt-2 btn btn-primary" (click)="login(txtUsernameOrEmail.value,txtPassword.value)">Griş Yap</button>
     </div>

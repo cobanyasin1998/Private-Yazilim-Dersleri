@@ -47,5 +47,13 @@ export class UserService {
     return await firstValueFrom(observable);
 
   }
+  async facebookLogin(user: SocialUser, callBackFunction?: () => void): Promise<any> {
+    const observable: Observable<any | Token> = this.httpClientService.post<SocialUser | Token>({
+      controller: "users",
+      action: "facebook-login"
+    }, user);
+    callBackFunction();
+    return await firstValueFrom(observable);
 
+  }
 }
