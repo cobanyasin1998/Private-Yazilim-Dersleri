@@ -1,4 +1,6 @@
-﻿using ETicaretAPI.Application.Abstractions.Token;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Token;
+using ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin;
 using Google.Apis.Auth;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
@@ -10,11 +12,13 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin
     {
         private readonly UserManager<ETicaretAPI.Domain.Entities.Identity.AppUser> _userManager;
         private readonly ITokenHandler _tokenHandler;
+        private readonly IUserService _userService;
 
-        public GoogleLoginCommandHandler(UserManager<Domain.Entities.Identity.AppUser> userManager, ITokenHandler tokenHandler)
+        public GoogleLoginCommandHandler(UserManager<Domain.Entities.Identity.AppUser> userManager, ITokenHandler tokenHandler, IUserService userService)
         {
             _userManager = userManager;
             _tokenHandler = tokenHandler;
+            _userService = userService;
         }
 
         public async Task<GoogleLoginCommandResponse> Handle(GoogleLoginCommandRequest request, CancellationToken cancellationToken)
@@ -51,10 +55,16 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin
             else
                 throw new Exception("Invalid external authentication.");
 
-            return new GoogleLoginCommandResponse() {
-                Token = _tokenHandler.CreateAccessToken(5)
+
+            var token = _tokenHandler.CreateAccessToken(5);
+            await _userService.UpdateRefreshToken(token.RefreshToken, user.Id, token.Expiration, 1);
+
+            return new GoogleLoginCommandResponse()
+            {
+                Token = token
             };
-            
+
+          
 
         }
     }

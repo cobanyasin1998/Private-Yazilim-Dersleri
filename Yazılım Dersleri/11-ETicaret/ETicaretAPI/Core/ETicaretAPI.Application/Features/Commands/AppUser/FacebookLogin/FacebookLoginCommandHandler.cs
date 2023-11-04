@@ -1,4 +1,5 @@
-﻿using ETicaretAPI.Application.Abstractions.Token;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Token;
 using ETicaretAPI.Application.DTOs.Facebook;
 using ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin;
 using MediatR;
@@ -17,15 +18,18 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin
         private readonly UserManager<ETicaretAPI.Domain.Entities.Identity.AppUser> _userManager;
         private readonly ITokenHandler _tokenHandler;
         private readonly HttpClient _httpClient;
+        private readonly IUserService _userService;
 
         public FacebookLoginCommandHandler(
             UserManager<Domain.Entities.Identity.AppUser> userManager,
             ITokenHandler tokenHandler,
-            IHttpClientFactory httpClientFactory)
+            IHttpClientFactory httpClientFactory,
+            IUserService service)
         {
             _userManager = userManager;
             _tokenHandler = tokenHandler;
             _httpClient = httpClientFactory.CreateClient();
+            _userService = service;
         }
 
         public async Task<FacebookLoginCommandResponse> Handle(FacebookLoginCommandRequest request, CancellationToken cancellationToken)
@@ -70,9 +74,12 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin
                 else
                     throw new Exception("Invalid external authentication.");
 
+                var token = _tokenHandler.CreateAccessToken(5);
+               await _userService.UpdateRefreshToken(token.RefreshToken,user.Id,token.Expiration,1);
+
                 return new FacebookLoginCommandResponse()
                 {
-                    Token = _tokenHandler.CreateAccessToken(5)
+                    Token = token
                 };
             }
 

@@ -1,6 +1,8 @@
-﻿using ETicaretAPI.Application.Abstractions.Token;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using ETicaretAPI.Application.Abstractions.Token;
 using ETicaretAPI.Application.DTOs;
 using ETicaretAPI.Application.Exceptions;
+using ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 
@@ -11,14 +13,15 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.LoginUser
         private readonly UserManager<Domain.Entities.Identity.AppUser> _userManager;
         private readonly SignInManager<Domain.Entities.Identity.AppUser> _signInManager;
         private readonly ITokenHandler _tokenHandler;
-
+       private readonly IUserService _userService;
         public LoginUserCommandHandler(UserManager<Domain.Entities.Identity.AppUser> userManager,
             SignInManager<Domain.Entities.Identity.AppUser> signInManager,
-            ITokenHandler tokenHandler)
+            ITokenHandler tokenHandler, IUserService service)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _tokenHandler = tokenHandler;
+            _userService = service;
         }
 
         public async Task<LoginUserCommandResponse> Handle(LoginUserCommandRequest request, CancellationToken cancellationToken)
@@ -36,11 +39,15 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.LoginUser
             
 
             Token token = _tokenHandler.CreateAccessToken(5);
+          
+            await _userService.UpdateRefreshToken(token.RefreshToken, user.Id, token.Expiration, 1);
 
-            return new LoginUserCommandResponse
+            return new LoginUserCommandResponse()
             {
                 Token = token
             };
+
+            
         }
     }
 }

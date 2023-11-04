@@ -42,6 +42,7 @@ export class LoginComponent extends BaseComponent {
             this.toastrService.message("Google Giriş Başarılı", "", ToastrMessageType.Success, ToastrPosition.BottomCenter);
 
             localStorage.setItem("accessToken", token.token.accessToken);
+            localStorage.setItem("refreshToken", token.token.refreshToken);
 
           }
           else {
@@ -59,6 +60,8 @@ export class LoginComponent extends BaseComponent {
             this.toastrService.message("Facebook Giriş Başarılı", "", ToastrMessageType.Success, ToastrPosition.BottomCenter);
 
             localStorage.setItem("accessToken", tokenn.token.accessToken);
+            localStorage.setItem("refreshToken", tokenn.token.refreshToken);
+
 
           }
           else {
@@ -96,6 +99,8 @@ export class LoginComponent extends BaseComponent {
       this.toastrService.message("Giriş Başarılı", "", ToastrMessageType.Success, ToastrPosition.BottomCenter);
       
       localStorage.setItem("accessToken", token.token.accessToken);
+      localStorage.setItem("refreshToken", token.token.refreshToken);
+
 
     }
     else {

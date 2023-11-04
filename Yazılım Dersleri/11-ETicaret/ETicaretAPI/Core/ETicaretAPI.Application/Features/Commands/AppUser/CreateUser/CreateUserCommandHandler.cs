@@ -1,37 +1,30 @@
-﻿using MediatR;
+﻿using ETicaretAPI.Application.Abstractions.Services;
+using MediatR;
 using Microsoft.AspNetCore.Identity;
 
 namespace ETicaretAPI.Application.Features.Commands.AppUser.CreateUser
 {
     public class CreateUserCommandHandler : IRequestHandler<CreateUserCommandRequest, CreateUserCommandResponse>
     {
-        private readonly UserManager<Domain.Entities.Identity.AppUser> _userManager;
+        private readonly IUserService _userService;
 
-        public CreateUserCommandHandler(UserManager<Domain.Entities.Identity.AppUser> userManager)
+        public CreateUserCommandHandler(IUserService userService)
         {
-            _userManager = userManager;
+            _userService = userService;
         }
 
         public async Task<CreateUserCommandResponse> Handle(CreateUserCommandRequest request, CancellationToken cancellationToken)
         {
-            IdentityResult result = await _userManager.CreateAsync(new()
+            var data = await _userService.CreateAsync(new DTOs.User.CreateUser()
             {
-                UserName = request.Username,
                 Email = request.Email,
                 NameSurname = request.NameSurname,
-                Id = Guid.NewGuid().ToString()
+                Password = request.Password,
+                Repassword = request.Repassword,
+                Username = request.Username
+            });
 
-            }, request.Password);
-            if (result.Succeeded)
-            {
-                return new CreateUserCommandResponse() { Success = true, Message = "Oluşturuldu" };
-            }
-            else
-            {
-                return new CreateUserCommandResponse() { Success = false, Message = "Oluşturulamadı" };
-
-                //throw new UserCreateFailedException();
-            }
+            return new CreateUserCommandResponse() { Message = data.Message, Success = data.Success };
         }
     }
 }

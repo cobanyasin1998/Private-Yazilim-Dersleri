@@ -7,11 +7,12 @@ import { UiModule } from './ui/ui.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ToastrModule } from 'ngx-toastr';
 import { NgxSpinnerModule } from 'ngx-spinner';
-import { HttpClientModule } from '@angular/common/http';
+import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { JwtModule } from '@auth0/angular-jwt';
 import { AuthGuard } from './guards/common/auth.guard';
 import { LoginComponent } from './ui/components/login/login.component';
 import { FacebookLoginProvider, GoogleLoginProvider, GoogleSigninButtonModule, SocialAuthServiceConfig, SocialLoginModule } from '@abacritt/angularx-social-login';
+import { HttpErrorHandlerInceptorService } from './services/common/http-error-handler-inceptor.service';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,7 @@ import { FacebookLoginProvider, GoogleLoginProvider, GoogleSigninButtonModule, S
     JwtModule.forRoot({
       config: {
         tokenGetter: () => localStorage.getItem("accessToken"),
-        allowedDomains:["localhost:7071"]
+        allowedDomains: ["localhost:7071"]
       }
     }),
     SocialLoginModule
@@ -58,6 +59,11 @@ import { FacebookLoginProvider, GoogleLoginProvider, GoogleSigninButtonModule, S
     {
       provide: "baseUrl",
       useValue: "https://localhost:7071/api",
+      multi: true
+    },
+    {
+      provide: HTTP_INTERCEPTORS,
+      useClass: HttpErrorHandlerInceptorService,
       multi: true
     }
   ],

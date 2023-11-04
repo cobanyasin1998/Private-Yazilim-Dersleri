@@ -37,6 +37,19 @@ export class UserService {
   
   }
 
+  async refreshTokenLogin(refreshToken: string, callBackFunction?: () => void): Promise<any> {
+    const observable: Observable<any> = this.httpClientService.post({
+      action: "RefreshTokenLogin",
+      controller:"Users"
+    }, {
+      refreshToken: refreshToken
+    });
+
+    var data = await firstValueFrom(observable);
+   debugger
+    callBackFunction();
+    return;
+  }
 
   async googleLogin(user: SocialUser, callBackFunction?: () => void): Promise<any> {
     const observable: Observable<any | Token> = this.httpClientService.post<SocialUser | Token>({
