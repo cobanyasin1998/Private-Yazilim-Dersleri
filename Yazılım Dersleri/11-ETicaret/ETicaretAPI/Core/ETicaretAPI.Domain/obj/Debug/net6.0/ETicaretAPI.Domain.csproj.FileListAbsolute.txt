@@ -1,6 +1,7 @@
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.deps.json
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\bin\Debug\net6.0\ETicaretAPI.Domain.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.csproj.AssemblyReference.cache
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.AssemblyInfoInputs.cache
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.AssemblyInfo.cs
@@ -9,4 +10,3 @@ D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\refint\ETicaretAPI.Domain.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.pdb
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ref\ETicaretAPI.Domain.dll
-D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\obj\Debug\net6.0\ETicaretAPI.Domain.csproj.AssemblyReference.cache

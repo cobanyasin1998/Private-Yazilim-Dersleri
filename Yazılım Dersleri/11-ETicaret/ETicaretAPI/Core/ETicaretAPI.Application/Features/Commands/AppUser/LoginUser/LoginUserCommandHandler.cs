@@ -38,7 +38,7 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.LoginUser
                 throw new NotFoundUserException();
             
 
-            Token token = _tokenHandler.CreateAccessToken(5);
+            Token token = _tokenHandler.CreateAccessToken(5, user);
           
             await _userService.UpdateRefreshToken(token.RefreshToken, user.Id, token.Expiration, 1);
 

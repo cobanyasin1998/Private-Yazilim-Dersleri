@@ -1,3 +1,8 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.AssemblyReference.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.CoreCompileInputs.cache
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.deps.json
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.runtimeconfig.json
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Persistence.dll
@@ -6,11 +11,6 @@ D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Domain.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Application.pdb
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\bin\Debug\net6.0\ETicaretAPI.Domain.pdb
-D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.AssemblyReference.cache
-D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.GeneratedMSBuildEditorConfig.editorconfig
-D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.AssemblyInfoInputs.cache
-D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.AssemblyInfo.cs
-D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.CoreCompileInputs.cache
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.csproj.CopyComplete
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\refint\ETicaretAPI.Persistence.dll

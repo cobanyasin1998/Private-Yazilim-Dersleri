@@ -74,7 +74,7 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.FacebookLogin
                 else
                     throw new Exception("Invalid external authentication.");
 
-                var token = _tokenHandler.CreateAccessToken(5);
+                var token = _tokenHandler.CreateAccessToken(5,user);
                await _userService.UpdateRefreshToken(token.RefreshToken,user.Id,token.Expiration,1);
 
                 return new FacebookLoginCommandResponse()

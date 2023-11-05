@@ -25,7 +25,7 @@ namespace ETicaretAPI.Application.Features.Commands.AppUser.RefreshToken
             Domain.Entities.Identity.AppUser? user = await _userManager.Users.FirstOrDefaultAsync(u => u.RefreshToken == request.RefreshToken);
             if (user != null && user?.RefreshTokenEndDate > DateTime.UtcNow)
             {
-                Token token = _tokenHandler.CreateAccessToken(5);
+                Token token = _tokenHandler.CreateAccessToken(5, user);
                 await _userService.UpdateRefreshToken(token.RefreshToken, user.Id, token.Expiration, 3);
                 return new RefreshTokenCommandResponse() {Token = token };
             }

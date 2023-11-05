@@ -40,7 +40,7 @@ namespace ETicaretAPI.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Customers");
+                    b.ToTable("Customers", (string)null);
                 });
 
             modelBuilder.Entity("ETicaretAPI.Domain.Entities.File", b =>
@@ -70,7 +70,7 @@ namespace ETicaretAPI.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Files");
+                    b.ToTable("Files", (string)null);
 
                     b.HasDiscriminator<string>("Discriminator").HasValue("File");
                 });
@@ -202,7 +202,7 @@ namespace ETicaretAPI.Persistence.Migrations
 
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("ETicaretAPI.Domain.Entities.Product", b =>
@@ -229,7 +229,7 @@ namespace ETicaretAPI.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -350,7 +350,7 @@ namespace ETicaretAPI.Persistence.Migrations
 
                     b.HasIndex("ProductsId");
 
-                    b.ToTable("OrderProduct");
+                    b.ToTable("OrderProduct", (string)null);
                 });
 
             modelBuilder.Entity("ProductProductImageFile", b =>
@@ -365,7 +365,7 @@ namespace ETicaretAPI.Persistence.Migrations
 
                     b.HasIndex("ProductsId");
 
-                    b.ToTable("ProductProductImageFile");
+                    b.ToTable("ProductProductImageFile", (string)null);
                 });
 
             modelBuilder.Entity("ETicaretAPI.Domain.Entities.InvoiceFile", b =>
