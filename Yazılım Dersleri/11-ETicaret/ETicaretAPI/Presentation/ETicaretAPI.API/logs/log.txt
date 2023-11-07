@@ -842,3 +842,629 @@ WHERE "Id" = @p0;
 2023-11-05 20:07:14.773 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Delete (ETicaretAPI.API) in 27.7015ms
 2023-11-05 20:07:14.774 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Delete (ETicaretAPI.API)'
 2023-11-05 20:07:14.774 +03:00 [INF] Request finished HTTP/2 DELETE https://localhost:7071/api/product/18e27bd5-82c2-4183-9503-5658e8b5434d - - - 200 0 - 32.8411ms
+2023-11-07 23:29:03.855 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-07 23:29:04.119 +03:00 [INF] Now listening on: https://localhost:7071
+2023-11-07 23:29:04.120 +03:00 [INF] Now listening on: http://localhost:5283
+2023-11-07 23:29:04.124 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-07 23:29:04.124 +03:00 [INF] Hosting environment: Development
+2023-11-07 23:29:04.125 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-11-07 23:29:04.729 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger - -
+2023-11-07 23:29:04.825 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger - - - 301 0 - 99.8817ms
+2023-11-07 23:29:04.828 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-11-07 23:29:05.031 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 202.9157ms
+2023-11-07 23:29:05.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - -
+2023-11-07 23:29:05.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - -
+2023-11-07 23:29:05.031 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - -
+2023-11-07 23:29:05.032 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 23:29:05.037 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.7028ms
+2023-11-07 23:29:05.046 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-07 23:29:05.046 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-11-07 23:29:05.047 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 16.0437ms
+2023-11-07 23:29:05.048 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - - - 200 144929 text/css 16.7414ms
+2023-11-07 23:29:05.054 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-07 23:29:05.055 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 23.3515ms
+2023-11-07 23:29:05.066 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-11-07 23:29:05.098 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.1652ms
+2023-11-07 23:29:05.250 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-11-07 23:29:05.373 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 122.8497ms
+2023-11-07 23:58:57.515 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-07 23:58:57.745 +03:00 [INF] Now listening on: https://localhost:7071
+2023-11-07 23:58:57.745 +03:00 [INF] Now listening on: http://localhost:5283
+2023-11-07 23:58:57.749 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-07 23:58:57.750 +03:00 [INF] Hosting environment: Development
+2023-11-07 23:58:57.750 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-11-07 23:58:58.411 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-11-07 23:58:58.657 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 249.4711ms
+2023-11-07 23:58:58.671 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 23:58:58.675 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.6813ms
+2023-11-07 23:58:58.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-11-07 23:58:58.711 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.2595ms
+2023-11-07 23:58:58.901 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-11-07 23:58:59.015 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 113.9878ms
+2023-11-07 23:59:09.687 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - -
+2023-11-07 23:59:09.695 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:09.710 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - - - 204 - - 22.5738ms
+2023-11-07 23:59:09.713 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479
+2023-11-07 23:59:09.715 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:09.732 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-07 23:59:09.766 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaretAPI.API.Controllers.UsersController (ETicaretAPI.API).
+2023-11-07 23:59:11.370 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-07 23:59:11.718 +03:00 [INF] Executed DbCommand (19ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-07 23:59:11.843 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-07 23:59:11.893 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-07 23:59:11.899 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-07 23:59:11.902 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2023-11-07 23:59:12.302 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-11-07 23:59:12.401 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2023-11-07 23:59:12.443 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2023-11-07 23:59:12.463 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API) in 2691.5325ms
+2023-11-07 23:59:12.465 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-07 23:59:12.474 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479 - 200 - application/json;+charset=utf-8 2760.8066ms
+2023-11-07 23:59:22.393 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-07 23:59:22.404 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:22.405 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - - - 204 - - 12.2264ms
+2023-11-07 23:59:22.407 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-07 23:59:22.408 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:22.577 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-07 23:59:22.583 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-07 23:59:22.625 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-07 23:59:22.663 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-07 23:59:22.669 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-07 23:59:22.711 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-07 23:59:22.736 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 151.7668ms
+2023-11-07 23:59:22.737 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-07 23:59:22.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 331.5234ms
+2023-11-07 23:59:35.991 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product - -
+2023-11-07 23:59:35.992 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:35.993 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product - - - 204 - - 1.2111ms
+2023-11-07 23:59:35.994 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/product application/json 43
+2023-11-07 23:59:35.995 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:35.997 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-07 23:59:35.999 +03:00 [INF] Route matched with {action = "Post", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(ETicaretAPI.Application.Features.Commands.Product.CreateProduct.CreateProductCommandRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-07 23:59:36.017 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-07 23:59:36.114 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "CreatedDate", "Name", "Price", "Stock", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-07 23:59:36.123 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2023-11-07 23:59:36.124 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API) in 123.9234ms
+2023-11-07 23:59:36.125 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-07 23:59:36.126 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/product application/json 43 - 201 0 - 131.2636ms
+2023-11-07 23:59:36.134 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-07 23:59:36.136 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:36.137 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - - - 204 - - 2.8149ms
+2023-11-07 23:59:36.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-07 23:59:36.142 +03:00 [INF] CORS policy execution successful.
+2023-11-07 23:59:36.144 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-07 23:59:36.145 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-07 23:59:36.148 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-07 23:59:36.151 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-07 23:59:36.152 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-07 23:59:36.157 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-07 23:59:36.160 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 13.4749ms
+2023-11-07 23:59:36.161 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-07 23:59:36.162 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 20.8627ms
+2023-11-08 00:06:56.182 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-08 00:06:56.387 +03:00 [INF] Now listening on: https://localhost:7071
+2023-11-08 00:06:56.388 +03:00 [INF] Now listening on: http://localhost:5283
+2023-11-08 00:06:56.391 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-08 00:06:56.392 +03:00 [INF] Hosting environment: Development
+2023-11-08 00:06:56.392 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-11-08 00:06:56.905 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-11-08 00:06:57.161 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-11-08 00:06:57.166 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 264.2201ms
+2023-11-08 00:06:57.166 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.2469ms
+2023-11-08 00:06:57.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-11-08 00:06:57.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 18.9874ms
+2023-11-08 00:06:57.308 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-11-08 00:06:57.409 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 101.3022ms
+2023-11-08 00:15:37.843 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-08 00:15:38.053 +03:00 [INF] Now listening on: https://localhost:7071
+2023-11-08 00:15:38.054 +03:00 [INF] Now listening on: http://localhost:5283
+2023-11-08 00:15:38.058 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-08 00:15:38.059 +03:00 [INF] Hosting environment: Development
+2023-11-08 00:15:38.060 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-11-08 00:15:38.419 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-11-08 00:15:38.642 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 225.5825ms
+2023-11-08 00:15:38.650 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-11-08 00:15:38.653 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 3.8261ms
+2023-11-08 00:15:38.679 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-11-08 00:15:38.694 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 15.7161ms
+2023-11-08 00:15:38.774 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-11-08 00:15:38.868 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 93.8239ms
+2023-11-08 00:16:00.394 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-08 00:16:00.612 +03:00 [INF] Now listening on: https://localhost:7071
+2023-11-08 00:16:00.613 +03:00 [INF] Now listening on: http://localhost:5283
+2023-11-08 00:16:00.617 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-08 00:16:00.618 +03:00 [INF] Hosting environment: Development
+2023-11-08 00:16:00.618 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-11-08 00:16:01.197 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-11-08 00:16:01.453 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 259.8193ms
+2023-11-08 00:16:01.454 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-11-08 00:16:01.463 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 8.9350ms
+2023-11-08 00:16:01.489 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-11-08 00:16:01.506 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 16.8554ms
+2023-11-08 00:16:01.599 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-11-08 00:16:01.711 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 111.6055ms
+2023-11-08 00:17:54.550 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-08 00:17:54.789 +03:00 [INF] Now listening on: https://localhost:7071
+2023-11-08 00:17:54.790 +03:00 [INF] Now listening on: http://localhost:5283
+2023-11-08 00:17:54.793 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-08 00:17:54.794 +03:00 [INF] Hosting environment: Development
+2023-11-08 00:17:54.794 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-11-08 00:17:55.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-11-08 00:17:55.544 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 248.0387ms
+2023-11-08 00:17:55.555 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-11-08 00:17:55.559 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 4.1397ms
+2023-11-08 00:17:55.586 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-11-08 00:17:55.601 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.6647ms
+2023-11-08 00:17:55.693 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-11-08 00:17:55.801 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 107.8686ms
+2023-11-08 00:23:31.873 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - -
+2023-11-08 00:23:31.883 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:23:31.888 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - - - 204 - - 16.2556ms
+2023-11-08 00:23:31.894 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479
+2023-11-08 00:23:31.896 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:23:31.912 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:23:31.946 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaretAPI.API.Controllers.UsersController (ETicaretAPI.API).
+2023-11-08 00:23:33.215 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:23:33.605 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:23:33.730 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:23:33.775 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:23:33.779 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:23:33.782 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2023-11-08 00:23:33.902 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-11-08 00:23:34.005 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2023-11-08 00:23:34.061 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2023-11-08 00:23:34.081 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API) in 2129.088ms
+2023-11-08 00:23:34.083 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:23:34.093 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479 - 200 - application/json;+charset=utf-8 2198.9495ms
+2023-11-08 00:23:44.984 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - -
+2023-11-08 00:23:44.985 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:23:44.985 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - - - 204 - - 1.8039ms
+2023-11-08 00:23:44.992 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0
+2023-11-08 00:23:44.993 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:23:45.006 +03:00 [INF] Executing endpoint '/product-hub/negotiate'
+2023-11-08 00:23:45.027 +03:00 [INF] Executed endpoint '/product-hub/negotiate'
+2023-11-08 00:23:45.029 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 36.5069ms
+2023-11-08 00:23:45.042 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7071/product-hub?id=ERUUE_BK26_RcxAp64BDUw - -
+2023-11-08 00:23:45.043 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:23:45.044 +03:00 [INF] Executing endpoint '/product-hub'
+2023-11-08 00:24:45.903 +03:00 [INF] Executed endpoint '/product-hub'
+2023-11-08 00:24:45.904 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7071/product-hub?id=ERUUE_BK26_RcxAp64BDUw - - - 101 - - 60862.4266ms
+2023-11-08 00:24:59.705 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - -
+2023-11-08 00:24:59.706 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:24:59.707 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - - - 204 - - 1.3374ms
+2023-11-08 00:24:59.709 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0
+2023-11-08 00:24:59.709 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:24:59.710 +03:00 [INF] Executing endpoint '/product-hub/negotiate'
+2023-11-08 00:24:59.711 +03:00 [INF] Executed endpoint '/product-hub/negotiate'
+2023-11-08 00:24:59.711 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 2.5756ms
+2023-11-08 00:25:00.456 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7071/product-hub?id=dVbcRhT22FD3KhVgNijEUA - -
+2023-11-08 00:25:00.460 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:25:00.461 +03:00 [INF] Executing endpoint '/product-hub'
+2023-11-08 00:25:13.268 +03:00 [INF] Executed endpoint '/product-hub'
+2023-11-08 00:25:13.269 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7071/product-hub?id=dVbcRhT22FD3KhVgNijEUA - - - 101 - - 12813.4349ms
+2023-11-08 00:28:46.295 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - -
+2023-11-08 00:28:46.296 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:28:46.297 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - - - 204 - - 1.9200ms
+2023-11-08 00:28:46.300 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479
+2023-11-08 00:28:46.300 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:28:46.301 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:28:46.302 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaretAPI.API.Controllers.UsersController (ETicaretAPI.API).
+2023-11-08 00:28:46.343 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:28:46.362 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:28:46.367 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:28:46.370 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:28:46.375 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:28:46.377 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2023-11-08 00:28:46.379 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-11-08 00:28:46.382 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2023-11-08 00:28:46.386 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2023-11-08 00:28:46.387 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API) in 84.517ms
+2023-11-08 00:28:46.388 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:28:46.389 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479 - 200 - application/json;+charset=utf-8 89.3554ms
+2023-11-08 00:41:39.383 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-08 00:41:39.610 +03:00 [INF] Now listening on: https://localhost:7071
+2023-11-08 00:41:39.611 +03:00 [INF] Now listening on: http://localhost:5283
+2023-11-08 00:41:39.615 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-08 00:41:39.616 +03:00 [INF] Hosting environment: Development
+2023-11-08 00:41:39.617 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-11-08 00:41:40.185 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-11-08 00:41:40.466 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 284.0864ms
+2023-11-08 00:41:40.479 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-11-08 00:41:40.485 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 6.0285ms
+2023-11-08 00:41:40.511 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-11-08 00:41:40.531 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.2290ms
+2023-11-08 00:41:40.623 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-11-08 00:41:40.735 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.5999ms
+2023-11-08 00:41:48.496 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - -
+2023-11-08 00:41:48.504 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:41:48.510 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - - - 204 - - 13.4701ms
+2023-11-08 00:41:48.513 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479
+2023-11-08 00:41:48.515 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:41:48.532 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:41:48.565 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaretAPI.API.Controllers.UsersController (ETicaretAPI.API).
+2023-11-08 00:41:49.818 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:41:50.160 +03:00 [INF] Executed DbCommand (17ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:41:50.278 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:41:50.325 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:41:50.329 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:41:50.332 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2023-11-08 00:41:50.449 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-11-08 00:41:50.553 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2023-11-08 00:41:50.598 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2023-11-08 00:41:50.619 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API) in 2047.595ms
+2023-11-08 00:41:50.622 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:41:50.632 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479 - 200 - application/json;+charset=utf-8 2119.0070ms
+2023-11-08 00:41:58.288 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - -
+2023-11-08 00:41:58.289 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:41:58.289 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - - - 204 - - 1.7325ms
+2023-11-08 00:41:58.295 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0
+2023-11-08 00:41:58.296 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:41:58.298 +03:00 [INF] Executing endpoint '/product-hub/negotiate'
+2023-11-08 00:41:58.319 +03:00 [INF] Executed endpoint '/product-hub/negotiate'
+2023-11-08 00:41:58.320 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 24.7037ms
+2023-11-08 00:41:59.072 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7071/product-hub?id=G6L9uHw7HxgJ_JGlECvJcQ - -
+2023-11-08 00:41:59.074 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:41:59.077 +03:00 [INF] Executing endpoint '/product-hub'
+2023-11-08 00:42:29.323 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - -
+2023-11-08 00:42:29.325 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:29.326 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - - - 204 - - 2.3187ms
+2023-11-08 00:42:29.330 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0
+2023-11-08 00:42:29.331 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:29.332 +03:00 [INF] Executing endpoint '/product-hub/negotiate'
+2023-11-08 00:42:29.333 +03:00 [INF] Executed endpoint '/product-hub/negotiate'
+2023-11-08 00:42:29.334 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 3.7922ms
+2023-11-08 00:42:29.397 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7071/product-hub?id=oSJD4Bt9vGuonG1LlZaxnw - -
+2023-11-08 00:42:29.398 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:29.399 +03:00 [INF] Executing endpoint '/product-hub'
+2023-11-08 00:42:34.827 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:42:34.828 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:34.829 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - - - 204 - - 2.3234ms
+2023-11-08 00:42:34.835 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:42:34.836 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:34.927 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:42:34.934 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:42:34.974 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:42:35.017 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-08 00:42:35.024 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-08 00:42:35.068 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-08 00:42:35.108 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 172.2312ms
+2023-11-08 00:42:35.111 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:42:35.115 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 280.1652ms
+2023-11-08 00:42:40.873 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product - -
+2023-11-08 00:42:40.874 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:40.874 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product - - - 204 - - 1.5665ms
+2023-11-08 00:42:40.877 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/product application/json 34
+2023-11-08 00:42:40.877 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:40.878 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-08 00:42:40.881 +03:00 [INF] Route matched with {action = "Post", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(ETicaretAPI.Application.Features.Commands.Product.CreateProduct.CreateProductCommandRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:42:40.899 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:42:41.004 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "CreatedDate", "Name", "Price", "Stock", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-08 00:42:41.018 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2023-11-08 00:42:41.019 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API) in 136.927ms
+2023-11-08 00:42:41.020 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-08 00:42:41.021 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/product application/json 34 - 201 0 - 144.6086ms
+2023-11-08 00:42:41.030 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:42:41.030 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:41.031 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - - - 204 - - 1.6279ms
+2023-11-08 00:42:41.035 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:42:41.036 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:42:41.039 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:42:41.042 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:42:41.047 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:42:41.051 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-08 00:42:41.053 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-08 00:42:41.059 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-08 00:42:41.062 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 17.5586ms
+2023-11-08 00:42:41.063 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:42:41.065 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 29.4692ms
+2023-11-08 00:43:02.189 +03:00 [INF] Executed endpoint '/product-hub'
+2023-11-08 00:43:02.189 +03:00 [INF] Executed endpoint '/product-hub'
+2023-11-08 00:43:02.190 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7071/product-hub?id=G6L9uHw7HxgJ_JGlECvJcQ - - - 101 - - 63117.5338ms
+2023-11-08 00:43:02.191 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7071/product-hub?id=oSJD4Bt9vGuonG1LlZaxnw - - - 101 - - 32793.6547ms
+2023-11-08 00:43:02.542 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:43:02.544 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:02.545 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - - - 204 - - 2.1621ms
+2023-11-08 00:43:02.556 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:43:02.557 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:02.558 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:43:02.559 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:43:02.566 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:43:02.571 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-08 00:43:02.574 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-08 00:43:02.579 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-08 00:43:02.582 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 20.5333ms
+2023-11-08 00:43:02.583 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:43:02.584 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 28.0902ms
+2023-11-08 00:43:05.856 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:43:05.858 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:05.858 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:43:05.859 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:43:05.862 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:43:05.865 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-08 00:43:05.867 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-08 00:43:05.870 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-08 00:43:05.871 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 10.7707ms
+2023-11-08 00:43:05.872 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:43:05.873 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 16.6941ms
+2023-11-08 00:43:11.177 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - -
+2023-11-08 00:43:11.178 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:11.178 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - - - 204 - - 1.2011ms
+2023-11-08 00:43:11.180 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0
+2023-11-08 00:43:11.181 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:11.181 +03:00 [INF] Executing endpoint '/product-hub/negotiate'
+2023-11-08 00:43:11.182 +03:00 [INF] Executed endpoint '/product-hub/negotiate'
+2023-11-08 00:43:11.183 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 2.3762ms
+2023-11-08 00:43:11.638 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7071/product-hub?id=m5zHeUt_TLJ4VCgUZLp_gw - -
+2023-11-08 00:43:11.639 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:11.640 +03:00 [INF] Executing endpoint '/product-hub'
+2023-11-08 00:43:22.649 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product - -
+2023-11-08 00:43:22.650 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:22.650 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product - - - 204 - - 1.1642ms
+2023-11-08 00:43:22.652 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/product application/json 32
+2023-11-08 00:43:22.653 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:22.653 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-08 00:43:22.654 +03:00 [INF] Route matched with {action = "Post", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(ETicaretAPI.Application.Features.Commands.Product.CreateProduct.CreateProductCommandRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:43:22.656 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:43:22.658 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "CreatedDate", "Name", "Price", "Stock", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-08 00:43:22.674 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2023-11-08 00:43:22.674 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API) in 19.3414ms
+2023-11-08 00:43:22.675 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-08 00:43:22.676 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/product application/json 32 - 201 0 - 24.1831ms
+2023-11-08 00:43:22.683 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:43:22.683 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:22.684 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - - - 204 - - 1.3335ms
+2023-11-08 00:43:22.687 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:43:22.688 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:43:22.688 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:43:22.689 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:43:22.691 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:43:22.694 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-08 00:43:22.695 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-08 00:43:22.698 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-08 00:43:22.700 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 10.1897ms
+2023-11-08 00:43:22.701 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:43:22.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 15.1382ms
+2023-11-08 00:48:42.498 +03:00 [INF] Executed endpoint '/product-hub'
+2023-11-08 00:48:42.499 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7071/product-hub?id=m5zHeUt_TLJ4VCgUZLp_gw - - - 101 - - 330861.0367ms
+2023-11-08 00:56:40.891 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - -
+2023-11-08 00:56:40.910 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:40.911 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/users/google-login - - - 204 - - 19.4330ms
+2023-11-08 00:56:40.914 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479
+2023-11-08 00:56:40.915 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:40.915 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:56:40.916 +03:00 [INF] Route matched with {action = "GoogleLogin", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GoogleLogin(ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandRequest) on controller ETicaretAPI.API.Controllers.UsersController (ETicaretAPI.API).
+2023-11-08 00:56:40.920 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:56:40.966 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:56:40.970 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:56:40.973 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__loginProvider_0='?', @__providerKey_1='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."LoginProvider", a."ProviderKey", a."ProviderDisplayName", a."UserId"
+FROM "AspNetUserLogins" AS a
+WHERE (a."LoginProvider" = @__loginProvider_0) AND (a."ProviderKey" = @__providerKey_1)
+LIMIT 2
+2023-11-08 00:56:40.976 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__userId_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."Id" = @__userId_0
+LIMIT 2
+2023-11-08 00:56:40.978 +03:00 [WRN] AddLogin for user failed because it was already associated with another user.
+2023-11-08 00:56:40.981 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__normalizedUserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT a."Id", a."AccessFailedCount", a."ConcurrencyStamp", a."Email", a."EmailConfirmed", a."LockoutEnabled", a."LockoutEnd", a."NameSurname", a."NormalizedEmail", a."NormalizedUserName", a."PasswordHash", a."PhoneNumber", a."PhoneNumberConfirmed", a."RefreshToken", a."RefreshTokenEndDate", a."SecurityStamp", a."TwoFactorEnabled", a."UserName"
+FROM "AspNetUsers" AS a
+WHERE a."NormalizedUserName" = @__normalizedUserName_0
+LIMIT 1
+2023-11-08 00:56:40.985 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p17='?', @p0='?' (DbType = Int32), @p1='?', @p18='?', @p2='?', @p3='?' (DbType = Boolean), @p4='?' (DbType = Boolean), @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?', @p10='?', @p11='?' (DbType = Boolean), @p12='?', @p13='?' (DbType = DateTime), @p14='?', @p15='?' (DbType = Boolean), @p16='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "AspNetUsers" SET "AccessFailedCount" = @p0, "ConcurrencyStamp" = @p1, "Email" = @p2, "EmailConfirmed" = @p3, "LockoutEnabled" = @p4, "LockoutEnd" = @p5, "NameSurname" = @p6, "NormalizedEmail" = @p7, "NormalizedUserName" = @p8, "PasswordHash" = @p9, "PhoneNumber" = @p10, "PhoneNumberConfirmed" = @p11, "RefreshToken" = @p12, "RefreshTokenEndDate" = @p13, "SecurityStamp" = @p14, "TwoFactorEnabled" = @p15, "UserName" = @p16
+WHERE "Id" = @p17 AND "ConcurrencyStamp" = @p18;
+2023-11-08 00:56:41.000 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Commands.AppUser.GoogleLogin.GoogleLoginCommandResponse'.
+2023-11-08 00:56:41.001 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API) in 83.7478ms
+2023-11-08 00:56:41.002 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.UsersController.GoogleLogin (ETicaretAPI.API)'
+2023-11-08 00:56:41.003 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/users/google-login application/json 1479 - 200 - application/json;+charset=utf-8 89.1472ms
+2023-11-08 00:56:43.208 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - -
+2023-11-08 00:56:43.209 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:43.210 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - - - 204 - - 1.6009ms
+2023-11-08 00:56:43.215 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0
+2023-11-08 00:56:43.216 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:43.216 +03:00 [INF] Executing endpoint '/product-hub/negotiate'
+2023-11-08 00:56:43.217 +03:00 [INF] Executed endpoint '/product-hub/negotiate'
+2023-11-08 00:56:43.218 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/product-hub/negotiate?negotiateVersion=1 - 0 - 200 316 application/json 2.9709ms
+2023-11-08 00:56:43.232 +03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7071/product-hub?id=Q3x0B5sWoeVD4VWNFRiYNg - -
+2023-11-08 00:56:43.233 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:43.234 +03:00 [INF] Executing endpoint '/product-hub'
+2023-11-08 00:56:48.569 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:56:48.570 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:48.571 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=5 - - - 204 - - 1.6195ms
+2023-11-08 00:56:48.574 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:56:48.574 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:48.575 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:56:48.576 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:56:48.578 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:56:48.581 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-08 00:56:48.582 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-08 00:56:48.584 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-08 00:56:48.587 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 10.207ms
+2023-11-08 00:56:48.588 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:56:48.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 15.9633ms
+2023-11-08 00:56:53.317 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product - -
+2023-11-08 00:56:53.318 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:53.318 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product - - - 204 - - 1.3685ms
+2023-11-08 00:56:53.320 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7071/api/product application/json 40
+2023-11-08 00:56:53.321 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:53.322 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-08 00:56:53.322 +03:00 [INF] Route matched with {action = "Post", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Post(ETicaretAPI.Application.Features.Commands.Product.CreateProduct.CreateProductCommandRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:56:53.325 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:56:53.329 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?' (DbType = Decimal), @p4='?' (DbType = Int32), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Products" ("Id", "CreatedDate", "Name", "Price", "Stock", "UpdatedDate")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+2023-11-08 00:56:53.343 +03:00 [INF] Executing StatusCodeResult, setting HTTP status code 201
+2023-11-08 00:56:53.344 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API) in 20.32ms
+2023-11-08 00:56:53.345 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Post (ETicaretAPI.API)'
+2023-11-08 00:56:53.346 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7071/api/product application/json 40 - 201 0 - 25.1049ms
+2023-11-08 00:56:53.355 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - -
+2023-11-08 00:56:53.356 +03:00 [INF] CORS policy execution successful.
+2023-11-08 00:56:53.357 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:56:53.358 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-11-08 00:56:53.361 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-11-08 00:56:53.366 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-11-08 00:56:53.368 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-11-08 00:56:53.371 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+FROM "Products" AS p
+ORDER BY p."CreatedDate" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2023-11-08 00:56:53.373 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 13.1356ms
+2023-11-08 00:56:53.374 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-11-08 00:56:53.375 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=5 - - - 200 - application/json;+charset=utf-8 19.7229ms
+2023-11-08 00:56:59.857 +03:00 [INF] Executed endpoint '/product-hub'
+2023-11-08 00:56:59.864 +03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7071/product-hub?id=Q3x0B5sWoeVD4VWNFRiYNg - - - 101 - - 16631.2935ms

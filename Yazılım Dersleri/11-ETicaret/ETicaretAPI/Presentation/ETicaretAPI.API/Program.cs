@@ -16,6 +16,8 @@ using Serilog.Core;
 using Serilog.Sinks.PostgreSQL;
 using System.Security.Claims;
 using System.Text;
+using ETicaretAPI.SignalR;
+using ETicaretAPI.SignalR.Hubs;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(opt =>
@@ -35,7 +37,7 @@ builder.Services.AddCors(opt =>
 {
     opt.AddDefaultPolicy(policy =>
     {
-        policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+        policy.WithOrigins("http://localhost:4200", "https://localhost:4200").AllowAnyHeader().AllowAnyMethod().AllowCredentials();
         //policy.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin();
     });
 });
@@ -78,10 +80,12 @@ builder.Services.AddHttpLogging(logging =>
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+
 builder.Services.AddPersistenceServices();
 builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
-
+builder.Services.AddSignalRServices();
 
 builder.Services.AddStorage<AzureStorage>();
 
@@ -125,4 +129,5 @@ app.Use(async (context, next) =>
 
 app.MapControllers();
 
+app.MapHubs();
 app.Run();

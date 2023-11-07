@@ -103,3 +103,5 @@ D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\System.Text.Json.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\Serilog.Sinks.Seq.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.SignalR.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\bin\Debug\net6.0\ETicaretAPI.SignalR.pdb
