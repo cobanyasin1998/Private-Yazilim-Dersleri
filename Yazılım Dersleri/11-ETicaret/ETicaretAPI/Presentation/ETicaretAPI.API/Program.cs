@@ -18,6 +18,7 @@ using System.Security.Claims;
 using System.Text;
 using ETicaretAPI.SignalR;
 using ETicaretAPI.SignalR.Hubs;
+using ETicaretAPI.Infrastructure.Services.Storage.Local;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers(opt =>
@@ -87,7 +88,7 @@ builder.Services.AddInfrastructureServices();
 builder.Services.AddApplicationServices();
 builder.Services.AddSignalRServices();
 
-builder.Services.AddStorage<AzureStorage>();
+builder.Services.AddStorage<LocalStorage>();
 
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer("Admin", opt =>
 {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ERD74E/2wnOsvT9mFd1JPjrhC5UbyHgxceawsnp/g5g=",
+  "Hash": "/xUx32pEhIZs3He6EBbIWkkKSfuhiBl2GMDc+XDgoEQ=",
   "Source": "ETicaretAPI.API",
   "BasePath": "_content/ETicaretAPI.API",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\11-ETicaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-images\\Adsiz2.png",
+      "SourceId": "ETicaretAPI.API",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\11-ETicaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\",
+      "BasePath": "_content/ETicaretAPI.API",
+      "RelativePath": "photo-images/Adsiz2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\photo-images\\Adsiz2.png"
+    },
     {
       "Identity": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\11-ETicaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\resource\\product-images\\1916825122.png",
       "SourceId": "ETicaretAPI.API",

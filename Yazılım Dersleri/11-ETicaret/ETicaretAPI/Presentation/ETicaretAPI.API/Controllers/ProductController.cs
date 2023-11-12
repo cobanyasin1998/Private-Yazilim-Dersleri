@@ -15,7 +15,7 @@ namespace ETicaretAPI.API.Controllers
 {
     [Route("api/[controller]")]   
     [ApiController]
-    [Authorize(AuthenticationSchemes = "Admin")]
+
     public class ProductController : ControllerBase
     {
 
@@ -47,6 +47,7 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpPost]
+        [Authorize(AuthenticationSchemes = "Admin")]
         public async Task<IActionResult> Post(CreateProductCommandRequest createProductCommandRequest)
         {
             CreateProductCommandResponse createProductCommandResponse = await _mediator.Send(createProductCommandRequest);
@@ -54,6 +55,8 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpPut]
+        [Authorize(AuthenticationSchemes = "Admin")]
+
         public async Task<IActionResult> Put([FromBody] UpdateProductCommandRequest updateProductCommandRequest)
         {
             UpdateProductCommandResponse updateProductCommandResponse = await _mediator.Send(updateProductCommandRequest);
@@ -62,6 +65,8 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpDelete("{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+
         public async Task<IActionResult> Delete([FromRoute] RemoveProductCommandRequest removeProductCommandRequest)
         {
             RemoveProductCommandResponse removeProductCommandResponse = await _mediator.Send(removeProductCommandRequest);
@@ -69,6 +74,8 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpPost("[action]")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+
         [RequestFormLimits(ValueLengthLimit = int.MaxValue, MultipartBodyLengthLimit = int.MaxValue)]
         public async Task<IActionResult> Upload([FromQuery, FromForm] UploadProductImageRequest uploadProductImageRequest)
         {
@@ -82,6 +89,8 @@ namespace ETicaretAPI.API.Controllers
 
 
         [HttpGet("[action]/{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+
         public async Task<IActionResult> GetProductImages(GetProductImagesRequest getProductImagesRequest)
         {
             List<GetProductImagesResponse> removeProductCommandResponse = await _mediator.Send(getProductImagesRequest);
@@ -90,6 +99,8 @@ namespace ETicaretAPI.API.Controllers
         }
 
         [HttpDelete("[action]/{Id}")]
+        [Authorize(AuthenticationSchemes = "Admin")]
+
         public async Task<IActionResult> DeleteProductImage([FromRoute] RemoveProductImageRequest removeProductImageRequest, [FromQuery] string imageId)
         {
             removeProductImageRequest.ImageId = imageId;
