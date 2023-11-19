@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\11-ETicaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-images\\Adsiz.png",
+      "PackagePath": "staticwebassets\\photo-images\\Adsiz.png"
+    },
+    {
       "Id": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\11-ETicaret\\ETicaretAPI\\Presentation\\ETicaretAPI.API\\wwwroot\\photo-images\\Adsiz2.png",
       "PackagePath": "staticwebassets\\photo-images\\Adsiz2.png"
     },

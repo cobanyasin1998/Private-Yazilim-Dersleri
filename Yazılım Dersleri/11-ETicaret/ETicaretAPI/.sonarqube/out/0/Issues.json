@@ -1,0 +1,806 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Derleyicisi",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "tr-TR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Basket', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/BasketItem.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/BasketItem.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Product', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/BasketItem.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 24,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/BasketItem.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 24,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Name', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Products', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/ProductImageFile.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 37,
+                  "endLine": 11,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/ProductImageFile.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 37,
+                  "endLine": 11,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Description', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Orders', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 35,
+                  "endLine": 11,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 35,
+                  "endLine": 11,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'ProductImageFiles', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 46,
+                  "endLine": 12,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 46,
+                  "endLine": 12,
+                  "endColumn": 63
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Address', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 8,
+                  "startColumn": 23,
+                  "endLine": 8,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Products', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 37,
+                  "endLine": 12,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 37,
+                  "endLine": 12,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'BasketItems', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 40,
+                  "endLine": 14,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Product.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 40,
+                  "endLine": 14,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Name', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Customer.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Customer.cs",
+                "region": {
+                  "startLine": 7,
+                  "startColumn": 23,
+                  "endLine": 7,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Customer', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 25,
+                  "endLine": 13,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Order.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 25,
+                  "endLine": 13,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Orders', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Customer.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 35,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Customer.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 35,
+                  "endLine": 9,
+                  "endColumn": 41
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'UserId', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Basket.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Basket.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 23,
+                  "endLine": 17,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'User', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Basket.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 24,
+                  "endLine": 18,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Basket.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 24,
+                  "endLine": 18,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'BasketItems', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Basket.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 40,
+                  "endLine": 20,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Basket.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 40,
+                  "endLine": 20,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'NameSurname', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Identity/AppUser.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Identity/AppUser.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 23,
+                  "endLine": 12,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Baskets', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Identity/AppUser.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 36,
+                  "endLine": 16,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/Identity/AppUser.cs",
+                "region": {
+                  "startLine": 16,
+                  "startColumn": 36,
+                  "endLine": 16,
+                  "endColumn": 43
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'FileName', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/File.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/File.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 23,
+                  "endLine": 13,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'FilePath', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/File.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/File.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 23,
+                  "endLine": 14,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz özellik 'Storage', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. özellik alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/File.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/File.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 23,
+                  "endLine": 15,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/InvoiceFile.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 9,
+                  "endLine": 11,
+                  "endColumn": 45
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Core/ETicaretAPI.Domain/Entities/ProductImageFile.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 9,
+                  "endLine": 13,
+                  "endColumn": 48
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Null atanamaz alan, oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. Alanı null atanabilir olarak bildirmeyi düşünün.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

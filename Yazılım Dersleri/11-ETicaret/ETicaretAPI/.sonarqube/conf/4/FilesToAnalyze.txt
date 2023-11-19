@@ -1,0 +1,9 @@
+﻿D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Enums\StorageType.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Filters\ValidationFilter.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Operations\NameOperation.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\ServiceRegistration.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Services\Storage\Azure\AzureStorage.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Services\Storage\Local\LocalStorage.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Services\Storage\Storage.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Services\Storage\StorageService.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\Services\Token\TokenHandler.cs

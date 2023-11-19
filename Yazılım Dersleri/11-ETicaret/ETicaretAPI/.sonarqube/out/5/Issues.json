@@ -1,0 +1,493 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Derleyicisi",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "tr-TR"
+      },
+      "results": [
+        {
+          "ruleId": "CS8625",
+          "level": "warning",
+          "message": "Null sabit değer, boş değer atanamayan başvuru türüne dönüştürülemiyor.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Configurations/Log/ColumnWriters/UsernameColumnWriter.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 93,
+                  "endLine": 13,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Extensions/ConfigureExceptionHandlerExtension.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 35,
+                  "endLine": 28,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Program.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 9,
+                  "endLine": 42,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'removeProductCommandResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs",
+                "region": {
+                  "startLine": 72,
+                  "startColumn": 42,
+                  "endLine": 72,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1125",
+          "level": "warning",
+          "message": "Remove the unnecessary Boolean literal(s).",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Program.cs",
+                "region": {
+                  "startLine": 102,
+                  "startColumn": 136,
+                  "endLine": 102,
+                  "endColumn": 141
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'createProductCommandResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs",
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 42,
+                  "endLine": 53,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'updateProductCommandResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs",
+                "region": {
+                  "startLine": 62,
+                  "startColumn": 42,
+                  "endLine": 62,
+                  "endColumn": 70
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2068",
+          "level": "warning",
+          "message": "\"password\" detected here, make sure this is not a hard-coded credential.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/appsettings.json",
+                "region": {
+                  "startLine": 10,
+                  "startColumn": 20,
+                  "endLine": 10,
+                  "endColumn": 99
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'removeProductCommandResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 40,
+                  "endLine": 84,
+                  "endColumn": 68
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S4792",
+          "level": "warning",
+          "message": "Make sure that this logger's configuration is safe.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Program.cs",
+                "region": {
+                  "startLine": 46,
+                  "startColumn": 14,
+                  "endLine": 46,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'username'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Configurations/Log/ColumnWriters/UsernameColumnWriter.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 18,
+                  "endLine": 15,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1481",
+          "level": "warning",
+          "message": "Remove the unused local variable 'removeProductImageResponse'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs",
+                "region": {
+                  "startLine": 107,
+                  "startColumn": 40,
+                  "endLine": 107,
+                  "endColumn": 66
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2259",
+          "level": "warning",
+          "message": "'contextFeature' is null on at least one execution path.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Extensions/ConfigureExceptionHandlerExtension.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 35,
+                  "endLine": 28,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2254",
+          "level": "note",
+          "message": "Günlük kaydı ileti şablonu ‘LoggerExtensions.LogError(ILogger, string?, params object?[])’ çağrıları arasında değişiklik göstermemelidir",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Extensions/ConfigureExceptionHandlerExtension.cs",
+                "region": {
+                  "startLine": 22,
+                  "startColumn": 41,
+                  "endLine": 22,
+                  "endColumn": 69
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S5693",
+          "level": "warning",
+          "message": "Make sure the content length limit is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Presentation/ETicaretAPI.API/Controllers/ProductController.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 10,
+                  "endLine": 79,
+                  "endColumn": 101
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA2254": {
+          "id": "CA2254",
+          "shortDescription": "Şablon statik bir ifade olmalıdır",
+          "fullDescription": "Günlük ileti şablonu çağrılar arasında değişiklik göstermemelidir.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2254",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Olası bir null başvurunun başvurma işlemi.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8625": {
+          "id": "CS8625",
+          "shortDescription": "Null sabit değer, boş değer atanamayan başvuru türüne dönüştürülemiyor.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8625)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1125": {
+          "id": "S1125",
+          "shortDescription": "Boolean literals should not be redundant",
+          "fullDescription": "Redundant Boolean literals should be removed from expressions to improve readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1125",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2068": {
+          "id": "S2068",
+          "shortDescription": "Hard-coded credentials are security-sensitive",
+          "fullDescription": "Because it is easy to extract strings from an application source code or binary, credentials should not be hard-coded. This is particularly true for applications that are distributed or that are open-source.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2068",
+          "properties": {
+            "category": "Blocker Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2259": {
+          "id": "S2259",
+          "shortDescription": "Null pointers should not be dereferenced",
+          "fullDescription": "A reference to null should never be dereferenced/accessed. Doing so will cause a NullReferenceException to be thrown. At best, such an exception will cause abrupt program termination. At worst, it could expose debugging information that would be useful to an attacker, or it could allow an attacker to bypass security measures.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2259",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S4792": {
+          "id": "S4792",
+          "shortDescription": "Configuring loggers is security-sensitive",
+          "fullDescription": "Configuring loggers is security-sensitive. It has led in the past to the following vulnerabilities:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-4792",
+          "properties": {
+            "category": "Critical Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S5693": {
+          "id": "S5693",
+          "shortDescription": "Allowing requests with excessive content length is security-sensitive",
+          "fullDescription": "Rejecting requests with significant content length is a good practice to control the network traffic intensity and thus resource consumption in order to prevents DoS attacks.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-5693",
+          "properties": {
+            "category": "Major Security Hotspot",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

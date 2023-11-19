@@ -1,0 +1,797 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Microsoft (R) Visual C# Derleyicisi",
+        "version": "4.7.0.0",
+        "fileVersion": "4.7.0-3.23366.1 (dad7898a)",
+        "semanticVersion": "4.7.0",
+        "language": "tr-TR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0108",
+          "level": "warning",
+          "message": "'AzureStorage.HasFile(string, string)', 'Storage.HasFile' devralınan üyesini gizler. Gizleme isteniyorsa yeni anahtar sözcük kullanın.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 21,
+                  "endLine": 38,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS0108",
+          "level": "warning",
+          "message": "'LocalStorage.HasFile(string, string)', 'Storage.HasFile' devralınan üyesini gizler. Gizleme isteniyorsa yeni anahtar sözcük kullanın.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 21,
+                  "endLine": 25,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 2
+          }
+        },
+        {
+          "ruleId": "CS8618",
+          "level": "warning",
+          "message": "Null atanamaz alan '_blobContainerClient', oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. alan alanını null atanabilir olarak bildirmeyi düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 16,
+                  "endLine": 19,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 29,
+                  "endLine": 17,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS1998",
+          "level": "warning",
+          "message": "Bu zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak. 'await' işlecini kullanarak engelleyici olmayan API çağrılarını beklemeyi veya 'await Task.Run(...)' kullanarak bir arka plan iş parçacığında CPU bağlantılı iş yapmayı düşünün.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 27,
+                  "endLine": 15,
+                  "endColumn": 37
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 33,
+                  "endLine": 13,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CS8602",
+          "level": "warning",
+          "message": "Olası bir null başvurunun başvurma işlemi.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Filters/ValidationFilter.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 52,
+                  "endLine": 14,
+                  "endColumn": 59
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1135",
+          "level": "warning",
+          "message": "Complete the task associated to this 'TODO' comment.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 60,
+                  "startColumn": 19,
+                  "endLine": 60,
+                  "endColumn": 23
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2933",
+          "level": "warning",
+          "message": "Make '_configuration' 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Token/TokenHandler.cs",
+                "region": {
+                  "startLine": 14,
+                  "startColumn": 24,
+                  "endLine": 14,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1450",
+          "level": "warning",
+          "message": "Remove the field '_blobContainerClient' and declare it as a local variable in the relevant methods.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 29,
+                  "endLine": 17,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'containerName' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 45,
+                  "endLine": 24,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'path' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 45,
+                  "endLine": 19,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'containerName' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 32,
+                  "startColumn": 45,
+                  "endLine": 32,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'containerName' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 38,
+                  "startColumn": 36,
+                  "endLine": 38,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3445",
+          "level": "warning",
+          "message": "Consider using 'throw;' to preserve the stack trace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 17,
+                  "endLine": 61,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3776",
+          "level": "warning",
+          "message": "Refactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 38,
+                  "endLine": 9,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 17,
+                  "endLine": 15,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 17,
+                  "endLine": 20,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 24,
+                  "startColumn": 21,
+                  "endLine": 24,
+                  "endColumn": 23
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 21,
+                  "endLine": 26,
+                  "endColumn": 25
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 29,
+                  "startColumn": 25,
+                  "endLine": 29,
+                  "endColumn": 30
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 33,
+                  "startColumn": 29,
+                  "endLine": 33,
+                  "endColumn": 31
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 25,
+                  "endLine": 43,
+                  "endColumn": 27
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 25,
+                  "endLine": 49,
+                  "endColumn": 29
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 55,
+                  "startColumn": 17,
+                  "endLine": 55,
+                  "endColumn": 19
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 57,
+                  "startColumn": 17,
+                  "endLine": 57,
+                  "endColumn": 21
+                }
+              }
+            },
+            {
+              "physicalLocation": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Storage.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 38,
+                  "endLine": 9,
+                  "endColumn": 53
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1,
+            "customProperties": {
+              "0": "+2 (incl 1 for nesting)",
+              "1": "+1",
+              "10": "+1 (recursion)",
+              "2": "+3 (incl 2 for nesting)",
+              "3": "+1",
+              "4": "+4 (incl 3 for nesting)",
+              "5": "+5 (incl 4 for nesting)",
+              "6": "+4 (incl 3 for nesting)",
+              "7": "+1",
+              "8": "+2 (incl 1 for nesting)",
+              "9": "+1"
+            }
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'path' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 25,
+                  "startColumn": 36,
+                  "endLine": 25,
+                  "endColumn": 40
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'path' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 45,
+                  "endLine": 15,
+                  "endColumn": 49
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'path' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 84,
+                  "endLine": 28,
+                  "endColumn": 88
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'containerName' to 'pathOrContainerName' to match the interface declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Azure/AzureStorage.cs",
+                "region": {
+                  "startLine": 44,
+                  "startColumn": 84,
+                  "endLine": 44,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA2200",
+          "level": "warning",
+          "message": "Yakalanan özel durumun yeniden oluşturulması, yığın bilgilerini değiştirir",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 61,
+                  "startColumn": 17,
+                  "endLine": 61,
+                  "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "'CopyFileAsync' adlı üye örnek verilerine erişmiyor ve statik olarak işaretlenebilir",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///D:/Ki%C5%9Fisel/Private-Yazilim-Dersleri/Yaz%C4%B1l%C4%B1m%20Dersleri/11-ETicaret/ETicaretAPI/Infrastructure/ETicaretAPI.Infrastructure/Services/Storage/Local/LocalStorage.cs",
+                "region": {
+                  "startLine": 49,
+                  "startColumn": 34,
+                  "endLine": 49,
+                  "endColumn": 47
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Üyeleri statik olarak işaretleyin",
+          "fullDescription": "Örnek verilerine erişmeyen veya örnek yöntemlerini çağırmayan üyeler statik olarak işaretlenebilir. Yöntemleri statik olarak işaretledikten sonra, derleyici bu üyelere yönelik sanal olmayan çağrı konumlarını gösterir. Bu, performans açısından duyarlı kod için önemli ölçüde performans kazanımı sağlar.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA2200": {
+          "id": "CA2200",
+          "shortDescription": "Yığın ayrıntılarını korumak için yeniden oluşturun",
+          "defaultLevel": "warning",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca2200",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0108": {
+          "id": "CS0108",
+          "shortDescription": "Üye devralınmış üyeyi gizler; yeni anahtar sözcük eksik",
+          "fullDescription": "Temel türdeki değişken ile aynı adlı bir değişken bildirildi. Ancak, new anahtar sözcüğü kullanılmadı. Bu uyarı new kullanmanız gerektiğini bildirir; değişken, bildirimde new kullanılmış gibi bildirildi.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0108)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS1998": {
+          "id": "CS1998",
+          "shortDescription": "Zaman uyumsuz yöntemde 'await' işleçleri yok ve zaman uyumlu çalışacak",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1998)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8602": {
+          "id": "CS8602",
+          "shortDescription": "Olası bir null başvurunun başvurma işlemi.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8602)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "CS8618": {
+          "id": "CS8618",
+          "shortDescription": "Null atanamaz alan, oluşturucudan çıkış yaparken null olmayan bir değer içermelidir. Alanı null atanabilir olarak bildirmeyi düşünün.",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS8618)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        },
+        "S1135": {
+          "id": "S1135",
+          "shortDescription": "Track uses of \"TODO\" tags",
+          "fullDescription": "TODO tags are commonly used to mark places where some more code is required, but which the developer wants to implement later.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1135",
+          "properties": {
+            "category": "Info Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S1450": {
+          "id": "S1450",
+          "shortDescription": "Private fields only used as local variables in methods should become local variables",
+          "fullDescription": "When the value of a private field is always assigned to in a class' methods before being read, then it is not being used to store class information. Therefore, it should become a local variable in the relevant methods to prevent any misunderstanding.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1450",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S2933": {
+          "id": "S2933",
+          "shortDescription": "Fields that are only assigned in the constructor should be \"readonly\"",
+          "fullDescription": "readonly fields can only be assigned in a class constructor. If a class has a field that’s not marked readonly but is only set in the constructor, it could cause confusion about the field’s intended use. To avoid confusion, such fields should be marked readonly to make their intended use explicit, and to prevent future maintainers from inadvertently changing their use.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2933",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3445": {
+          "id": "S3445",
+          "shortDescription": "Exceptions should not be explicitly rethrown",
+          "fullDescription": "When rethrowing an exception, you should do it by simply calling throw; and not throw exc;, because the stack trace is reset with the second syntax, making debugging a lot harder.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3445",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S3776": {
+          "id": "S3776",
+          "shortDescription": "Cognitive Complexity of methods should not be too high",
+          "fullDescription": "Cognitive Complexity is a measure of how hard the control flow of a method is to understand. Methods with high Cognitive Complexity will be difficult to maintain.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3776",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": false,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        },
+        "S927": {
+          "id": "S927",
+          "shortDescription": "Parameter names should match base declaration and other partial definitions",
+          "fullDescription": "The name of a parameter in an externally visible. This rule raises an issue when method override does not match the name of the parameter in the base declaration of the method, or the name of the parameter in the interface declaration of the method or the name of any other partial definition.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-927",
+          "properties": {
+            "category": "Critical Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "MainSourceScope",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

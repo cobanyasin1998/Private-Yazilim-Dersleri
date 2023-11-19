@@ -21,6 +21,9 @@ using ETicaretAPI.SignalR.Hubs;
 using ETicaretAPI.Infrastructure.Services.Storage.Local;
 
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddHttpContextAccessor();//Client'tan gelen request neticesinde httpContext nesnesine katmanlardali class'lar üzerinden(Business lOgic) eriþebilmemizi saðlayan bir servistir.
+
 builder.Services.AddControllers(opt =>
 {
     opt.Filters.Add<ValidationFilter>();

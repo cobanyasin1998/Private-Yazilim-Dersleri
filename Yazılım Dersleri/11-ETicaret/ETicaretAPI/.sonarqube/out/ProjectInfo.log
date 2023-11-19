@@ -1,0 +1,29 @@
+Product projects
+---------------------------------------
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Domain\ETicaretAPI.Domain.csproj
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Core\ETicaretAPI.Application\ETicaretAPI.Application.csproj
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\ETicaretAPI.Persistence.csproj
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.SignalR\ETicaretAPI.SignalR.csproj
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Infrastructure\ETicaretAPI.Infrastructure.csproj
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\ETicaretAPI.API.csproj
+
+
+Test projects
+---------------------------------------
+
+
+Invalid projects
+---------------------------------------
+{none}
+
+
+Skipped projects
+---------------------------------------
+{none}
+
+
+Excluded projects
+---------------------------------------
+{none}
+
+

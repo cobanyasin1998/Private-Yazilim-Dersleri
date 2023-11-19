@@ -1,0 +1,46 @@
+‘
+‡D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Configuration.csutf-8¡
+—D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Contexts\ETicaretAPIDbContext.csutf-8
+”D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\DesignTimeDbContextFactory.csutf-8¥
+›D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20230912222802_migInit.csutf-8°
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20230912222802_migInit.Designer.csutf-8¢
+˜D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231007205810_mig2.csutf-8­
+¡D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231007205810_mig2.Designer.csutf-8¢
+˜D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231007210216_mig3.csutf-8­
+¡D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231007210216_mig3.Designer.csutf-8¥
+›D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231008152133_mig4Yas.csutf-8°
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231008152133_mig4Yas.Designer.csutf-8¥
+›D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231014202016_mig5Yas.csutf-8°
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231014202016_mig5Yas.Designer.csutf-8¥
+›D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231014202429_mig6Yas.csutf-8°
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231014202429_mig6Yas.Designer.csutf-8¥
+›D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231020205954_mig7Yas.csutf-8°
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231020205954_mig7Yas.Designer.csutf-8¥
+›D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231102185229_mig8Yas.csutf-8°
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231102185229_mig8Yas.Designer.csutf-8¥
+›D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231103220545_mig9Yas.csutf-8°
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231103220545_mig9Yas.Designer.csutf-8¦
+œD:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231114211335_mig10Yas.csutf-8±
+¥D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231114211335_mig10Yas.Designer.csutf-8¦
+œD:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231114211500_mig11Yas.csutf-8±
+¥D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\20231114211500_mig11Yas.Designer.csutf-8²
+¦D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Migrations\ETicaretAPIDbContextModelSnapshot.csutf-8°
+¦D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\Customer\CustomerReadRepository.csutf-8±
+§D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\Customer\CustomerWriteRepository.csutf-8¨
+D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\File\FileReadRepository.csutf-8©
+ŸD:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\File\FileWriteRepository.csutf-8¶
+¬D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\InvoiceFile\InvoiceFileReadRepository.csutf-8·
+­D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\InvoiceFile\InvoiceFileWriteRepository.csutf-8ª
+ D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\Order\OrderReadRepository.csutf-8«
+¡D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\Order\OrderWriteRepository.csutf-8À
+¶D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\ProductImageFile\ProductImageFileReadRepository.csutf-8Á
+·D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\ProductImageFile\ProductImageFileWriteRepository.csutf-8®
+¤D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\Product\ProductReadRepository.csutf-8¯
+¥D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\Product\ProductWriteRepository.csutf-8Ÿ
+•D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\ReadRepository.csutf-8 
+–D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Repositories\WriteRepository.csutf-8—
+D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\ServiceRegistration.csutf-8˜
+D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\Services\UserService.csutf-8½
+±D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.GlobalUsings.g.csutf-8Â
+¶D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8»
+¯D:\KiÅŸisel\Private-Yazilim-Dersleri\YazÄ±lÄ±m Dersleri\11-ETicaret\ETicaretAPI\Infrastructure\ETicaretAPI.Persistence\obj\Debug\net6.0\ETicaretAPI.Persistence.AssemblyInfo.csutf-8
