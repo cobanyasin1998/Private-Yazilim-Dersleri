@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\bin\Debug\net6.0\2_Tuple.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\bin\Debug\net6.0\2_Tuple.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\bin\Debug\net6.0\2_Tuple.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\bin\Debug\net6.0\2_Tuple.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\bin\Debug\net6.0\2_Tuple.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\2_Tuple.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\2_Tuple.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\2_Tuple.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\2_Tuple.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\2_Tuple.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\refint\2_Tuple.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\2_Tuple.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\2_Tuple.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\2_Tuple\obj\Debug\net6.0\ref\2_Tuple.dll

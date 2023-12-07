@@ -1,0 +1,15 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\bin\Debug\net5.0\5_Deep_Shadow_Copy.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\bin\Debug\net5.0\5_Deep_Shadow_Copy.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\bin\Debug\net5.0\5_Deep_Shadow_Copy.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\bin\Debug\net5.0\5_Deep_Shadow_Copy.runtimeconfig.dev.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\bin\Debug\net5.0\5_Deep_Shadow_Copy.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\bin\Debug\net5.0\5_Deep_Shadow_Copy.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\5_Deep_Shadow_Copy.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\5_Deep_Shadow_Copy.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\5_Deep_Shadow_Copy.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\5_Deep_Shadow_Copy.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\5_Deep_Shadow_Copy.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\refint\5_Deep_Shadow_Copy.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\5_Deep_Shadow_Copy.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\5_Deep_Shadow_Copy.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\5_Deep_Shadow_Copy\obj\Debug\net5.0\ref\5_Deep_Shadow_Copy.dll
