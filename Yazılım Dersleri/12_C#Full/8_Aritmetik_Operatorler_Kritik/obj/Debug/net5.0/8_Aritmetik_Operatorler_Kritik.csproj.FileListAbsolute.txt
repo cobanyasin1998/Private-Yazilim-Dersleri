@@ -1,0 +1,15 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\bin\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\bin\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\bin\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\bin\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.runtimeconfig.dev.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\bin\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\bin\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\refint\8_Aritmetik_Operatorler_Kritik.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\8_Aritmetik_Operatorler_Kritik.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\8_Aritmetik_Operatorler_Kritik\obj\Debug\net5.0\ref\8_Aritmetik_Operatorler_Kritik.dll

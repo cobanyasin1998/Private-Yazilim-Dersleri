@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "RNhQAIVHcwQOuCB8Fp5B/u9Cn3TZw4Anx1adQGqCjdu3zgmDjfGaIcatH9kHYXTmgQVtTOaLy5xUmlYu1+q/Pw==",
+  "success": true,
+  "projectFilePath": "D:\\Kişisel\\Private-Yazilim-Dersleri\\Yazılım Dersleri\\12_C#Full\\13_Dizilerde_Maliyet\\13_Dizilerde_Maliyet.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Yasin\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\Yasin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
