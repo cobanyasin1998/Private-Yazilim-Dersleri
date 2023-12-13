@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Hata_Yonetimi_Kritik", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12_Array_Sinifi", "12_Array_Sinifi\12_Array_Sinifi.csproj", "{3B4AC2A3-75D4-4D44-83BF-F1F9BF597C0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Dizilerde_Maliyet", "13_Dizilerde_Maliyet\13_Dizilerde_Maliyet.csproj", "{77A1CAF0-698F-4034-8FDD-AF4472819567}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "13_Dizilerde_Maliyet", "13_Dizilerde_Maliyet\13_Dizilerde_Maliyet.csproj", "{77A1CAF0-698F-4034-8FDD-AF4472819567}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_Span_ve_Memory_Turleri", "14_Span_ve_Memory_Turleri\14_Span_ve_Memory_Turleri.csproj", "{7DF390BD-8092-455B-BA83-B5B322A2849B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +89,10 @@ Global
 		{77A1CAF0-698F-4034-8FDD-AF4472819567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77A1CAF0-698F-4034-8FDD-AF4472819567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77A1CAF0-698F-4034-8FDD-AF4472819567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DF390BD-8092-455B-BA83-B5B322A2849B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DF390BD-8092-455B-BA83-B5B322A2849B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DF390BD-8092-455B-BA83-B5B322A2849B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DF390BD-8092-455B-BA83-B5B322A2849B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

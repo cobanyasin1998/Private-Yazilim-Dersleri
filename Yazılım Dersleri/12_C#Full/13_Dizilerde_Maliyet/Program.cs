@@ -1,5 +1,6 @@
 ﻿using Microsoft.Extensions.Primitives;
 using System;
+using System.Text;
 
 namespace _13_Dizilerde_Maliyet
 {
@@ -34,7 +35,25 @@ namespace _13_Dizilerde_Maliyet
             #endregion
 
             #region StringSegment
-            StringSegment strSegment = new StringSegment();
+            string text = "Ölüme gidelim dedin de mazot yok mu dedik";
+            
+            StringSegment strSegment = new StringSegment(text,2,5);
+
+
+
+            #endregion
+
+            #region StringBuilder
+            //StringSegment algoritmasını kullanır.
+            string isim = "Yasin";
+            string soyisim = "Çoban";
+
+            StringBuilder builder = new StringBuilder();
+            builder.Append(isim);
+            builder.Append(" ");
+            builder.Append(soyisim);
+            Console.WriteLine(builder.ToString());
+
 
 
             #endregion
