@@ -3423,3 +3423,722 @@ ORDER BY t."CreatedDate" DESC
 2023-11-14 22:52:11.842 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 42.3845ms
 2023-11-14 22:52:11.843 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
 2023-11-14 22:52:11.844 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 59.2195ms
+2023-12-01 23:23:44.681 +03:00 [INF] User profile is available. Using 'C:\Users\Yasin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-01 23:23:44.950 +03:00 [INF] Now listening on: https://localhost:7071
+2023-12-01 23:23:44.951 +03:00 [INF] Now listening on: http://localhost:5283
+2023-12-01 23:23:44.954 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-01 23:23:44.955 +03:00 [INF] Hosting environment: Development
+2023-12-01 23:23:44.956 +03:00 [INF] Content root path: D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\11-ETicaret\ETicaretAPI\Presentation\ETicaretAPI.API\
+2023-12-01 23:23:45.383 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger - -
+2023-12-01 23:23:45.474 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger - - - 301 0 - 94.6952ms
+2023-12-01 23:23:45.482 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/index.html - -
+2023-12-01 23:23:45.687 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - -
+2023-12-01 23:23:45.687 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - -
+2023-12-01 23:23:45.687 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - -
+2023-12-01 23:23:45.687 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - -
+2023-12-01 23:23:45.688 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/index.html - - - 200 - text/html;charset=utf-8 205.9310ms
+2023-12-01 23:23:45.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_framework/aspnetcore-browser-refresh.js - - - 200 12362 application/javascript;+charset=utf-8 5.7494ms
+2023-12-01 23:23:45.702 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-01 23:23:45.702 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-01 23:23:45.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui.css - - - 200 144929 text/css 18.8422ms
+2023-12-01 23:23:45.706 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 18.6650ms
+2023-12-01 23:23:45.709 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/_vs/browserLink - -
+2023-12-01 23:23:45.730 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-01 23:23:45.732 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 45.5863ms
+2023-12-01 23:23:45.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 41.3714ms
+2023-12-01 23:23:45.872 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - -
+2023-12-01 23:23:45.917 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - -
+2023-12-01 23:23:45.918 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-01 23:23:45.919 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/favicon-32x32.png - - - 200 628 image/png 2.0918ms
+2023-12-01 23:23:45.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.2745ms
+2023-12-01 23:25:01.907 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:25:01.918 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:25:01.923 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 17.4158ms
+2023-12-01 23:25:01.926 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:25:01.928 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:25:01.947 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:25:01.983 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:25:03.275 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:25:03.544 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:25:03.566 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:25:03.841 +03:00 [INF] Executed DbCommand (14ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:25:03.886 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 1898.1102ms
+2023-12-01 23:25:03.889 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:25:03.898 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 1971.6272ms
+2023-12-01 23:26:40.856 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:26:40.858 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:26:40.859 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 3.1235ms
+2023-12-01 23:26:40.880 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:26:40.881 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:26:40.882 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:26:40.883 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:26:40.916 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:26:40.920 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:26:40.922 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:26:40.929 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:26:40.931 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 46.6175ms
+2023-12-01 23:26:40.932 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:26:40.933 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 53.1255ms
+2023-12-01 23:26:45.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:26:45.535 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:26:45.537 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:26:45.538 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:26:45.547 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:26:45.550 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:26:45.552 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:26:45.558 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:26:45.560 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 21.54ms
+2023-12-01 23:26:45.561 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:26:45.562 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 28.6285ms
+2023-12-01 23:26:51.812 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:26:51.813 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:26:51.814 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 1.8221ms
+2023-12-01 23:26:51.817 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:26:51.818 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:26:51.818 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:26:51.819 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:26:51.821 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:26:51.825 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:26:51.827 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:26:51.831 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:26:51.833 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 13.115ms
+2023-12-01 23:26:51.834 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:26:51.835 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 18.1242ms
+2023-12-01 23:27:04.854 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:27:04.855 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:27:04.856 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 2.3973ms
+2023-12-01 23:27:04.868 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:27:04.869 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:27:04.869 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:27:04.870 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:27:04.872 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:27:04.874 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:27:04.875 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:27:04.879 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:27:04.881 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 10.2595ms
+2023-12-01 23:27:04.882 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:27:04.883 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 14.7698ms
+2023-12-01 23:27:35.567 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:27:35.568 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:27:35.569 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 2.4019ms
+2023-12-01 23:27:35.578 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:27:35.579 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:27:35.580 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:27:35.581 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:27:35.586 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:27:35.589 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:27:35.590 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:27:35.598 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:27:35.600 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 16.0375ms
+2023-12-01 23:27:35.601 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:27:35.603 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 24.1749ms
+2023-12-01 23:29:46.402 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:29:46.403 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:29:46.405 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 2.3310ms
+2023-12-01 23:29:46.407 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:29:46.408 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:29:46.408 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:29:46.409 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:29:46.411 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:29:46.428 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:29:46.430 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:29:46.434 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:29:46.437 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 26.8691ms
+2023-12-01 23:29:46.438 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:29:46.439 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 31.5056ms
+2023-12-01 23:29:48.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:29:48.937 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:29:48.937 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:29:48.938 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:29:48.940 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:29:48.942 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:29:48.943 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:29:48.946 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:29:48.949 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 10.0563ms
+2023-12-01 23:29:48.950 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:29:48.951 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 14.7115ms
+2023-12-01 23:29:51.073 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:29:51.074 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:29:51.075 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:29:51.076 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:29:51.078 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:29:51.082 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:29:51.083 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:29:51.089 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:29:51.092 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 14.4442ms
+2023-12-01 23:29:51.092 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:29:51.093 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 20.4892ms
+2023-12-01 23:30:12.309 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:12.310 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:12.311 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 1.5746ms
+2023-12-01 23:30:12.318 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:12.319 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:12.320 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:12.320 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:30:12.323 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:30:12.327 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:30:12.328 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:30:12.335 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:30:12.338 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 16.2682ms
+2023-12-01 23:30:12.339 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:12.340 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 22.0132ms
+2023-12-01 23:30:15.433 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:15.434 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:15.435 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:15.437 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:30:15.441 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:30:15.444 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:30:15.446 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:30:15.453 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:30:15.457 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 17.7471ms
+2023-12-01 23:30:15.458 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:15.459 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 26.6473ms
+2023-12-01 23:30:22.956 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:22.957 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:22.957 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 1.4728ms
+2023-12-01 23:30:22.961 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:22.962 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:22.963 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:22.963 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:30:22.966 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:30:22.968 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:30:22.970 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:30:22.973 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:30:22.976 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 11.8448ms
+2023-12-01 23:30:22.977 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:22.979 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 17.9500ms
+2023-12-01 23:30:43.736 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:43.737 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:43.738 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 2.2094ms
+2023-12-01 23:30:43.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:43.751 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:43.752 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:43.754 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:30:43.756 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:30:43.759 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:30:43.760 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:30:43.767 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:30:43.771 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 16.2497ms
+2023-12-01 23:30:43.772 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:43.773 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 23.2720ms
+2023-12-01 23:30:54.206 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:54.207 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:54.208 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 1.6971ms
+2023-12-01 23:30:54.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:30:54.214 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:30:54.215 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:54.216 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:30:54.218 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:30:54.222 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:30:54.224 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:30:54.230 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:30:54.233 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 15.3625ms
+2023-12-01 23:30:54.234 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:30:54.235 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 21.4327ms
+2023-12-01 23:31:15.763 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:31:15.764 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:31:15.765 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 1.7109ms
+2023-12-01 23:31:15.771 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:31:15.772 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:31:15.772 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:31:15.773 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:31:15.776 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:31:15.780 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:31:15.781 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:31:15.785 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:31:15.788 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 13.6874ms
+2023-12-01 23:31:15.789 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:31:15.790 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 19.5851ms
+2023-12-01 23:31:51.874 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:31:51.880 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:31:51.881 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 7.0043ms
+2023-12-01 23:31:51.896 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:31:51.896 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:31:51.897 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:31:51.898 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:31:51.900 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:31:51.903 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:31:51.905 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:31:51.907 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:31:51.910 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 10.8341ms
+2023-12-01 23:31:51.910 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:31:51.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 15.9540ms
+2023-12-01 23:32:21.491 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:32:21.492 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:32:21.493 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 1.8314ms
+2023-12-01 23:32:21.496 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:32:21.497 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:32:21.498 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:32:21.499 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:32:21.501 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:32:21.505 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:32:21.507 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:32:21.513 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:32:21.515 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 14.7975ms
+2023-12-01 23:32:21.516 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:32:21.517 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 20.0995ms
+2023-12-01 23:39:40.968 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:39:40.969 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:39:40.970 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 2.1346ms
+2023-12-01 23:39:40.973 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:39:40.974 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:39:40.975 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:39:40.976 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:39:40.978 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:39:40.992 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:39:40.993 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:39:40.998 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:39:41.000 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 23.2574ms
+2023-12-01 23:39:41.001 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:39:41.002 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 28.4397ms
+2023-12-01 23:47:47.162 +03:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:47:47.163 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:47:47.164 +03:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7071/api/product?page=0&size=12 - - - 204 - - 2.3517ms
+2023-12-01 23:47:47.167 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - -
+2023-12-01 23:47:47.167 +03:00 [INF] CORS policy execution successful.
+2023-12-01 23:47:47.168 +03:00 [INF] Executing endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:47:47.169 +03:00 [INF] Route matched with {action = "Get", controller = "Product"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult] Get(ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryRequest) on controller ETicaretAPI.API.Controllers.ProductController (ETicaretAPI.API).
+2023-12-01 23:47:47.171 +03:00 [INF] Entity Framework Core 6.0.9 initialized 'ETicaretAPIDbContext' using provider 'Npgsql.EntityFrameworkCore.PostgreSQL:6.0.3+94d0a8eaeb9cf5af6ce55a9e59153c1a1be3244f' with options: None
+2023-12-01 23:47:47.185 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)::INT
+FROM "Products" AS p
+2023-12-01 23:47:47.186 +03:00 [INF] Executing OkObjectResult, writing value of type 'ETicaretAPI.Application.Features.Queries.Product.GetAllProduct.GetAllProductQueryResponse'.
+2023-12-01 23:47:47.191 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t."Id", t."Name", t."Stock", t."Price", t."CreatedDate", t."UpdatedDate", t1."Id", t1."CreatedDate", t1."Discriminator", t1."FileName", t1."FilePath", t1."Storage"
+FROM (
+    SELECT p."Id", p."Name", p."Stock", p."Price", p."CreatedDate", p."UpdatedDate"
+    FROM "Products" AS p
+    ORDER BY p."CreatedDate" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t
+LEFT JOIN (
+    SELECT t0."Id", t0."CreatedDate", t0."Discriminator", t0."FileName", t0."FilePath", t0."Storage", t0."ProductsId"
+    FROM (
+        SELECT t2."Id", t2."CreatedDate", t2."Discriminator", t2."FileName", t2."FilePath", t2."Storage", p0."ProductsId", ROW_NUMBER() OVER(PARTITION BY p0."ProductsId" ORDER BY p0."ProductImageFilesId", p0."ProductsId", t2."Id") AS row
+        FROM "ProductProductImageFile" AS p0
+        INNER JOIN (
+            SELECT f."Id", f."CreatedDate", f."Discriminator", f."FileName", f."FilePath", f."Storage"
+            FROM "Files" AS f
+            WHERE f."Discriminator" = 'ProductImageFile'
+        ) AS t2 ON p0."ProductImageFilesId" = t2."Id"
+    ) AS t0
+    WHERE t0.row <= 1
+) AS t1 ON t."Id" = t1."ProductsId"
+ORDER BY t."CreatedDate" DESC
+2023-12-01 23:47:47.193 +03:00 [INF] Executed action ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API) in 23.6842ms
+2023-12-01 23:47:47.194 +03:00 [INF] Executed endpoint 'ETicaretAPI.API.Controllers.ProductController.Get (ETicaretAPI.API)'
+2023-12-01 23:47:47.195 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7071/api/product?page=0&size=12 - - - 200 - application/json;+charset=utf-8 28.3439ms

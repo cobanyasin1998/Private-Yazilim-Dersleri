@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "4_Degisken_Turune_Uygun_Default_Deger_Atama/1.0.0": {
+        "runtime": {
+          "4_Degisken_Turune_Uygun_Default_Deger_Atama.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "4_Degisken_Turune_Uygun_Default_Deger_Atama/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

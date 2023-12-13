@@ -1,0 +1,15 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\bin\Debug\net5.0\9_Operatorler.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\bin\Debug\net5.0\9_Operatorler.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\bin\Debug\net5.0\9_Operatorler.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\bin\Debug\net5.0\9_Operatorler.runtimeconfig.dev.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\bin\Debug\net5.0\9_Operatorler.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\bin\Debug\net5.0\9_Operatorler.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\9_Operatorler.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\9_Operatorler.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\9_Operatorler.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\9_Operatorler.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\9_Operatorler.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\refint\9_Operatorler.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\9_Operatorler.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\9_Operatorler.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\9_Operatorler\obj\Debug\net5.0\ref\9_Operatorler.dll

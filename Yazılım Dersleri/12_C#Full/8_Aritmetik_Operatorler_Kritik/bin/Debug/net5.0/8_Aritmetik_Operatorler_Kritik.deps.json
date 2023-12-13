@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "8_Aritmetik_Operatorler_Kritik/1.0.0": {
+        "runtime": {
+          "8_Aritmetik_Operatorler_Kritik.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "8_Aritmetik_Operatorler_Kritik/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

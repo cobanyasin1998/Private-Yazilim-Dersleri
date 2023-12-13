@@ -1,0 +1,15 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\bin\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\bin\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\bin\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\bin\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.runtimeconfig.dev.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\bin\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\bin\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\refint\4_Degisken_Turune_Uygun_Default_Deger_Atama.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\4_Degisken_Turune_Uygun_Default_Deger_Atama.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\4_Degisken_Turune_Uygun_Default_Deger_Atama\obj\Debug\net5.0\ref\4_Degisken_Turune_Uygun_Default_Deger_Atama.dll

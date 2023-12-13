@@ -1,0 +1,15 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\12_Array_Sinifi.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\12_Array_Sinifi.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\12_Array_Sinifi.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\12_Array_Sinifi.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\bin\Debug\net5.0\12_Array_Sinifi.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\bin\Debug\net5.0\12_Array_Sinifi.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\bin\Debug\net5.0\12_Array_Sinifi.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\bin\Debug\net5.0\12_Array_Sinifi.runtimeconfig.dev.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\bin\Debug\net5.0\12_Array_Sinifi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\bin\Debug\net5.0\12_Array_Sinifi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\12_Array_Sinifi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\refint\12_Array_Sinifi.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\12_Array_Sinifi.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\12_Array_Sinifi.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\12_C#Full\12_Array_Sinifi\obj\Debug\net5.0\ref\12_Array_Sinifi.dll
