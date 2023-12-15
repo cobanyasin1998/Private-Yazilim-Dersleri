@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\bin\Debug\net6.0\StrategyPattern.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\refint\StrategyPattern.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\StrategyPattern.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\StrategyPattern\obj\Debug\net6.0\ref\StrategyPattern.dll
