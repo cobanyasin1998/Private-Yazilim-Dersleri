@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+html,
+body {
+  margin: 0;
+  color: #fff;
+  background-color: #323975;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: "Muli", sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  text-align: center;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+}
+* {
+  box-sizing: border-box;
+}
+.fa-snowflake {
+  color: #fff;
+  position: absolute;
+  top: -20px;
+  animation: fall linear forwards;
+}
+
+@keyframes fall {
+  to {
+    transform: translateY(105vh);
+  }
+}
+
+.countdown-container {
+  display: flex;
+}
