@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\bin\Debug\net6.0\ObserverPattern.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\bin\Debug\net6.0\ObserverPattern.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\bin\Debug\net6.0\ObserverPattern.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\bin\Debug\net6.0\ObserverPattern.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\bin\Debug\net6.0\ObserverPattern.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ObserverPattern.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ObserverPattern.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ObserverPattern.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ObserverPattern.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\refint\ObserverPattern.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ObserverPattern.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ObserverPattern.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\Design_Patterns\ObserverPattern\obj\Debug\net6.0\ref\ObserverPattern.dll
