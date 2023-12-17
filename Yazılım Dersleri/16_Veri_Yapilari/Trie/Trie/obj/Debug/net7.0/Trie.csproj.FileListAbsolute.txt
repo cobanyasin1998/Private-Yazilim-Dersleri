@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\bin\Debug\net7.0\Trie.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\bin\Debug\net7.0\Trie.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\bin\Debug\net7.0\Trie.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\bin\Debug\net7.0\Trie.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\bin\Debug\net7.0\Trie.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\Trie.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\Trie.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\Trie.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\Trie.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\Trie.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\refint\Trie.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\Trie.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\Trie.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Trie\Trie\obj\Debug\net7.0\ref\Trie.dll
