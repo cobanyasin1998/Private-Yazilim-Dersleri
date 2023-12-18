@@ -1,0 +1,14 @@
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\bin\Debug\net7.0\Queue_Stack.exe
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\bin\Debug\net7.0\Queue_Stack.deps.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\bin\Debug\net7.0\Queue_Stack.runtimeconfig.json
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\bin\Debug\net7.0\Queue_Stack.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\bin\Debug\net7.0\Queue_Stack.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\Queue_Stack.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\Queue_Stack.AssemblyInfoInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\Queue_Stack.AssemblyInfo.cs
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\Queue_Stack.csproj.CoreCompileInputs.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\Queue_Stack.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\refint\Queue_Stack.dll
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\Queue_Stack.pdb
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\Queue_Stack.genruntimeconfig.cache
+D:\Kişisel\Private-Yazilim-Dersleri\Yazılım Dersleri\16_Veri_Yapilari\Queue_Stack\Queue_Stack\obj\Debug\net7.0\ref\Queue_Stack.dll

@@ -1,5 +1,6 @@
 ﻿
 //Data Structures => Queue & Stack
+//FIFO - LIFO
 
 
 /*
@@ -12,3 +13,17 @@ Stack (Yığın) Örnekleri:
  
  
  */
+
+using Queue_Stack;
+
+MyQueue<int> queue = new MyQueue<int>();
+
+queue.Enqueue(1);
+queue.Enqueue(2);
+queue.Enqueue(3);
+
+var firstElement  = queue.Dequeue();
+
+Console.WriteLine(firstElement);
+
+

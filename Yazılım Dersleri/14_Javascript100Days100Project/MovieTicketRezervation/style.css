@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  display: flex;
+  font-family: "Muli", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+#sahne {
+  width: 600px;
+  height: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px white;
+}
+
+#koltuklar {
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.sagKoltuklar,
+.solKoltuklar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 eşit genişlikte sütun */
+  gap: 10px; /* Sütunlar ve satırlar arasındaki boşluk */
+}
+
+.solKoltuklar {
+  margin-left: 60px;
+}
+
+.sagKoltuklar > .seat,
+.solKoltuklar > .seat,
+.sagKoltuklar > .reserved,
+.solKoltuklar > .reserved {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+}
+
+.sagKoltuklar > .seat:hover,
+.solKoltuklar > .seat:hover,
+.sagKoltuklar > .reserved:hover,
+.solKoltuklar > .reserved:hover {
+  width: 65px;
+  height: 65px;
+  border-radius: 15px;
+  border: 0.1px solid white;
+}
+
+.sagKoltuklar > .selected:hover,
+.solKoltuklar > .selected:hover {
+  border: 2px solid rgb(9, 238, 223);
+}
+.sagKoltuklar > .seat,
+.solKoltuklar > .seat {
+  background-color: crimson;
+}
+
+.sagKoltuklar > .seat:hover,
+.solKoltuklar > .seat:hover {
+  background-color: rgb(235, 47, 85);
+}
+
+.sagKoltuklar > .reserved,
+.solKoltuklar > .reserved,
+.sagKoltuklar > .reserved:hover,
+.solKoltuklar > .reserved:hover {
+  background-color: blue;
+}
+.sagKoltuklar > .selected,
+.solKoltuklar > .selected,
+.sagKoltuklar > .selected:hover,
+.solKoltuklar > .selected:hover {
+  background-color: yellow;
+}
+
+.movie-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+#movie {
+  width: 200px;
+  border-radius: 5px;
+  background-color: crimson;
+  color: white;
+  font-size: 20px;
+  border: 0;
+  text-indent: 10px;
+}
+#movie:hover {
+  border: 0;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.info > div {
+  padding-left: 15px;
+  text-align: center;
+}
+.info > div > .seat {
+  width: 65px;
+  height: 65px;
+  border-radius: 15px;
+  border: 0;
+  background-color: crimson;
+}
+.info > div > .reserved {
+  background-color: blue;
+}
+.info > div > .selected {
+  background-color: yellow;
+}
+.totalText {
+  margin-top: 20px;
+  background-color: blueviolet;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  font-size: 18px;
+  align-items: center;
+}
+#count,
+#amount {
+  font-size: 20px;
+  color: black;
+}

@@ -41,4 +41,51 @@ body {
 }
 #filterText::placeholder {
   color: white;
+  text-indent: 9px;
+}
+.list-decoration-none {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.list > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom {
+  overflow-y: auto;
+  background-color: rgb(47, 47, 228);
+  border-radius: 15px;
+
+  height: 400px;
+}
+li {
+  border-bottom: 1px solid crimson;
+}
+::-webkit-scrollbar {
+  width: 9px; /* scrollbar genişliği */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: crimson; /* scrollbar "thumb" rengi (kaydırılabilir alan) */
+  border-radius: 26px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(
+    47,
+    47,
+    228
+  ); /* scrollbar izleme alanı rengi (kaydırma yolu) */
+}
+.imgPhoto {
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.user-info {
+  margin-right: 20px;
+}
+.hide {
+  display: none !important;
 }
