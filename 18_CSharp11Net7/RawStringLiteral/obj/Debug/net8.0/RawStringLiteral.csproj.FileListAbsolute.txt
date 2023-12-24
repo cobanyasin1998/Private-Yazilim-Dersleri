@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\bin\Debug\net8.0\RawStringLiteral.exe
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\bin\Debug\net8.0\RawStringLiteral.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\bin\Debug\net8.0\RawStringLiteral.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\bin\Debug\net8.0\RawStringLiteral.dll
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\bin\Debug\net8.0\RawStringLiteral.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.dll
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\refint\RawStringLiteral.dll
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\RawStringLiteral.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\RawStringLiteral\obj\Debug\net8.0\ref\RawStringLiteral.dll

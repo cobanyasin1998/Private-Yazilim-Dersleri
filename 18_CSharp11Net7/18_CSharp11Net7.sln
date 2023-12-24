@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RawStringLiteral", "RawStringLiteral\RawStringLiteral.csproj", "{A6EDF62D-660D-438F-A7D1-AE426CB8EA1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RawStringLiteral", "RawStringLiteral\RawStringLiteral.csproj", "{A6EDF62D-660D-438F-A7D1-AE426CB8EA1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequiredProperties", "RequiredProperties\RequiredProperties.csproj", "{EAF7454F-2B67-4EFF-A2C5-3642935D92AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{A6EDF62D-660D-438F-A7D1-AE426CB8EA1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6EDF62D-660D-438F-A7D1-AE426CB8EA1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6EDF62D-660D-438F-A7D1-AE426CB8EA1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAF7454F-2B67-4EFF-A2C5-3642935D92AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAF7454F-2B67-4EFF-A2C5-3642935D92AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAF7454F-2B67-4EFF-A2C5-3642935D92AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAF7454F-2B67-4EFF-A2C5-3642935D92AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
