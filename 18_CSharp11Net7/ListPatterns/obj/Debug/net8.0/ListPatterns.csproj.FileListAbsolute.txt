@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\bin\Debug\net8.0\ListPatterns.exe
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\bin\Debug\net8.0\ListPatterns.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\bin\Debug\net8.0\ListPatterns.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\bin\Debug\net8.0\ListPatterns.dll
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\bin\Debug\net8.0\ListPatterns.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.dll
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\refint\ListPatterns.dll
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ListPatterns.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\18_CSharp11Net7\ListPatterns\obj\Debug\net8.0\ref\ListPatterns.dll
