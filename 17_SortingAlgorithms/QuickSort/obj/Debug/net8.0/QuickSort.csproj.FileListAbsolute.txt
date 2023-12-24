@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\bin\Debug\net8.0\QuickSort.exe
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\bin\Debug\net8.0\QuickSort.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\bin\Debug\net8.0\QuickSort.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\bin\Debug\net8.0\QuickSort.dll
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\bin\Debug\net8.0\QuickSort.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.dll
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\refint\QuickSort.dll
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\QuickSort.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\17_SortingAlgorithms\QuickSort\obj\Debug\net8.0\ref\QuickSort.dll
