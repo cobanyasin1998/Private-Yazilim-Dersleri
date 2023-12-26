@@ -1,6 +1,7 @@
 ﻿using ElasticSearch.API.DTOs;
 using ElasticSearch.API.Models;
 using ElasticSearch.API.Repositories;
+using System.Net;
 
 namespace ElasticSearch.API.Services
 {
@@ -13,16 +14,19 @@ namespace ElasticSearch.API.Services
             _productRepository = productRepository;
         }
 
-        public async Task<Product?> SaveAsync(ProductCreateDto request)
+        public async Task<ResponseDto<ProductDto>?> SaveAsync(ProductCreateDto request)
         {
 
 
-            var response = await _productRepository.SaveAsync(request.ToProduct());
+            var responseProduct = await _productRepository.SaveAsync(request.ToProduct());
 
-            if (response is null)
+            if (responseProduct is null)
             {
-                return ResponseDto<ProducTCr>
+                return ResponseDto<ProductDto>.Fail(
+                   new List<string> { "Kayıt Esnasında Bir Hata Meydana Geldi" },
+                    HttpStatusCode.InternalServerError);
             }
+            return ResponseDto<ProductDto>.Success(responseProduct.ToProductDto(), HttpStatusCode.OK);
 
         }
     }

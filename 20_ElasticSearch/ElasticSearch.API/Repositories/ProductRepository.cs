@@ -5,8 +5,8 @@ namespace ElasticSearch.API.Repositories
 {
     public class ProductRepository
     {
-        private readonly ElasticClient _elasticClient;
-        public ProductRepository(ElasticClient elasticClient)
+        private readonly IElasticClient _elasticClient;
+        public ProductRepository(IElasticClient elasticClient)
         {
             _elasticClient = elasticClient;
         }
