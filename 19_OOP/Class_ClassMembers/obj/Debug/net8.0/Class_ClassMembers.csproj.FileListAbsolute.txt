@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\bin\Debug\net8.0\Class_ClassMembers.exe
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\bin\Debug\net8.0\Class_ClassMembers.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\bin\Debug\net8.0\Class_ClassMembers.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\bin\Debug\net8.0\Class_ClassMembers.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\bin\Debug\net8.0\Class_ClassMembers.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\refint\Class_ClassMembers.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\Class_ClassMembers.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Class_ClassMembers\obj\Debug\net8.0\ref\Class_ClassMembers.dll
