@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\bin\Debug\net8.0\HeapStack_Kritik.exe
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\bin\Debug\net8.0\HeapStack_Kritik.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\bin\Debug\net8.0\HeapStack_Kritik.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\bin\Debug\net8.0\HeapStack_Kritik.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\bin\Debug\net8.0\HeapStack_Kritik.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\refint\HeapStack_Kritik.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\HeapStack_Kritik.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\HeapStack_Kritik\obj\Debug\net8.0\ref\HeapStack_Kritik.dll
