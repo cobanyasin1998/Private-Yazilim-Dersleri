@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\bin\Debug\net8.0\Records.exe
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\bin\Debug\net8.0\Records.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\bin\Debug\net8.0\Records.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\bin\Debug\net8.0\Records.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\bin\Debug\net8.0\Records.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\refint\Records.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\Records.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Records\obj\Debug\net8.0\ref\Records.dll
