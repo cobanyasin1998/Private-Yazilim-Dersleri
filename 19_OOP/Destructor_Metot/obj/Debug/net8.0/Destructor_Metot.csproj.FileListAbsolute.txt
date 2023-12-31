@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\bin\Debug\net8.0\Destructor_Metot.exe
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\bin\Debug\net8.0\Destructor_Metot.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\bin\Debug\net8.0\Destructor_Metot.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\bin\Debug\net8.0\Destructor_Metot.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\bin\Debug\net8.0\Destructor_Metot.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\refint\Destructor_Metot.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\Destructor_Metot.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Destructor_Metot\obj\Debug\net8.0\ref\Destructor_Metot.dll

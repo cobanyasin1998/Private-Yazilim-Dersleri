@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Destructor_Metot/1.0.0": {
+        "runtime": {
+          "Destructor_Metot.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Destructor_Metot/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
