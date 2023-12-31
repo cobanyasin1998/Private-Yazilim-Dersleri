@@ -19,9 +19,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConstructorMetot", "Constru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Destructor_Metot", "Destructor_Metot\Destructor_Metot.csproj", "{9CB5570E-3615-40FF-A124-14AD261E8B26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deconstruct_Metot", "Deconstruct_Metot\Deconstruct_Metot.csproj", "{A53E5DED-2570-4CBB-89EB-78992EE4A57E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deconstruct_Metot", "Deconstruct_Metot\Deconstruct_Metot.csproj", "{A53E5DED-2570-4CBB-89EB-78992EE4A57E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static_Constructor", "Static_Constructor\Static_Constructor.csproj", "{B57C91AC-3E3C-4E8E-81B5-4A0CDB85DF34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Static_Constructor", "Static_Constructor\Static_Constructor.csproj", "{B57C91AC-3E3C-4E8E-81B5-4A0CDB85DF34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Positional_Record", "Positional_Record\Positional_Record.csproj", "{C2FC643D-B2DB-40C7-B05E-B645335862CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{87546ABD-07F4-4F57-BA50-070E18E379DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,6 +73,14 @@ Global
 		{B57C91AC-3E3C-4E8E-81B5-4A0CDB85DF34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B57C91AC-3E3C-4E8E-81B5-4A0CDB85DF34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B57C91AC-3E3C-4E8E-81B5-4A0CDB85DF34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2FC643D-B2DB-40C7-B05E-B645335862CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2FC643D-B2DB-40C7-B05E-B645335862CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2FC643D-B2DB-40C7-B05E-B645335862CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2FC643D-B2DB-40C7-B05E-B645335862CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87546ABD-07F4-4F57-BA50-070E18E379DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87546ABD-07F4-4F57-BA50-070E18E379DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87546ABD-07F4-4F57-BA50-070E18E379DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87546ABD-07F4-4F57-BA50-070E18E379DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
