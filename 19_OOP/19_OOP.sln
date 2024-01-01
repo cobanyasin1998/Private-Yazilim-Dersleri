@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Positional_Record", "Positi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{87546ABD-07F4-4F57-BA50-070E18E379DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_2", "Inheritance_2\Inheritance_2.csproj", "{63303699-E79C-41DD-911F-E31AC79B30AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_2", "Inheritance_2\Inheritance_2.csproj", "{63303699-E79C-41DD-911F-E31AC79B30AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance_3", "Inheritance_3\Inheritance_3.csproj", "{6A8B7696-0FFD-407D-9BFC-126862A63EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_3", "Inheritance_3\Inheritance_3.csproj", "{6A8B7696-0FFD-407D-9BFC-126862A63EE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "virtual_override", "virtual_override\virtual_override.csproj", "{7E330EE4-33EA-44F6-BCB7-560B1E398D77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{6A8B7696-0FFD-407D-9BFC-126862A63EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A8B7696-0FFD-407D-9BFC-126862A63EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A8B7696-0FFD-407D-9BFC-126862A63EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E330EE4-33EA-44F6-BCB7-560B1E398D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E330EE4-33EA-44F6-BCB7-560B1E398D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E330EE4-33EA-44F6-BCB7-560B1E398D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E330EE4-33EA-44F6-BCB7-560B1E398D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
