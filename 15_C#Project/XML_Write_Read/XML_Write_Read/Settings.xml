@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Settings>
+	<QMSHost>localhost</QMSHost>
+	<QMSPort>5672</QMSPort>
+	<QMSUsername>guest</QMSUsername>
+	<QMSPass>guest</QMSPass>
+</Settings>

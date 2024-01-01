@@ -1,0 +1,16 @@
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\bin\Debug\net8.0\XML_Write_Read.exe
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\bin\Debug\net8.0\Settings.xml
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\bin\Debug\net8.0\XML_Write_Read.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\bin\Debug\net8.0\XML_Write_Read.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\bin\Debug\net8.0\XML_Write_Read.dll
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\bin\Debug\net8.0\XML_Write_Read.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.dll
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\refint\XML_Write_Read.dll
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\XML_Write_Read.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\15_C#Project\XML_Write_Read\XML_Write_Read\obj\Debug\net8.0\ref\XML_Write_Read.dll
