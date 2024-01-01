@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\bin\Debug\net8.0\Inheritance_2.exe
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\bin\Debug\net8.0\Inheritance_2.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\bin\Debug\net8.0\Inheritance_2.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\bin\Debug\net8.0\Inheritance_2.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\bin\Debug\net8.0\Inheritance_2.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\refint\Inheritance_2.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\Inheritance_2.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\Inheritance_2\obj\Debug\net8.0\ref\Inheritance_2.dll
