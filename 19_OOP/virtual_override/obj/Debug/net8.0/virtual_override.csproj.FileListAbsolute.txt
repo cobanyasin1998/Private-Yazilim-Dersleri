@@ -1,0 +1,15 @@
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\bin\Debug\net8.0\virtual_override.exe
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\bin\Debug\net8.0\virtual_override.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\bin\Debug\net8.0\virtual_override.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\bin\Debug\net8.0\virtual_override.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\bin\Debug\net8.0\virtual_override.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\refint\virtual_override.dll
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\virtual_override.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\19_OOP\virtual_override\obj\Debug\net8.0\ref\virtual_override.dll
