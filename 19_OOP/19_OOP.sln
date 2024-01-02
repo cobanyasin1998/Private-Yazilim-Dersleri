@@ -33,7 +33,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance_3", "Inheritanc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "virtual_override", "virtual_override\virtual_override.csproj", "{7E330EE4-33EA-44F6-BCB7-560B1E398D77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfizm", "Polimorfizm\Polimorfizm.csproj", "{619E2989-A24B-4137-8864-C4701E101B6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Polimorfizm", "Polimorfizm\Polimorfizm.csproj", "{619E2989-A24B-4137-8864-C4701E101B6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polimorfizm_Turleri_ve_Tur_Donusum", "Polimorfizm_Turleri_ve_Tur_Donusum\Polimorfizm_Turleri_ve_Tur_Donusum.csproj", "{38E0F2E8-5CEF-4080-852C-A39618F09BD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nesneler_Arasi_Iliski_Turleri_(Association-Aggregation-Composition)", "Nesneler_Arasi_Iliski_Turleri_(Association-Aggregation-Composition)\Nesneler_Arasi_Iliski_Turleri_(Association-Aggregation-Composition).csproj", "{40B7DFED-00CF-4658-964D-0EC6AEA844D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +109,14 @@ Global
 		{619E2989-A24B-4137-8864-C4701E101B6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{619E2989-A24B-4137-8864-C4701E101B6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{619E2989-A24B-4137-8864-C4701E101B6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E0F2E8-5CEF-4080-852C-A39618F09BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E0F2E8-5CEF-4080-852C-A39618F09BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E0F2E8-5CEF-4080-852C-A39618F09BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E0F2E8-5CEF-4080-852C-A39618F09BD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B7DFED-00CF-4658-964D-0EC6AEA844D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B7DFED-00CF-4658-964D-0EC6AEA844D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B7DFED-00CF-4658-964D-0EC6AEA844D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B7DFED-00CF-4658-964D-0EC6AEA844D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
