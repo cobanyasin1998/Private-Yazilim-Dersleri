@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "SK2p2FbNiIU4U7Njm3pjjqsv4ofjK+Hbv+vM9R1qQX4=",
+  "Source": "Server",
+  "BasePath": "_content/Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Server\\wwwroot",
+      "Source": "Server",
+      "ContentRoot": "D:\\Yazilim\\Private-Yazilim-Dersleri\\21_gRPCFileStream\\FileStream\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Yazilim\\Private-Yazilim-Dersleri\\21_gRPCFileStream\\FileStream\\Server\\wwwroot\\Files\\deneme.dll",
+      "SourceId": "Server",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Yazilim\\Private-Yazilim-Dersleri\\21_gRPCFileStream\\FileStream\\Server\\wwwroot\\",
+      "BasePath": "_content/Server",
+      "RelativePath": "Files/deneme.dll",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Always",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Files\\deneme.dll"
+    }
+  ]
+}
