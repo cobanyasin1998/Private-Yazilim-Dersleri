@@ -1,0 +1,27 @@
+/*! BASE CSS START*/
+* {
+  margin: 0; /*? Tarayıcıdan gelen margin değerini sıfırlamak için*/
+}
+body {
+  height: 100vh;
+}
+/*! BASE CSS END*/
+
+/*! NAVBAR CSS START*/
+
+.navbar {
+  background-color: black;
+  height: 60px;
+  color: white;
+}
+
+/*! NAVBAR CSS END*/
+
+/*! SIDEBAR CSS START*/
+.sidebar {
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 60px;
+}
+/*! SIDEBAR CSS END*/
