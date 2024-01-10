@@ -5,21 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galaksi Gözüyle Sinema</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <div class="navbar">
       <div class="navbar-wrapper">
         <div class="logo-wrapper">
-          <h1 class="logo"></h1>
+          <img class="logo-img" src="img\system\logo.jpg" alt="Logo" />
+          <h1 class="logo">Galaksi Gözüyle Sinema</h1>
         </div>
         <div class="menu-container">
           <ul class="menu-list">
-            <li class="menu-list-item"><a href="#">Anasayfa</a></li>
-            <li class="menu-list-item"><a href="#">Filmler</a></li>
-            <li class="menu-list-item"><a href="#">Diziler</a></li>
-            <li class="menu-list-item"><a href="#">Listem</a></li>
-            <li class="menu-list-item"><a href="#">Popüler</a></li>
+            <li class="menu-list-item active">Anasayfa</li>
+            <li class="menu-list-item">Filmler</li>
+            <li class="menu-list-item">Diziler</li>
+            <li class="menu-list-item">Listem</li>
+            <li class="menu-list-item">Popüler</li>
           </ul>
+        </div>
+        <div class="profile-container">
+          <img class="profile-user" src="img\system\user.jpg" alt="" />
+          <div class="profile-text-container">
+            <span class="profile-text">Hesabım</span>
+            <i class="bi bi-caret-down-fill"></i>
+          </div>
+          <div class="toggle">
+            <i class="bi bi-moon-fill toggle-icon"></i>
+            <i class="bi bi-brightness-high-fill toggle-icon"></i>
+            <div class="toggle-ball"></div>
+          </div>
         </div>
       </div>
     </div>
