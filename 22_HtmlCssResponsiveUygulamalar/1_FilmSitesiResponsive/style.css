@@ -105,5 +105,59 @@ body {
   color: white;
   height: 100vh;
   width: 60px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 60px;
+  row-gap: 40px;
+  align-items: center;
+  position: fixed;
+  top: 0;
 }
+.sidebar > i {
+  font-size: 25px;
+  cursor: pointer;
+}
+
 /*! SIDEBAR CSS END*/
+
+/*! FEATURED CSS START*/
+.content-wrapper {
+  margin-left: 60px;
+}
+.featured-content {
+  background: url("img/movies/spiderma_n.jpg");
+  background-repeat: no-repeat;
+  padding: 50px;
+  height: calc(100vh - 160px);
+  background-size: 100% 100%;
+}
+.featured-title {
+  width: 400px;
+}
+.featured-desc {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 14px;
+  margin: 30px 0;
+}
+.featured-buttons {
+  display: flex;
+  column-gap: 20px;
+}
+.featured-buttons button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  column-gap: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.info-button {
+  background-color: rgba(145, 142, 142, 0.5);
+  color: white;
+}
+/*! FEATURED CSS END*/
