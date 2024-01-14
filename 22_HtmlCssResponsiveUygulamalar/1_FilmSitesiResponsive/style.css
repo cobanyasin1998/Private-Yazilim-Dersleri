@@ -121,6 +121,10 @@ body {
 /*! SIDEBAR CSS END*/
 
 /*! FEATURED CSS START*/
+.container {
+  background-color: black;
+  color: white;
+}
 .content-wrapper {
   margin-left: 60px;
 }
@@ -161,3 +165,52 @@ body {
   color: white;
 }
 /*! FEATURED CSS END*/
+
+/*! FİLTER CSS START*/
+.movie-list-filter {
+  margin: 10px 0 10px 50px;
+  padding: 5px 0 5px 20px;
+}
+.movie-list-filter select {
+  background-color: black;
+  color: white;
+  padding: 7px 0;
+  width: 125px;
+}
+/*! FİLTER CSS END*/
+
+/*! MOVİE LİST CSS START*/
+.movie-list-container {
+  margin: 0px 0px 0px 70px;
+}
+.movie-list {
+  list-style: none;
+  padding: 0;
+}
+.movie-item {
+  position: relative;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.movie-item-img {
+  width: 270px;
+  height: 300px;
+  object-fit: cover;
+}
+.movie-item-title {
+  background-color: rgba(40, 40, 40, 0.5);
+  padding: 0 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 10%;
+  left: 50px;
+}
+.movie-item-buttons {
+  background-color: rgba(40, 40, 40, 0.5);
+  padding: 0 10px;
+  font-weight: bold;
+  position: absolute;
+  top: 20%;
+  left: 80px;
+}
+/*! MOVİE LİST CSS END*/
