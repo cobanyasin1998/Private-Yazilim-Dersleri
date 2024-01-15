@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Lesson2.Models.Base;
 
 namespace Lesson2.Models
 {
-    public class Parca
+    public class Parca: BaseEntity
     {
         public int Id { get; set; }
         public string ParcaAdi { get; set; }
