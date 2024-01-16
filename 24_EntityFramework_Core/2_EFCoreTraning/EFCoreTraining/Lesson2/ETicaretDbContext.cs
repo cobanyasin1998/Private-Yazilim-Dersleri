@@ -1,4 +1,5 @@
 ﻿using Lesson2.Models;
+using Lesson2.Models.Base;
 using Microsoft.EntityFrameworkCore;
 
 namespace Lesson2
@@ -34,7 +35,7 @@ namespace Lesson2
             var entries = ChangeTracker.Entries();
             foreach (var entry in entries)
             {
-                if (entry.State == EntityState.Added)
+                if (entry.State == EntityState.Added && (entry is BaseEntity ==true))
                 {
                     entry.Property("CreatedTime").CurrentValue = DateTime.Now;
                 }

@@ -11,4 +11,6 @@ namespace Lesson2.Models
 
         public ICollection<Parca> Parcalar { get; set; }
     }
+
+
 }

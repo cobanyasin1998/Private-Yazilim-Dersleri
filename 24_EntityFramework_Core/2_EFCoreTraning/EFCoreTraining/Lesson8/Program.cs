@@ -1,12 +1,10 @@
 ﻿
-using Lesson2;
 using System.ComponentModel;
 
 class Program
 {
     static async Task Main(string[] args)
     {
-        ETicaretDbContext context = new ETicaretDbContext();
 
 
         #region AsNoTracking
