@@ -384,7 +384,7 @@ class Program
         #region LongCountAsync
         {
             //Oluşturulan sorgunun execute edilmesi neticesinde kaç adet satırın elde edileceğini sayısal olarak(long) bizlere bildiren fonksiyondur.
-            var urunler = await context.Urunler.LongCountAsync(u => u.Fiyat > 5000);
+            var urunler = await context.Urunler.LongCountAsync(u => u.Fiyati > 5000);
         }
         #endregion
 
@@ -421,7 +421,7 @@ class Program
         {
             //Bir sorgu neticesinde gelen verilerin, verilen şarta uyup uymadığını kontrol etmektedir. Eğer ki tüm veriler şarta uyuyorsa true, uymuyorsa false döndürecektir.
             var m = await context.Urunler.AllAsync(u => u.Fiyati < 15000);
-            var m = await context.Urunler.AllAsync(u => u.Adi.Contains("a"));
+            var m1 = await context.Urunler.AllAsync(u => u.Adi.Contains("a"));
 
         }
         #endregion
@@ -514,7 +514,7 @@ class Program
             var urunler = await context.Urunler.Include(u => u.Parcalar).SelectMany(u => u.Parcalar, (u, p) => new
             {
                 u.Id,
-                u.Fiyat,
+                u.Fiyati,
                 p.ParcaAdi
             }).ToListAsync();
         }
@@ -530,7 +530,7 @@ class Program
         {
             #region QuerySytnax
             {
-                var datas = context.Urunler
+                var datas1 = context.Urunler
                     .GroupBy(x => x.Fiyati)
                     .Select(group => new
                     {
@@ -543,8 +543,8 @@ class Program
             #endregion
             #region MethodSytnax
             {
-                var datas = await (from urun in context.Urunler
-                                   group urun by urun.Fiyat
+                var datas2 = await (from urun in context.Urunler
+                                   group urun by urun.Fiyati
                                    into @group
                                    select new
                                    {
