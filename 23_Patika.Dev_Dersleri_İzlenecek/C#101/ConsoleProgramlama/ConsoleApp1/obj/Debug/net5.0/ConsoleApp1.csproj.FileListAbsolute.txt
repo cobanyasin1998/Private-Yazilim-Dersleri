@@ -1,0 +1,16 @@
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.exe
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.deps.json
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.json
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.runtimeconfig.dev.json
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.dll
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\bin\Debug\net5.0\ConsoleApp1.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfoInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.AssemblyInfo.cs
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.sourcelink.json
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.dll
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\refint\ConsoleApp1.dll
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.pdb
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ConsoleApp1.genruntimeconfig.cache
+D:\Yazilim\Private-Yazilim-Dersleri\23_Patika.Dev_Dersleri_İzlenecek\C#101\ConsoleProgramlama\ConsoleApp1\obj\Debug\net5.0\ref\ConsoleApp1.dll
