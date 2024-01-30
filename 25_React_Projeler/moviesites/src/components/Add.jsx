@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import ResultCart from "./ResultCart";
+import GlobalContext from "../context/GlobalState";
 
 const Add = () => {
+
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
   function onChange(e) {

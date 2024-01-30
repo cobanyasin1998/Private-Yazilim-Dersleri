@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import GlobalContext from "../context/GlobalState";
 
 const ResultCart = ({ movie }) => {
+  const { addMovieToWatchlist, watchlist } = useContext(GlobalContext);
+
+  const storedMovie = watchlist.find((o) => o.id === movie.id);
+
   return (
     <li key={movie.id}>
       <div className="result-card">
@@ -25,7 +30,13 @@ const ResultCart = ({ movie }) => {
             </h4>
           </div>
           <div className="controls">
-            <button className="btn">İzleme Listeme Ekle</button>
+            <button
+              className="btn"
+              disabled={storedMovie}
+              onClick={() => addMovieToWatchlist(movie)}
+            >
+              İzleme Listeme Ekle
+            </button>
             <button className="btn">İzlediklerime Ekle</button>
           </div>
         </div>
